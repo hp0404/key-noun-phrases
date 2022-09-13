@@ -15,7 +15,9 @@ $ pip install -e .
 
 ## Usage
 ```python
+>>> import spacy
 >>> from spacy.lang.ru.examples import sentences
+>>> from terms import TermsMatcher
 >>> nlp = spacy.load("ru_core_news_md")
 >>> terms = TermsMatcher(nlp=nlp)
 >>> transformed_sentences = [(sent, idx) for idx, sent in enumerate(sentences)]
