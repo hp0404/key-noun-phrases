@@ -9,6 +9,8 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.symbols import VERB, nsubj, nsubjpass
 
+from .treebank import is_vbg, is_vbn
+
 
 class Rule(typing.NamedTuple):
     """Patterns structure."""
@@ -87,7 +89,7 @@ class TermsMatcher:
         self,
         sentences: typing.List[typing.Tuple[str, str]],
         batch_size: int = 25,
-        exclusive_search: bool = False,
+        exclusive_search: bool = True,
     ) -> typing.Iterator[typing.Dict[str, typing.Any]]:
         """Yields key noun phrases found in sentences.
 
@@ -130,6 +132,7 @@ class TermsMatcher:
                 if (
                     possible_subject.dep in [nsubj, nsubjpass]
                     and possible_subject.head.pos == VERB
+                    and (is_vbg(possible_subject.head) or is_vbn(possible_subject.head))
                 ):
                     subtree = sentence[
                         possible_subject.left_edge.i : possible_subject.right_edge.i + 1
@@ -149,7 +152,10 @@ class TermsMatcher:
                         }
 
     def to_dataframe(
-        self, sentences: typing.List[typing.Tuple[str, str]]
+        self,
+        sentences: typing.List[typing.Tuple[str, str]],
+        batch_size: int = 25,
+        exclusive_search: bool = True,
     ) -> pd.DataFrame:
         """Constructs a dataframe directly from yield_key_phrases method.
 
@@ -159,6 +165,12 @@ class TermsMatcher:
             list of pairs, each consisting of text and its identifier (so that
             we could 'place' exact phrase within some context (found by uuid);
             it must follow this structure: [("Some text", "uuid1"), ("Another sentence", "uuid2"), ...]
+        batch_size: int
+            the number of texts to buffer
+        exclusive_search: bool
+            whether to yield phrases with nsubj being part of them (True) or
+            to yield any phrases found within the nsubj's subtree (even without
+            nsubj token being a part of the phrase) (False)
 
         Usage
         -----
@@ -174,4 +186,7 @@ class TermsMatcher:
         set of sentences so that you don't need to store them in the interim
         format like JSONLines.
         """
-        return pd.DataFrame(self.yield_key_phrases(sentences))
+        data = self.yield_key_phrases(
+            sentences, batch_size=batch_size, exclusive_search=exclusive_search
+        )
+        return pd.DataFrame(data)
