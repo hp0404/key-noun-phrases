@@ -17,7 +17,7 @@ setuptools.setup(
     package_dir={"": "terms"},
     package_data={
         "assets": ["default_patterns.jsonl"],
-    }
+    },
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
