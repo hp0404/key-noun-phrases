@@ -15,7 +15,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
     package_data={
-        "terms": ["assets/*.jsonl"],
+        "terms": ["assets/*.json"],
     },
     classifiers=[
         "Programming Language :: Python :: 3.7",
