@@ -15,6 +15,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
     classifiers=[
+        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
@@ -27,5 +28,5 @@ setuptools.setup(
         "pandas>=1.0.0",
     ],
     extras_require=extras_requirements,
-    python_requires=">=3.8",
+    python_requires=">=3.7",
 )
