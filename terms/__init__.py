@@ -102,9 +102,11 @@ class TermsMatcher:
         batch_size: int
             the number of texts to buffer
         exclusive_search: bool
-            whether to yield phrases with nsubj being part of them (True) or
+            whether to yield
+              - phrases with nsubj being part of them (True) and
+              - VERB-based phrases with finegrained VERB subtypes (True)
             to yield any phrases found within the nsubj's subtree (even without
-            nsubj token being a part of the phrase) (False)
+            nsubj token being a part of the phrase) (False) and any VERB-based phrases
 
         Usage
         -----
@@ -132,18 +134,26 @@ class TermsMatcher:
                 if (
                     possible_subject.dep in [nsubj, nsubjpass]
                     and possible_subject.head.pos == VERB
-                    and (is_vbg(possible_subject.head) or is_vbn(possible_subject.head))
                 ):
                     subtree = sentence[
                         possible_subject.left_edge.i : possible_subject.right_edge.i + 1
                     ]
                     for match_id, start, end in self.matcher(subtree):
                         span = subtree[start:end]
-                        if exclusive_search and not possible_subject in span:
-                            continue
+                        pos_label = self.nlp.vocab[match_id].text
+                        if exclusive_search:
+                            # phrases should stem from nsubj directly
+                            if possible_subject not in span:
+                                continue
+
+                            # VERB-based phrases shoulb be of specific finegrained pos
+                            if "VERB" in pos_label and not any(
+                                is_vbg(token) or is_vbn(token) for token in span
+                            ):
+                                continue
                         yield {
                             "uuid": uuid,
-                            "pos_label": self.nlp.vocab[match_id].text,
+                            "pos_label": pos_label,
                             "key_noun_phrase": span.text,
                             "key_noun_phrase_processed": " ".join(
                                 t.lemma_.lower() for t in span if not t.is_punct
@@ -168,9 +178,11 @@ class TermsMatcher:
         batch_size: int
             the number of texts to buffer
         exclusive_search: bool
-            whether to yield phrases with nsubj being part of them (True) or
+            whether to yield
+              - phrases with nsubj being part of them (True) and
+              - VERB-based phrases with finegrained VERB subtypes (True)
             to yield any phrases found within the nsubj's subtree (even without
-            nsubj token being a part of the phrase) (False)
+            nsubj token being a part of the phrase) (False) and any VERB-based phrases
 
         Usage
         -----
