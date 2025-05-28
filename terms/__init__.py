@@ -76,9 +76,14 @@ class TermsMatcher:
             defaults to our own implementation but could be replaced with a custom one
         """
         self.nlp = nlp
-        self._default_patterns = (
-            Path(__file__).resolve().parent / "assets" / "default_patterns.json"
-        )
+        if self.nlp.lang == "de":
+            self._default_patterns = (
+                Path(__file__).resolve().parent / "assets" / "de_patterns.json"
+            )
+        else:
+            self._default_patterns = (
+                Path(__file__).resolve().parent / "assets" / "default_patterns.json"
+            )
         self.matcher = (
             matcher
             if matcher is not None

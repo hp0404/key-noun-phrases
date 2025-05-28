@@ -1,0 +1,30 @@
+[
+  {
+    "label": "GERMAN_NP",
+    "pattern": [
+      [
+        {"POS": "DET",   "OP": "?"},
+        {"POS": "ADJ",   "OP": "*"},
+        {"POS": {"IN": ["NOUN","PROPN"]}, "OP": "+"}
+      ]
+    ]
+  },
+  {
+    "label": "GERMAN_PROPN_SEQ",
+    "pattern": [
+      [
+        {"POS": "PROPN"},
+        {"POS": "PROPN", "OP": "+"}
+      ]
+    ]
+  },
+  {
+    "label": "GERMAN_NUM_NOUN",
+    "pattern": [
+      [
+        {"POS": "NUM"},
+        {"POS": {"IN": ["NOUN","PROPN"]}}
+      ]
+    ]
+  }
+]
