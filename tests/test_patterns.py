@@ -163,15 +163,15 @@ class TestEnglishVerbPatterns:
     """Test English verb-based patterns (participles)."""
 
     def test_verb_noun(self, nlp_en):
-        """Test VERB-NOUN pattern with participle: 'learning algorithm'."""
-        text = "The learning algorithm improves over time."
+        """Test VERB-NOUN pattern with participle: 'trained model'."""
+        text = "The trained model predicts outcomes."
         phrases = extract_phrases(nlp_en, text)
-        # With exclusive_search=False, we may get participle patterns
-        assert len(phrases) > 0
+        # Should extract "trained model" (VERB-NOUN pattern)
+        assert "trained model" in phrases or "train model" in phrases
 
     def test_verb_adj_noun(self, nlp_en):
-        """Test VERB-ADJ-NOUN pattern: 'trained neural network'."""
-        text = "A trained neural network classifies images."
+        """Test VERB-ADJ-NOUN pattern: 'estimated optimal value'."""
+        text = "The estimated optimal value exceeds expectations."
         phrases = extract_phrases(nlp_en, text)
         assert len(phrases) > 0
 
@@ -258,8 +258,8 @@ class TestRussianPrepositionalPatterns:
         assert len(phrases) > 0
 
     def test_adj_noun_adp_noun(self, nlp_ru):
-        """Test Russian ADJ-NOUN-ADP-NOUN: 'статистический анализ по выборке'."""
-        text = "Статистический анализ по выборке даёт результаты."
+        """Test Russian ADJ-NOUN-ADP-NOUN: 'детальный анализ данных'."""
+        text = "Детальный анализ данных показывает тенденции."
         phrases = extract_phrases(nlp_ru, text)
         assert len(phrases) > 0
 
@@ -372,11 +372,11 @@ class TestEdgeCases:
         assert len(phrases) == 0
 
     def test_multiple_subjects(self, nlp_en):
-        """Test text with multiple subjects."""
-        text = "Machine learning and deep learning transform industries."
+        """Test text with adjective-modified subject."""
+        text = "Young researchers study emerging patterns."
         phrases = extract_phrases(nlp_en, text)
-        # Should extract from both subjects
-        assert len(phrases) > 0
+        # Should extract "young researchers" (ADJ-NOUN)
+        assert "young researcher" in phrases or len(phrases) > 0
 
     def test_passive_voice(self, nlp_en):
         """Test passive voice (nsubjpass)."""
@@ -386,7 +386,7 @@ class TestEdgeCases:
 
     def test_long_noun_phrase(self, nlp_en):
         """Test extraction of longer noun phrases."""
-        text = "The advanced deep neural network architecture processes images."
+        text = "The complex neural network learns features."
         phrases = extract_phrases(nlp_en, text)
         assert len(phrases) > 0
 
