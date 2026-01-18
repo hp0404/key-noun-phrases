@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 """HTU's implementation of Penn Treebank's verb-related tags."""
+
 import spacy
 
 

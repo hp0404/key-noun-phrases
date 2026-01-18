@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 """HTU's implementation of Key Noun Phrase extraction."""
+
 import json
 import typing
 from pathlib import Path
@@ -7,19 +7,23 @@ from pathlib import Path
 import pandas as pd
 import spacy
 from spacy.matcher import Matcher
-from spacy.symbols import VERB, nsubj, nsubjpass
+from spacy.symbols import AUX, VERB, nsubj, nsubjpass
 
 from .treebank import is_vbg, is_vbn
+
+# German TIGER treebank uses different dependency labels
+# sb = subject, sbp = passive subject
+GERMAN_SUBJECT_DEPS = {"sb", "sbp"}
 
 
 class Rule(typing.NamedTuple):
     """Patterns structure."""
 
     label: str
-    pattern: typing.List[typing.List[typing.Dict[str, typing.Any]]]
+    pattern: list[list[dict[str, typing.Any]]]
 
 
-def read_pattern(path: Path) -> typing.List[Rule]:
+def read_pattern(path: Path) -> list[Rule]:
     """Reads patterns JSON file."""
     with path.open("r", encoding="utf-8") as file_content:
         content = json.load(file_content)
@@ -62,9 +66,7 @@ def build_matcher(nlp: spacy.language.Language, patterns: Path) -> Matcher:
 class TermsMatcher:
     """Key Noun Phrase matcher."""
 
-    def __init__(
-        self, nlp: spacy.language.Language, matcher: typing.Optional[Matcher] = None
-    ):
+    def __init__(self, nlp: spacy.language.Language, matcher: Matcher | None = None):
         """Initializes TermsMatcher class.
 
         Parameters
@@ -92,10 +94,10 @@ class TermsMatcher:
 
     def yield_key_phrases(
         self,
-        sentences: typing.List[typing.Tuple[str, str]],
+        sentences: list[tuple[str, str]],
         batch_size: int = 25,
         exclusive_search: bool = True,
-    ) -> typing.Iterator[typing.Dict[str, typing.Any]]:
+    ) -> typing.Iterator[dict[str, typing.Any]]:
         """Yields key noun phrases found in sentences.
 
         Parameters
@@ -136,10 +138,14 @@ class TermsMatcher:
             sentences, as_tuples=True, batch_size=batch_size
         ):
             for possible_subject in sentence:
-                if (
+                # Check for subject dependency (Universal or German TIGER)
+                is_subject = (
                     possible_subject.dep in [nsubj, nsubjpass]
-                    and possible_subject.head.pos == VERB
-                ):
+                    or possible_subject.dep_ in GERMAN_SUBJECT_DEPS
+                )
+                # Check if head is a verb (VERB or AUX for copular constructions)
+                head_is_verb = possible_subject.head.pos in [VERB, AUX]
+                if is_subject and head_is_verb:
                     subtree = sentence[
                         possible_subject.left_edge.i : possible_subject.right_edge.i + 1
                     ]
@@ -168,7 +174,7 @@ class TermsMatcher:
 
     def to_dataframe(
         self,
-        sentences: typing.List[typing.Tuple[str, str]],
+        sentences: list[tuple[str, str]],
         batch_size: int = 25,
         exclusive_search: bool = True,
     ) -> pd.DataFrame:
