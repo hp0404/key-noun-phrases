@@ -44,18 +44,6 @@
         ]
     },
     {
-        "label": "ADJ-VERB",
-        "pattern": [
-            [{"POS": "ADJ"}, {"POS": "VERB"}]
-        ]
-    },
-    {
-        "label": "ADJ-NUM",
-        "pattern": [
-            [{"POS": "ADJ"}, {"POS": "NUM"}]
-        ]
-    },
-    {
         "label": "ADJ-VERB-NOUN",
         "pattern": [
             [{"POS": "ADJ"}, {"POS": "VERB"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
@@ -200,12 +188,6 @@
         ]
     },
     {
-        "label": "PART-PUNCT-NOUN-NOUN",
-        "pattern": [
-            [{"POS": "PART"}, {"ORTH": "-"}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
-        ]
-    },
-    {
         "label": "NOUN-VERB-NOUN",
         "pattern": [
             [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "VERB"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
@@ -317,6 +299,42 @@
         "label": "VERB-NOUN-ADP-ADJ-NOUN",
         "pattern": [
             [{"POS": "VERB"}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "ADP"}, {"POS": "ADJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "NOUN-NOUN-NOUN-NOUN-NOUN",
+        "pattern": [
+            [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "NOUN-CCONJ-NOUN",
+        "pattern": [
+            [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "CCONJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "NOUN-NOUN-CCONJ-NOUN",
+        "pattern": [
+            [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "CCONJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "NOUN-CCONJ-NOUN-NOUN",
+        "pattern": [
+            [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "CCONJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "ADJ-NOUN-CCONJ-NOUN",
+        "pattern": [
+            [{"POS": "ADJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "CCONJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "NOUN-CCONJ-ADJ-NOUN",
+        "pattern": [
+            [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "CCONJ"}, {"POS": "ADJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
         ]
     }
 ]

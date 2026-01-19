@@ -9,6 +9,7 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.symbols import AUX, VERB, nsubj, nsubjpass
 
+from .group_spans import annotate_spans
 from .treebank import is_vbg, is_vbn
 
 # German TIGER treebank uses different dependency labels
@@ -81,10 +82,11 @@ class TermsMatcher:
         assets_dir = Path(__file__).resolve().parent / "assets"
         lang_patterns = {
             "de": "de_patterns.json",
+            "en": "en_patterns.json",
             "ru": "ru_patterns.json",
             "uk": "uk_patterns.json",
         }
-        pattern_file = lang_patterns.get(self.nlp.lang, "default_patterns.json")
+        pattern_file = lang_patterns.get(self.nlp.lang, "en_patterns.json")
         self._default_patterns = assets_dir / pattern_file
         self.matcher = (
             matcher
@@ -124,6 +126,31 @@ class TermsMatcher:
         >>> for key_noun_phrase in terms.yield_key_phrases(transformed_sentences):
         ...     print(key_noun_phrase)
         ...
+
+        Yields
+        ------
+        dict with the following fields:
+            uuid: str
+                The identifier passed in with the sentence
+            pos_label: str
+                The POS pattern label that matched (e.g., "ADJ-NOUN")
+            key_noun_phrase: str
+                The matched phrase text
+            key_noun_phrase_processed: str
+                Lemmatized, lowercased version of the phrase (punctuation removed)
+            span_location: list[int, int]
+                Character offsets [start_char, end_char] in the original text
+            token_span: list[int, int]
+                Token indices [start, end) in the document
+            is_maximal: bool | None
+                Whether this span is maximal (not contained by another span).
+                Placeholder; computed in redundancy resolution phase.
+            family_id: str | None
+                ID of the maximal span that contains this span.
+                Placeholder; computed in redundancy resolution phase.
+            maximal_text: str | None
+                Text of the maximal span that contains this span.
+                Placeholder; computed in redundancy resolution phase.
 
         Notes
         -----
@@ -170,15 +197,58 @@ class TermsMatcher:
                                 t.lemma_.lower() for t in span if not t.is_punct
                             ),
                             "span_location": [span.start_char, span.end_char],
+                            "token_span": [span.start, span.end],
+                            "is_maximal": None,
+                            "family_id": None,
+                            "maximal_text": None,
                         }
+
+    def extract_key_phrases(
+        self,
+        sentences: list[tuple[str, str]],
+        batch_size: int = 25,
+        exclusive_search: bool = True,
+        resolve_redundancy: bool = True,
+    ) -> list[dict[str, typing.Any]]:
+        """Extract key noun phrases with optional redundancy resolution.
+
+        This method collects all results and optionally annotates them with
+        maximal span and family information.
+
+        Parameters
+        ----------
+        sentences: list[tuple[uuid, text]]
+            List of (text, uuid) pairs
+        batch_size: int
+            The number of texts to buffer
+        exclusive_search: bool
+            Whether to filter for phrases containing the subject token
+        resolve_redundancy: bool
+            If True, annotate results with is_maximal, family_id, maximal_text.
+            If False, these fields remain None.
+
+        Returns
+        -------
+        list[dict]
+            List of result dictionaries with all fields populated
+        """
+        results = list(
+            self.yield_key_phrases(
+                sentences, batch_size=batch_size, exclusive_search=exclusive_search
+            )
+        )
+        if resolve_redundancy and results:
+            results = annotate_spans(results)
+        return results
 
     def to_dataframe(
         self,
         sentences: list[tuple[str, str]],
         batch_size: int = 25,
         exclusive_search: bool = True,
+        resolve_redundancy: bool = True,
     ) -> pd.DataFrame:
-        """Constructs a dataframe directly from yield_key_phrases method.
+        """Constructs a dataframe from key phrase extraction.
 
         Parameters
         ----------
@@ -194,6 +264,9 @@ class TermsMatcher:
               - VERB-based phrases with finegrained VERB subtypes (True)
             to yield any phrases found within the nsubj's subtree (even without
             nsubj token being a part of the phrase) (False) and any VERB-based phrases
+        resolve_redundancy: bool
+            If True, annotate results with is_maximal, family_id, maximal_text.
+            If False, these fields remain None.
 
         Usage
         -----
@@ -209,7 +282,10 @@ class TermsMatcher:
         set of sentences so that you don't need to store them in the interim
         format like JSONLines.
         """
-        data = self.yield_key_phrases(
-            sentences, batch_size=batch_size, exclusive_search=exclusive_search
+        data = self.extract_key_phrases(
+            sentences,
+            batch_size=batch_size,
+            exclusive_search=exclusive_search,
+            resolve_redundancy=resolve_redundancy,
         )
         return pd.DataFrame(data)

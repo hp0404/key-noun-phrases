@@ -436,3 +436,83 @@ class TestPatternLabels:
         # Should have prepositional pattern label
         has_adp_pattern = any("ADP" in label for label in labels)
         assert has_adp_pattern or len(labels) > 0
+
+
+# =============================================================================
+# Redundancy Resolution Tests
+# =============================================================================
+
+
+class TestRedundancyResolution:
+    """Test span grouping and maximal span detection."""
+
+    def test_maximal_span_detection(self, nlp_en):
+        """Test that maximal spans are correctly identified."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("The data security incident response plan is effective.", "test")]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        # Find the maximal span
+        maximal_spans = [r for r in results if r["is_maximal"]]
+        assert len(maximal_spans) == 1
+        assert (
+            "data security incident response plan"
+            in maximal_spans[0]["key_noun_phrase"]
+        )
+
+    def test_family_grouping(self, nlp_en):
+        """Test that subspans are grouped under maximal spans."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("The data security incident response plan is effective.", "test")]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        # All spans should belong to the same family
+        family_ids = {r["family_id"] for r in results}
+        assert len(family_ids) == 1
+        assert "family_1" in family_ids
+
+    def test_non_maximal_spans_reference_maximal(self, nlp_en):
+        """Test that non-maximal spans reference their maximal span text."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("The data security incident response plan is effective.", "test")]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        # All non-maximal spans should have maximal_text set
+        for r in results:
+            if not r["is_maximal"]:
+                assert r["maximal_text"] is not None
+                assert "data security incident response plan" in r["maximal_text"]
+
+    def test_resolve_redundancy_disabled(self, nlp_en):
+        """Test that resolve_redundancy=False leaves fields as None."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+        results = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, resolve_redundancy=False
+        )
+
+        for r in results:
+            assert r["is_maximal"] is None
+            assert r["family_id"] is None
+            assert r["maximal_text"] is None
+
+    def test_dataframe_includes_redundancy_fields(self, nlp_en):
+        """Test that to_dataframe includes redundancy resolution fields."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+        df = matcher.to_dataframe(sentences, exclusive_search=False)
+
+        assert "is_maximal" in df.columns
+        assert "family_id" in df.columns
+        assert "maximal_text" in df.columns
+
+    def test_token_span_field(self, nlp_en):
+        """Test that token_span field contains correct indices."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        for r in results:
+            assert "token_span" in r
+            assert len(r["token_span"]) == 2
+            assert r["token_span"][0] < r["token_span"][1]
