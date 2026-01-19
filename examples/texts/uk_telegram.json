@@ -33,7 +33,7 @@
     "is_maximal": true,
     "family_id": "family_1",
     "maximal_text": "головних проблем затяжних воєн",
-    "score": 0.720204128503084
+    "score": 0.2522041285030841
   },
   {
     "doc_index": 0,
@@ -51,7 +51,7 @@
     "is_maximal": false,
     "family_id": "family_1",
     "maximal_text": "головних проблем затяжних воєн",
-    "score": 0.4589309172250606
+    "score": 0.3089309172250606
   },
   {
     "doc_index": 0,
@@ -105,7 +105,7 @@
     "is_maximal": true,
     "family_id": "family_2",
     "maximal_text": "неминуче погіршення якості",
-    "score": 0.6044424286316177
+    "score": 0.4244424286316178
   },
   {
     "doc_index": 0,
@@ -123,7 +123,7 @@
     "is_maximal": false,
     "family_id": "family_2",
     "maximal_text": "неминуче погіршення якості",
-    "score": 0.3327677234885839
+    "score": 0.30276772348858394
   },
   {
     "doc_index": 0,
@@ -141,7 +141,7 @@
     "is_maximal": true,
     "family_id": "family_3",
     "maximal_text": "погіршення якості піхоти",
-    "score": 0.5605019353495458
+    "score": 0.344501935349546
   },
   {
     "doc_index": 0,
@@ -159,7 +159,7 @@
     "is_maximal": false,
     "family_id": "family_3",
     "maximal_text": "погіршення якості піхоти",
-    "score": 0.9716723361858931
+    "score": 0.911672336185893
   },
   {
     "doc_index": 0,
@@ -195,7 +195,7 @@
     "is_maximal": true,
     "family_id": "family_5",
     "maximal_text": "Кількість кадрових солдатів",
-    "score": 0.5950679738771766
+    "score": 0.41506797387717664
   },
   {
     "doc_index": 0,
@@ -213,7 +213,7 @@
     "is_maximal": false,
     "family_id": "family_5",
     "maximal_text": "Кількість кадрових солдатів",
-    "score": 0.42352078709854024
+    "score": 0.4235207870985403
   },
   {
     "doc_index": 0,
@@ -231,7 +231,7 @@
     "is_maximal": true,
     "family_id": "family_6",
     "maximal_text": "початку війни",
-    "score": 0.392043818950332
+    "score": 0.35604381895033205
   },
   {
     "doc_index": 0,
@@ -249,7 +249,7 @@
     "is_maximal": true,
     "family_id": "family_7",
     "maximal_text": "бойових втрат",
-    "score": 0.4173069012212958
+    "score": 0.4173069012212959
   },
   {
     "doc_index": 0,
@@ -285,7 +285,7 @@
     "is_maximal": true,
     "family_id": "family_9",
     "maximal_text": "війська з початком",
-    "score": 0.5721213163240784
+    "score": 0.21212131632407838
   },
   {
     "doc_index": 0,
@@ -303,7 +303,7 @@
     "is_maximal": true,
     "family_id": "family_10",
     "maximal_text": "початком повномасштабного вторгнення",
-    "score": 0.5857667057319298
+    "score": 0.4057667057319298
   },
   {
     "doc_index": 0,
@@ -339,7 +339,7 @@
     "is_maximal": true,
     "family_id": "family_11",
     "maximal_text": "двох категорій",
-    "score": 0.38645233163379594
+    "score": 0.098452331633796
   },
   {
     "doc_index": 0,
@@ -357,7 +357,7 @@
     "is_maximal": true,
     "family_id": "family_12",
     "maximal_text": "важких ушкоджень",
-    "score": 0.392314816140024
+    "score": 0.39231481614002406
   },
   {
     "doc_index": 0,
@@ -375,7 +375,7 @@
     "is_maximal": true,
     "family_id": "family_13",
     "maximal_text": "ушкоджень дожили",
-    "score": 0.39455849999771625
+    "score": 0.14255849999771628
   },
   {
     "doc_index": 0,
@@ -411,7 +411,7 @@
     "is_maximal": true,
     "family_id": "family_15",
     "maximal_text": "початку прийшли",
-    "score": 0.3867532699160648
+    "score": 0.13475326991606482
   },
   {
     "doc_index": 0,
@@ -429,7 +429,7 @@
     "is_maximal": true,
     "family_id": "family_16",
     "maximal_text": "війська з палаючими поглядами",
-    "score": 0.7483727797791614
+    "score": 0.2443727797791614
   },
   {
     "doc_index": 0,
@@ -465,7 +465,7 @@
     "is_maximal": true,
     "family_id": "family_17",
     "maximal_text": "1,5 роки",
-    "score": 0.38697766331713507
+    "score": 0.17097766331713507
   },
   {
     "doc_index": 0,
@@ -483,7 +483,7 @@
     "is_maximal": true,
     "family_id": "family_18",
     "maximal_text": "роки пройшли",
-    "score": 0.38723918827822595
+    "score": 0.13523918827822598
   },
   {
     "doc_index": 0,
@@ -501,7 +501,7 @@
     "is_maximal": true,
     "family_id": "family_19",
     "maximal_text": "знайшли легальну причину",
-    "score": 0.572929802982405
+    "score": 0.28492980298240506
   },
   {
     "doc_index": 0,
@@ -537,7 +537,7 @@
     "is_maximal": true,
     "family_id": "family_20",
     "maximal_text": "причину списатися",
-    "score": 0.3939214970324002
+    "score": 0.14192149703240023
   },
   {
     "doc_index": 0,
@@ -573,7 +573,7 @@
     "is_maximal": true,
     "family_id": "family_22",
     "maximal_text": "перемоги і успіхи",
-    "score": 0.5901575952058286
+    "score": 0.21815759520582864
   },
   {
     "doc_index": 0,
@@ -591,7 +591,7 @@
     "is_maximal": true,
     "family_id": "family_23",
     "maximal_text": "Підготовка особового складу",
-    "score": 0.5837576037867036
+    "score": 0.40375760378670356
   },
   {
     "doc_index": 0,
@@ -609,7 +609,7 @@
     "is_maximal": false,
     "family_id": "family_23",
     "maximal_text": "Підготовка особового складу",
-    "score": 0.36782952132526214
+    "score": 0.36782952132526225
   },
   {
     "doc_index": 0,
@@ -627,7 +627,7 @@
     "is_maximal": true,
     "family_id": "family_24",
     "maximal_text": "особового складу в цілому",
-    "score": 0.7839470543119238
+    "score": 0.2799470543119238
   },
   {
     "doc_index": 0,
@@ -645,7 +645,7 @@
     "is_maximal": false,
     "family_id": "family_24",
     "maximal_text": "особового складу в цілому",
-    "score": 0.49111846458764163
+    "score": 0.19111846458764165
   },
   {
     "doc_index": 0,
@@ -663,7 +663,7 @@
     "is_maximal": true,
     "family_id": "family_25",
     "maximal_text": "цілому залишається",
-    "score": 0.48488617035118275
+    "score": 0.23288617035118275
   },
   {
     "doc_index": 0,
@@ -681,7 +681,7 @@
     "is_maximal": true,
     "family_id": "family_26",
     "maximal_text": "невідповідною сучасному піхотному бою",
-    "score": 0.7885690105316069
+    "score": 0.4645690105316069
   },
   {
     "doc_index": 0,
@@ -699,7 +699,7 @@
     "is_maximal": false,
     "family_id": "family_26",
     "maximal_text": "невідповідною сучасному піхотному бою",
-    "score": 0.49158308687554425
+    "score": 0.3715830868755443
   },
   {
     "doc_index": 0,
@@ -735,7 +735,7 @@
     "is_maximal": true,
     "family_id": "family_27",
     "maximal_text": "місяць вишколу",
-    "score": 0.41292956594959584
+    "score": 0.37692956594959587
   },
   {
     "doc_index": 0,
@@ -753,7 +753,7 @@
     "is_maximal": true,
     "family_id": "family_28",
     "maximal_text": "збирати АК",
-    "score": 0.44314472096514224
+    "score": 0.33514472096514225
   },
   {
     "doc_index": 0,
@@ -771,7 +771,7 @@
     "is_maximal": true,
     "family_id": "family_29",
     "maximal_text": "якість підготовки",
-    "score": 0.5651783299409855
+    "score": 0.5291783299409857
   },
   {
     "doc_index": 0,
@@ -789,7 +789,7 @@
     "is_maximal": true,
     "family_id": "family_30",
     "maximal_text": "підготовки української піхоти",
-    "score": 0.5996363606801709
+    "score": 0.4196363606801709
   },
   {
     "doc_index": 0,
@@ -825,7 +825,7 @@
     "is_maximal": true,
     "family_id": "family_31",
     "maximal_text": "української піхоти на закордонних полігонах",
-    "score": 0.8746006484100921
+    "score": 0.3994006484100923
   },
   {
     "doc_index": 0,
@@ -843,7 +843,7 @@
     "is_maximal": false,
     "family_id": "family_31",
     "maximal_text": "української піхоти на закордонних полігонах",
-    "score": 0.6521301387739417
+    "score": 0.23213013877394173
   },
   {
     "doc_index": 0,
@@ -897,7 +897,7 @@
     "is_maximal": true,
     "family_id": "family_33",
     "maximal_text": "є виключення",
-    "score": 0.4221841235058293
+    "score": 0.1881841235058293
   },
   {
     "doc_index": 0,
@@ -933,7 +933,7 @@
     "is_maximal": true,
     "family_id": "family_35",
     "maximal_text": "3-тя ОШБ",
-    "score": 0.45290531252749366
+    "score": 0.4529053125274938
   },
   {
     "doc_index": 0,
@@ -951,7 +951,7 @@
     "is_maximal": true,
     "family_id": "family_36",
     "maximal_text": "займаються вишколом",
-    "score": 0.41890207701392485
+    "score": 0.3109020770139249
   },
   {
     "doc_index": 0,
@@ -969,7 +969,7 @@
     "is_maximal": true,
     "family_id": "family_37",
     "maximal_text": "своїх рекрутів",
-    "score": 0.43033976718908423
+    "score": 0.14233976718908425
   },
   {
     "doc_index": 0,
@@ -987,7 +987,7 @@
     "is_maximal": true,
     "family_id": "family_38",
     "maximal_text": "тенденцією в ЗСУ",
-    "score": 0.6120604750399049
+    "score": 0.252060475039905
   },
   {
     "doc_index": 0,
@@ -1005,7 +1005,7 @@
     "is_maximal": true,
     "family_id": "family_39",
     "maximal_text": "усіх підрозділах",
-    "score": 0.4130219051119906
+    "score": 0.19702190511199064
   },
   {
     "doc_index": 0,
@@ -1023,7 +1023,7 @@
     "is_maximal": true,
     "family_id": "family_40",
     "maximal_text": "підрозділах є",
-    "score": 0.41800160624077376
+    "score": 0.11200160624077378
   },
   {
     "doc_index": 0,
@@ -1041,7 +1041,7 @@
     "is_maximal": true,
     "family_id": "family_41",
     "maximal_text": "є гарний мікроклімат",
-    "score": 0.5950033373486447
+    "score": 0.22300333734864478
   },
   {
     "doc_index": 0,
@@ -1059,7 +1059,7 @@
     "is_maximal": false,
     "family_id": "family_41",
     "maximal_text": "є гарний мікроклімат",
-    "score": 0.33733859806968736
+    "score": 0.3373385980696874
   },
   {
     "doc_index": 0,
@@ -1077,7 +1077,7 @@
     "is_maximal": true,
     "family_id": "family_42",
     "maximal_text": "сприяє швидкій адаптації",
-    "score": 0.5854567487730044
+    "score": 0.2974567487730045
   },
   {
     "doc_index": 0,
@@ -1095,7 +1095,7 @@
     "is_maximal": false,
     "family_id": "family_42",
     "maximal_text": "сприяє швидкій адаптації",
-    "score": 0.33629984346287506
+    "score": 0.3362998434628751
   },
   {
     "doc_index": 0,
@@ -1113,7 +1113,7 @@
     "is_maximal": true,
     "family_id": "family_43",
     "maximal_text": "швидкій адаптації новачків",
-    "score": 0.5794830154717686
+    "score": 0.39948301547176873
   },
   {
     "doc_index": 0,
@@ -1131,7 +1131,7 @@
     "is_maximal": false,
     "family_id": "family_43",
     "maximal_text": "швидкій адаптації новачків",
-    "score": 0.33234266047554417
+    "score": 0.3023426604755442
   },
   {
     "doc_index": 0,
@@ -1149,7 +1149,7 @@
     "is_maximal": true,
     "family_id": "family_44",
     "maximal_text": "новачків та розбудові",
-    "score": 0.5799666116925424
+    "score": 0.20796661169254246
   },
   {
     "doc_index": 0,
@@ -1167,7 +1167,7 @@
     "is_maximal": true,
     "family_id": "family_45",
     "maximal_text": "розбудові бойового побратимства",
-    "score": 0.5782363551104587
+    "score": 0.3982363551104587
   },
   {
     "doc_index": 0,
@@ -1203,7 +1203,7 @@
     "is_maximal": true,
     "family_id": "family_46",
     "maximal_text": "стосується бойового злагодження",
-    "score": 0.5805728939803635
+    "score": 0.2925728939803635
   },
   {
     "doc_index": 0,
@@ -1221,7 +1221,7 @@
     "is_maximal": false,
     "family_id": "family_46",
     "maximal_text": "стосується бойового злагодження",
-    "score": 0.3318094334568946
+    "score": 0.3318094334568947
   },
   {
     "doc_index": 0,
@@ -1239,7 +1239,7 @@
     "is_maximal": true,
     "family_id": "family_47",
     "maximal_text": "бойового злагодження частин",
-    "score": 0.5855959927826062
+    "score": 0.4055959927826062
   },
   {
     "doc_index": 0,
@@ -1257,7 +1257,7 @@
     "is_maximal": false,
     "family_id": "family_47",
     "maximal_text": "бойового злагодження частин",
-    "score": 0.3396919073968565
+    "score": 0.30969190739685654
   },
   {
     "doc_index": 0,
@@ -1275,7 +1275,7 @@
     "is_maximal": true,
     "family_id": "family_48",
     "maximal_text": "злагодження частин у рамках",
-    "score": 0.7629795537907524
+    "score": 0.2319795537907525
   },
   {
     "doc_index": 0,
@@ -1293,7 +1293,7 @@
     "is_maximal": false,
     "family_id": "family_48",
     "maximal_text": "злагодження частин у рамках",
-    "score": 0.49956476334329303
+    "score": 0.19956476334329304
   },
   {
     "doc_index": 0,
@@ -1311,7 +1311,7 @@
     "is_maximal": true,
     "family_id": "family_49",
     "maximal_text": "рамках окремих з’єднань",
-    "score": 0.6001156227507648
+    "score": 0.42011562275076486
   },
   {
     "doc_index": 0,
@@ -1365,7 +1365,7 @@
     "is_maximal": true,
     "family_id": "family_50",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.7926165398019772
+    "score": 0.2886165398019773
   },
   {
     "doc_index": 0,
@@ -1383,7 +1383,7 @@
     "is_maximal": false,
     "family_id": "family_50",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.4977562279477414
+    "score": 0.1977562279477414
   },
   {
     "doc_index": 0,
@@ -1401,7 +1401,7 @@
     "is_maximal": true,
     "family_id": "family_51",
     "maximal_text": "сприяє високій мотивації",
-    "score": 0.6349712390787822
+    "score": 0.3469712390787822
   },
   {
     "doc_index": 0,
@@ -1419,7 +1419,7 @@
     "is_maximal": false,
     "family_id": "family_51",
     "maximal_text": "сприяє високій мотивації",
-    "score": 0.3707051393573149
+    "score": 0.37070513935731497
   },
   {
     "doc_index": 0,
@@ -1437,7 +1437,7 @@
     "is_maximal": true,
     "family_id": "family_52",
     "maximal_text": "якісній підготовці",
-    "score": 0.42260561509990224
+    "score": 0.4226056150999023
   },
   {
     "doc_index": 0,
@@ -1455,7 +1455,7 @@
     "is_maximal": true,
     "family_id": "family_53",
     "maximal_text": "підготовці та зростанню",
-    "score": 0.6561833376470586
+    "score": 0.2841833376470588
   },
   {
     "doc_index": 0,
@@ -1473,7 +1473,7 @@
     "is_maximal": true,
     "family_id": "family_54",
     "maximal_text": "зростанню бойового духу",
-    "score": 0.6363365924185705
+    "score": 0.4563365924185706
   },
   {
     "doc_index": 0,
@@ -1509,7 +1509,7 @@
     "is_maximal": true,
     "family_id": "family_55",
     "maximal_text": "бойового духу солдатів",
-    "score": 0.6813953103266932
+    "score": 0.5013953103266933
   },
   {
     "doc_index": 0,
@@ -1527,7 +1527,7 @@
     "is_maximal": false,
     "family_id": "family_55",
     "maximal_text": "бойового духу солдатів",
-    "score": 0.38851430738844106
+    "score": 0.3585143073884411
   },
   {
     "doc_index": 0,
@@ -1545,7 +1545,7 @@
     "is_maximal": true,
     "family_id": "family_56",
     "maximal_text": "декілька причин",
-    "score": 0.42762415955476024
+    "score": 0.21162415955476024
   },
   {
     "doc_index": 0,
@@ -1563,7 +1563,7 @@
     "is_maximal": true,
     "family_id": "family_57",
     "maximal_text": "цій ситуації",
-    "score": 0.5336420024836757
+    "score": 0.24564200248367568
   },
   {
     "doc_index": 0,
@@ -1581,7 +1581,7 @@
     "is_maximal": false,
     "family_id": "family_58",
     "maximal_text": "противника якість піхоти",
-    "score": 0.39369526384255826
+    "score": 0.36369526384255835
   },
   {
     "doc_index": 0,
@@ -1599,7 +1599,7 @@
     "is_maximal": true,
     "family_id": "family_58",
     "maximal_text": "противника якість піхоти",
-    "score": 0.6057926073986025
+    "score": 0.38979260739860266
   },
   {
     "doc_index": 0,
@@ -1617,7 +1617,7 @@
     "is_maximal": false,
     "family_id": "family_58",
     "maximal_text": "противника якість піхоти",
-    "score": 0.9716723361858931
+    "score": 0.911672336185893
   },
   {
     "doc_index": 0,
@@ -1635,7 +1635,7 @@
     "is_maximal": true,
     "family_id": "family_59",
     "maximal_text": "всіх пунктах",
-    "score": 0.49222980870854477
+    "score": 0.20422980870854487
   },
   {
     "doc_index": 0,
@@ -1653,7 +1653,7 @@
     "is_maximal": true,
     "family_id": "family_60",
     "maximal_text": "пунктах і категоріях",
-    "score": 0.6554129484005065
+    "score": 0.28341294840050657
   },
   {
     "doc_index": 0,
@@ -1671,7 +1671,7 @@
     "is_maximal": true,
     "family_id": "family_61",
     "maximal_text": "всіх рівних складових",
-    "score": 0.687274981157314
+    "score": 0.26727498115731413
   },
   {
     "doc_index": 0,
@@ -1689,7 +1689,7 @@
     "is_maximal": false,
     "family_id": "family_61",
     "maximal_text": "всіх рівних складових",
-    "score": 0.4742075876416512
+    "score": 0.47420758764165116
   },
   {
     "doc_index": 0,
@@ -1707,7 +1707,7 @@
     "is_maximal": true,
     "family_id": "family_62",
     "maximal_text": "рівних складових в піхотному бою",
-    "score": 0.8274745268698848
+    "score": 0.3522745268698847
   },
   {
     "doc_index": 0,
@@ -1725,7 +1725,7 @@
     "is_maximal": false,
     "family_id": "family_62",
     "maximal_text": "рівних складових в піхотному бою",
-    "score": 0.6648359773858649
+    "score": 0.24483597738586493
   },
   {
     "doc_index": 0,
@@ -1761,7 +1761,7 @@
     "is_maximal": true,
     "family_id": "family_63",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.755536896752179
+    "score": 0.28753689675217914
   },
   {
     "doc_index": 0,
@@ -1779,7 +1779,7 @@
     "is_maximal": false,
     "family_id": "family_63",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.4910661916465824
+    "score": 0.3410661916465824
   },
   {
     "doc_index": 0,
@@ -1815,7 +1815,7 @@
     "is_maximal": true,
     "family_id": "family_64",
     "maximal_text": "цій війні",
-    "score": 0.38330867581668426
+    "score": 0.0953086758166843
   },
   {
     "doc_index": 0,
@@ -1833,7 +1833,7 @@
     "is_maximal": false,
     "family_id": "family_65",
     "maximal_text": "порівняння якостей піхотинців",
-    "score": 0.32281378948148015
+    "score": 0.2928137894814802
   },
   {
     "doc_index": 0,
@@ -1851,7 +1851,7 @@
     "is_maximal": true,
     "family_id": "family_65",
     "maximal_text": "порівняння якостей піхотинців",
-    "score": 0.5695857161226826
+    "score": 0.3535857161226827
   },
   {
     "doc_index": 0,
@@ -1869,7 +1869,7 @@
     "is_maximal": false,
     "family_id": "family_65",
     "maximal_text": "порівняння якостей піхотинців",
-    "score": 0.30214926532335135
+    "score": 0.2721492653233514
   },
   {
     "doc_index": 0,
@@ -1887,7 +1887,7 @@
     "is_maximal": true,
     "family_id": "family_66",
     "maximal_text": "обох сторін",
-    "score": 0.360449086088388
+    "score": 0.144449086088388
   },
   {
     "doc_index": 0,

@@ -15,7 +15,7 @@ from typing import Protocol, runtime_checkable
 import networkx as nx
 
 # Common function words and low-value tokens to downweight
-DEFAULT_STOPWORDS = frozenset(
+ENGLISH_STOPWORDS = frozenset(
     {
         "the",
         "a",
@@ -86,8 +86,475 @@ DEFAULT_STOPWORDS = frozenset(
     }
 )
 
+# Ukrainian function words, pronouns, auxiliaries
+UKRAINIAN_STOPWORDS = frozenset(
+    {
+        # Prepositions
+        "в",
+        "у",
+        "на",
+        "з",
+        "із",
+        "зі",
+        "за",
+        "до",
+        "від",
+        "про",
+        "при",
+        "для",
+        "під",
+        "над",
+        "між",
+        "через",
+        "після",
+        "перед",
+        "біля",
+        "коло",
+        "без",
+        "крім",
+        "замість",
+        "поза",
+        # Conjunctions
+        "та",
+        "і",
+        "й",
+        "але",
+        "а",
+        "або",
+        "чи",
+        "ні",
+        "що",
+        "як",
+        "коли",
+        "якщо",
+        "бо",
+        "тому",
+        "хоч",
+        "хоча",
+        "проте",
+        "однак",
+        # Pronouns
+        "він",
+        "вона",
+        "воно",
+        "вони",
+        "я",
+        "ми",
+        "ти",
+        "ви",
+        "це",
+        "той",
+        "та",
+        "те",
+        "ті",
+        "цей",
+        "ця",
+        "це",
+        "ці",
+        "свій",
+        "своя",
+        "своє",
+        "свої",
+        "мій",
+        "моя",
+        "моє",
+        "мої",
+        "твій",
+        "твоя",
+        "твоє",
+        "твої",
+        "наш",
+        "наша",
+        "наше",
+        "наші",
+        "ваш",
+        "ваша",
+        "ваше",
+        "ваші",
+        "їх",
+        "їхній",
+        "їхня",
+        "їхнє",
+        "їхні",
+        "який",
+        "яка",
+        "яке",
+        "які",
+        "котрий",
+        "котра",
+        "котре",
+        "котрі",
+        "хто",
+        "що",
+        "чий",
+        "чия",
+        "чиє",
+        "чиї",
+        "сам",
+        "сама",
+        "саме",
+        "самі",
+        "весь",
+        "вся",
+        "все",
+        "всі",
+        "кожен",
+        "кожна",
+        "кожне",
+        "кожні",
+        "інший",
+        "інша",
+        "інше",
+        "інші",
+        # Auxiliaries and common verbs
+        "бути",
+        "є",
+        "був",
+        "була",
+        "було",
+        "були",
+        "буде",
+        "будуть",
+        "буду",
+        "будеш",
+        "будемо",
+        "будете",
+        # Particles and adverbs
+        "не",
+        "ні",
+        "так",
+        "ще",
+        "вже",
+        "теж",
+        "також",
+        "тільки",
+        "лише",
+        "дуже",
+        "ось",
+        "там",
+        "тут",
+        "де",
+        "куди",
+        "звідки",
+        "коли",
+        "тоді",
+        "потім",
+        "зараз",
+        "завжди",
+        "ніколи",
+        # Numerals (generic)
+        "один",
+        "одна",
+        "одне",
+        "два",
+        "дві",
+        "три",
+        "обидва",
+        "обидві",
+        "обох",
+    }
+)
+
+# Russian function words (similar to Ukrainian)
+RUSSIAN_STOPWORDS = frozenset(
+    {
+        # Prepositions
+        "в",
+        "на",
+        "с",
+        "со",
+        "за",
+        "к",
+        "до",
+        "от",
+        "из",
+        "про",
+        "при",
+        "для",
+        "под",
+        "над",
+        "между",
+        "через",
+        "после",
+        "перед",
+        "около",
+        "без",
+        "кроме",
+        # Conjunctions
+        "и",
+        "а",
+        "но",
+        "или",
+        "что",
+        "как",
+        "когда",
+        "если",
+        "потому",
+        "хотя",
+        "однако",
+        # Pronouns
+        "он",
+        "она",
+        "оно",
+        "они",
+        "я",
+        "мы",
+        "ты",
+        "вы",
+        "это",
+        "тот",
+        "та",
+        "то",
+        "те",
+        "этот",
+        "эта",
+        "это",
+        "эти",
+        "свой",
+        "своя",
+        "своё",
+        "свои",
+        "мой",
+        "моя",
+        "моё",
+        "мои",
+        "твой",
+        "твоя",
+        "твоё",
+        "твои",
+        "наш",
+        "наша",
+        "наше",
+        "наши",
+        "ваш",
+        "ваша",
+        "ваше",
+        "ваши",
+        "их",
+        "который",
+        "которая",
+        "которое",
+        "которые",
+        "кто",
+        "что",
+        "чей",
+        "чья",
+        "чьё",
+        "чьи",
+        "сам",
+        "сама",
+        "само",
+        "сами",
+        "весь",
+        "вся",
+        "всё",
+        "все",
+        "каждый",
+        "каждая",
+        "каждое",
+        "каждые",
+        "другой",
+        "другая",
+        "другое",
+        "другие",
+        # Auxiliaries
+        "быть",
+        "есть",
+        "был",
+        "была",
+        "было",
+        "были",
+        "будет",
+        "будут",
+        # Particles
+        "не",
+        "ни",
+        "да",
+        "ещё",
+        "уже",
+        "тоже",
+        "также",
+        "только",
+        "лишь",
+        "очень",
+        "вот",
+        "там",
+        "тут",
+        "здесь",
+        "где",
+        "куда",
+        "откуда",
+        "когда",
+        "тогда",
+        "потом",
+        "сейчас",
+        "всегда",
+        "никогда",
+    }
+)
+
+# German function words
+GERMAN_STOPWORDS = frozenset(
+    {
+        # Articles
+        "der",
+        "die",
+        "das",
+        "den",
+        "dem",
+        "des",
+        "ein",
+        "eine",
+        "einen",
+        "einem",
+        "einer",
+        "eines",
+        # Prepositions
+        "in",
+        "an",
+        "auf",
+        "mit",
+        "bei",
+        "von",
+        "zu",
+        "für",
+        "um",
+        "durch",
+        "aus",
+        "nach",
+        "über",
+        "unter",
+        "vor",
+        "zwischen",
+        "hinter",
+        "neben",
+        # Conjunctions
+        "und",
+        "oder",
+        "aber",
+        "wenn",
+        "als",
+        "dass",
+        "weil",
+        "obwohl",
+        "denn",
+        # Pronouns
+        "ich",
+        "du",
+        "er",
+        "sie",
+        "es",
+        "wir",
+        "ihr",
+        "sie",
+        "mein",
+        "dein",
+        "sein",
+        "ihr",
+        "unser",
+        "euer",
+        "dieser",
+        "diese",
+        "dieses",
+        "jener",
+        "jene",
+        "jenes",
+        "welcher",
+        "welche",
+        "welches",
+        "wer",
+        "was",
+        # Auxiliaries
+        "sein",
+        "ist",
+        "sind",
+        "war",
+        "waren",
+        "haben",
+        "hat",
+        "hatte",
+        "hatten",
+        "werden",
+        "wird",
+        "wurde",
+        "wurden",
+        # Particles
+        "nicht",
+        "auch",
+        "nur",
+        "noch",
+        "schon",
+        "sehr",
+        "hier",
+        "dort",
+        "wo",
+        "wann",
+        "wie",
+        "warum",
+    }
+)
+
+# Combined default stopwords (all languages)
+DEFAULT_STOPWORDS = (
+    ENGLISH_STOPWORDS | UKRAINIAN_STOPWORDS | RUSSIAN_STOPWORDS | GERMAN_STOPWORDS
+)
+
+# Language-specific stopword sets for fine-grained control
+STOPWORDS_BY_LANGUAGE = {
+    "en": ENGLISH_STOPWORDS,
+    "uk": UKRAINIAN_STOPWORDS,
+    "ru": RUSSIAN_STOPWORDS,
+    "de": GERMAN_STOPWORDS,
+}
+
 # POS tags typically associated with content words (higher IDF)
 CONTENT_POS = frozenset({"NOUN", "PROPN", "ADJ", "VERB"})
+
+# POS-label quality weights for pattern types
+# Higher weights indicate more domain-specific patterns
+PATTERN_WEIGHTS: dict[str, float] = {
+    # High quality noun phrase patterns
+    "ADJ-NOUN": 1.0,
+    "ADJ-ADJ-NOUN": 1.1,
+    "NOUN-ADJ-NOUN": 1.0,
+    "ADJ-NOUN-NOUN": 1.0,
+    "ADJ-ADJ-ADJ-NOUN": 1.1,
+    # Proper noun patterns (domain-specific)
+    "PROPN": 1.2,
+    "PROPN-PROPN": 1.3,
+    "ADJ-PROPN": 1.2,
+    "PROPN-NOUN": 1.1,
+    "NOUN-PROPN": 1.1,
+    # Noun compound patterns
+    "NOUN-NOUN": 0.9,
+    "NOUN-NOUN-NOUN": 0.9,
+    "NOUN-NOUN-NOUN-NOUN": 0.85,
+    "NOUN-NOUN-NOUN-NOUN-NOUN": 0.8,
+    # Prepositional patterns (often fragmentary)
+    "NOUN-ADP-NOUN": 0.75,
+    "ADJ-NOUN-ADP-NOUN": 0.8,
+    "NOUN-ADP-ADJ-NOUN": 0.8,
+    "ADJ-NOUN-ADP-ADJ-NOUN": 0.85,
+    "NOUN-ADP-NOUN-NOUN": 0.75,
+    "NOUN-ADP-NOUN-ADP-NOUN": 0.7,
+    # Verb/participle patterns
+    "VERB-NOUN": 0.7,
+    "VERB-ADJ-NOUN": 0.7,
+    "VERB-NOUN-NOUN": 0.7,
+    # Hyphenated patterns
+    "ADJ-PUNCT-NOUN-NOUN": 0.85,
+    "ADJ-PUNCT-ADJ-NOUN": 0.85,
+    "NOUN-PUNCT-NOUN-NOUN": 0.8,
+    # Generic/low-value patterns (if kept)
+    "DET-NOUN": 0.4,
+    "DET-ADJ-NOUN": 0.5,
+    "NUM-NOUN": 0.4,
+    "NUM-ADJ-NOUN": 0.5,
+    "NOUN-VERB": 0.3,
+}
+
+# Default weight for unknown patterns
+DEFAULT_PATTERN_WEIGHT = 0.7
 
 
 @runtime_checkable
@@ -119,18 +586,22 @@ class TFIDFScorer:
     """Score phrases using TF-IDF weighting.
 
     Within-document term frequency is combined with an IDF proxy that
-    downweights common/stopword tokens.
+    downweights common/stopword tokens, plus POS-label quality weights
+    and PROPN boost.
 
     Attributes
     ----------
     stopwords : frozenset[str]
         Words to assign low IDF weight
-    content_pos_bonus : float
-        Bonus multiplier for content-word-heavy phrases
+    propn_boost : float
+        Multiplier for phrases containing proper nouns (PROPN in pos_label)
+    use_pattern_weights : bool
+        Whether to apply POS-label quality weights
     """
 
     stopwords: frozenset[str] = field(default_factory=lambda: DEFAULT_STOPWORDS)
-    content_pos_bonus: float = 1.2
+    propn_boost: float = 1.3
+    use_pattern_weights: bool = True
 
     def _compute_tf(self, phrases: list[dict]) -> dict[str, int]:
         """Compute term frequency for each unique phrase."""
@@ -140,6 +611,7 @@ class TFIDFScorer:
         """Compute IDF proxy score for a phrase.
 
         Phrases with more stopwords get lower scores.
+        Uses content ratio without length bias.
         """
         tokens = phrase_processed.split()
         if not tokens:
@@ -147,22 +619,54 @@ class TFIDFScorer:
 
         content_count = sum(1 for t in tokens if t.lower() not in self.stopwords)
         # Score: ratio of content tokens to total tokens
+        # No length bias - quality over quantity
         content_ratio = content_count / len(tokens)
 
-        # Longer phrases with content get bonus
-        length_factor = min(len(tokens) / 2, 2.0)  # Cap at 2x for 4+ token phrases
+        return content_ratio
 
-        return content_ratio * length_factor
+    def _get_pattern_weight(self, pos_label: str | None) -> float:
+        """Get quality weight for a POS pattern.
+
+        Parameters
+        ----------
+        pos_label : str | None
+            POS pattern label (e.g., "ADJ-NOUN", "NOUN-ADP-NOUN")
+
+        Returns
+        -------
+        float
+            Weight multiplier for this pattern type
+        """
+        if not self.use_pattern_weights or not pos_label:
+            return 1.0
+        return PATTERN_WEIGHTS.get(pos_label, DEFAULT_PATTERN_WEIGHT)
+
+    def _has_propn(self, pos_label: str | None) -> bool:
+        """Check if pattern contains a proper noun.
+
+        Parameters
+        ----------
+        pos_label : str | None
+            POS pattern label
+
+        Returns
+        -------
+        bool
+            True if pattern contains PROPN
+        """
+        if not pos_label:
+            return False
+        return "PROPN" in pos_label
 
     def score(
         self, phrases: list[dict], document_tokens: list[str] | None = None
     ) -> list[dict]:
-        """Score phrases using TF-IDF proxy.
+        """Score phrases using TF-IDF proxy with pattern weights and PROPN boost.
 
         Parameters
         ----------
         phrases : list[dict]
-            Extracted phrases with 'key_noun_phrase_processed' field
+            Extracted phrases with 'key_noun_phrase_processed' and optionally 'pos_label'
         document_tokens : list[str] | None
             Not used in this scorer
 
@@ -181,9 +685,19 @@ class TFIDFScorer:
         # Score each phrase
         for p in phrases:
             processed = p["key_noun_phrase_processed"]
+            pos_label = p.get("pos_label")
+
+            # Base TF-IDF proxy score
             term_freq = tf[processed] / max_tf  # Normalize to [0, 1]
             idf_proxy = self._compute_idf_proxy(processed)
-            p["score"] = term_freq * idf_proxy
+
+            # Apply pattern quality weight
+            pattern_weight = self._get_pattern_weight(pos_label)
+
+            # Apply PROPN boost if applicable
+            propn_multiplier = self.propn_boost if self._has_propn(pos_label) else 1.0
+
+            p["score"] = term_freq * idf_proxy * pattern_weight * propn_multiplier
 
         return phrases
 
