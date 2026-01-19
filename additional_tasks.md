@@ -1,0 +1,9 @@
+- the library expects list of (text, uuid) tuples: I would like to remove the uuid thing altogether
+- UK patterns: VERB patterns (VERB-NOUN, VERB-ADJ-NOUN, etc.) may be too broad
+    - captures action phrases like "збирати АК", "займаються вишколом" instead of noun phrases
+    - consider restricting to participle forms only using MORPH constraints
+- Scope limitation: extraction only searches within **subject subtrees** (`terms/__init__.py:168-179`)
+    - `exclusive_search=False` does NOT expand scope - it only controls whether subject token must be in the span
+    - phrases in object position, prepositional phrases outside subjects, etc. are never examined
+    - this causes many valid noun phrases to be missed (e.g., "бойових втрат", "повномасштабного вторгнення")
+    - consider adding object subtree extraction or full-sentence scanning
