@@ -1,0 +1,434 @@
+[
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "Кількість кадрових солдатів",
+    "key_noun_phrase_processed": "кількість кадровий солдат",
+    "span_location": [
+      126,
+      153
+    ],
+    "token_span": [
+      25,
+      28
+    ],
+    "is_maximal": true,
+    "family_id": "family_1",
+    "maximal_text": "Кількість кадрових солдатів",
+    "score": 0.5399999999999999
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "кадрових солдатів",
+    "key_noun_phrase_processed": "кадровий солдат",
+    "span_location": [
+      136,
+      153
+    ],
+    "token_span": [
+      26,
+      28
+    ],
+    "is_maximal": false,
+    "family_id": "family_1",
+    "maximal_text": "Кількість кадрових солдатів",
+    "score": 0.3058246035453239
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "початку війни",
+    "key_noun_phrase_processed": "початок війна",
+    "span_location": [
+      170,
+      183
+    ],
+    "token_span": [
+      32,
+      34
+    ],
+    "is_maximal": true,
+    "family_id": "family_2",
+    "maximal_text": "початку війни",
+    "score": 0.4083145446324217
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "Підготовка особового складу",
+    "key_noun_phrase_processed": "підготовка особовий склад",
+    "span_location": [
+      895,
+      922
+    ],
+    "token_span": [
+      171,
+      174
+    ],
+    "is_maximal": true,
+    "family_id": "family_3",
+    "maximal_text": "Підготовка особового складу",
+    "score": 0.74797854021696
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "особового складу",
+    "key_noun_phrase_processed": "особовий склад",
+    "span_location": [
+      906,
+      922
+    ],
+    "token_span": [
+      172,
+      174
+    ],
+    "is_maximal": false,
+    "family_id": "family_3",
+    "maximal_text": "Підготовка особового складу",
+    "score": 0.42899232637930673
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "PART-NOUN",
+    "key_noun_phrase": "тільки місяць",
+    "key_noun_phrase_processed": "тільки місяць",
+    "span_location": [
+      1075,
+      1088
+    ],
+    "token_span": [
+      199,
+      201
+    ],
+    "is_maximal": true,
+    "family_id": "family_4",
+    "maximal_text": "тільки місяць",
+    "score": 0.6168579504569139
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "місяць вишколу",
+    "key_noun_phrase_processed": "місяць вишкіл",
+    "span_location": [
+      1082,
+      1096
+    ],
+    "token_span": [
+      200,
+      202
+    ],
+    "is_maximal": true,
+    "family_id": "family_5",
+    "maximal_text": "місяць вишколу",
+    "score": 0.735727377090704
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "VERB-NOUN",
+    "key_noun_phrase": "збирати АК",
+    "key_noun_phrase_processed": "збирати ак",
+    "span_location": [
+      1130,
+      1140
+    ],
+    "token_span": [
+      209,
+      211
+    ],
+    "is_maximal": true,
+    "family_id": "family_6",
+    "maximal_text": "збирати АК",
+    "score": 0.5643693540464161
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "окремі підрозділи",
+    "key_noun_phrase_processed": "окремий підрозділ",
+    "span_location": [
+      1261,
+      1278
+    ],
+    "token_span": [
+      231,
+      233
+    ],
+    "is_maximal": true,
+    "family_id": "family_8",
+    "maximal_text": "окремі підрозділи",
+    "score": 1.1502805789834996
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "3-тя ОШБ",
+    "key_noun_phrase_processed": "3-тя ошб",
+    "span_location": [
+      1288,
+      1296
+    ],
+    "token_span": [
+      238,
+      240
+    ],
+    "is_maximal": true,
+    "family_id": "family_10",
+    "maximal_text": "3-тя ОШБ",
+    "score": 1.2
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "VERB-NOUN",
+    "key_noun_phrase": "займаються вишколом",
+    "key_noun_phrase_processed": "займатися вишколом",
+    "span_location": [
+      1313,
+      1332
+    ],
+    "token_span": [
+      245,
+      247
+    ],
+    "is_maximal": true,
+    "family_id": "family_11",
+    "maximal_text": "займаються вишколом",
+    "score": 0.37233662259581557
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "окремі підрозділи",
+    "key_noun_phrase_processed": "окремий підрозділ",
+    "span_location": [
+      1261,
+      1278
+    ],
+    "token_span": [
+      231,
+      233
+    ],
+    "is_maximal": true,
+    "family_id": "family_8",
+    "maximal_text": "окремі підрозділи",
+    "score": 1.1502805789834996
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "3-тя ОШБ",
+    "key_noun_phrase_processed": "3-тя ошб",
+    "span_location": [
+      1288,
+      1296
+    ],
+    "token_span": [
+      238,
+      240
+    ],
+    "is_maximal": true,
+    "family_id": "family_10",
+    "maximal_text": "3-тя ОШБ",
+    "score": 1.2
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "гарний мікроклімат",
+    "key_noun_phrase_processed": "гарний мікроклімат",
+    "span_location": [
+      1437,
+      1455
+    ],
+    "token_span": [
+      271,
+      273
+    ],
+    "is_maximal": true,
+    "family_id": "family_12",
+    "maximal_text": "гарний мікроклімат",
+    "score": 0.5979046980691234
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "VERB-ADJ-NOUN",
+    "key_noun_phrase": "сприяє швидкій адаптації",
+    "key_noun_phrase_processed": "сприяти швидкий адаптація",
+    "span_location": [
+      1462,
+      1486
+    ],
+    "token_span": [
+      275,
+      278
+    ],
+    "is_maximal": true,
+    "family_id": "family_13",
+    "maximal_text": "сприяє швидкій адаптації",
+    "score": 0.9671956920548392
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "швидкій адаптації",
+    "key_noun_phrase_processed": "швидкий адаптація",
+    "span_location": [
+      1469,
+      1486
+    ],
+    "token_span": [
+      276,
+      278
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "сприяє швидкій адаптації",
+    "score": 0.6166880184832912
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "швидкій адаптації новачків",
+    "key_noun_phrase_processed": "швидкий адаптація новачок",
+    "span_location": [
+      1469,
+      1495
+    ],
+    "token_span": [
+      276,
+      279
+    ],
+    "is_maximal": true,
+    "family_id": "family_14",
+    "maximal_text": "швидкій адаптації новачків",
+    "score": 0.7848391624658765
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "адаптації новачків",
+    "key_noun_phrase_processed": "адаптація новачок",
+    "span_location": [
+      1477,
+      1495
+    ],
+    "token_span": [
+      277,
+      279
+    ],
+    "is_maximal": false,
+    "family_id": "family_14",
+    "maximal_text": "швидкій адаптації новачків",
+    "score": 0.5829793711302502
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "розбудові бойового побратимства",
+    "key_noun_phrase_processed": "розбудові бойовий побратимство",
+    "span_location": [
+      1499,
+      1530
+    ],
+    "token_span": [
+      280,
+      283
+    ],
+    "is_maximal": true,
+    "family_id": "family_15",
+    "maximal_text": "розбудові бойового побратимства",
+    "score": 0.7812117980972114
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "бойового побратимства",
+    "key_noun_phrase_processed": "бойовий побратимство",
+    "span_location": [
+      1509,
+      1530
+    ],
+    "token_span": [
+      281,
+      283
+    ],
+    "is_maximal": false,
+    "family_id": "family_15",
+    "maximal_text": "розбудові бойового побратимства",
+    "score": 0.4421297820311405
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Радянських рудиментів",
+    "key_noun_phrase_processed": "радянський рудимент",
+    "span_location": [
+      1606,
+      1627
+    ],
+    "token_span": [
+      295,
+      297
+    ],
+    "is_maximal": false,
+    "family_id": "family_16",
+    "maximal_text": "Радянських рудиментів в ЗСУ",
+    "score": 0.4648110655987057
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "Радянських рудиментів в ЗСУ",
+    "key_noun_phrase_processed": "радянський рудимент в зсу",
+    "span_location": [
+      1606,
+      1633
+    ],
+    "token_span": [
+      295,
+      299
+    ],
+    "is_maximal": true,
+    "family_id": "family_16",
+    "maximal_text": "Радянських рудиментів в ЗСУ",
+    "score": 0.765735240903095
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "рудиментів в ЗСУ",
+    "key_noun_phrase_processed": "рудимент в зсу",
+    "span_location": [
+      1617,
+      1633
+    ],
+    "token_span": [
+      296,
+      299
+    ],
+    "is_maximal": false,
+    "family_id": "family_16",
+    "maximal_text": "Радянських рудиментів в ЗСУ",
+    "score": 0.4561158337225901
+  },
+  {
+    "uuid": "uk_telegram",
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "український вояк",
+    "key_noun_phrase_processed": "український вояк",
+    "span_location": [
+      1949,
+      1965
+    ],
+    "token_span": [
+      360,
+      362
+    ],
+    "is_maximal": true,
+    "family_id": "family_17",
+    "maximal_text": "український вояк",
+    "score": 0.36
+  }
+]
