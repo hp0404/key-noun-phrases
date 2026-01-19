@@ -32,6 +32,41 @@ def get_spacy_model(lang: str) -> str:
     return models.get(lang, "en_core_web_sm")
 
 
+def format_ranking_output(results: list[dict], top_n: int = 50) -> str:
+    """Format top N unique phrases ranked by score descending.
+
+    Deduplicates by key_noun_phrase_processed and keeps the highest score
+    for each unique phrase.
+    """
+    if not results:
+        return ""
+
+    # Deduplicate: keep highest score for each unique phrase
+    best_by_phrase: dict[str, dict] = {}
+    for r in results:
+        phrase = r.get("key_noun_phrase_processed", "")
+        score = float(r.get("score", 0) or 0)
+        if phrase not in best_by_phrase or score > float(
+            best_by_phrase[phrase].get("score", 0) or 0
+        ):
+            best_by_phrase[phrase] = r
+
+    # Sort by score descending
+    ranked = sorted(
+        best_by_phrase.values(),
+        key=lambda x: -float(x.get("score", 0) or 0),
+    )[:top_n]
+
+    lines: list[str] = []
+    for i, r in enumerate(ranked, 1):
+        phrase = r.get("key_noun_phrase", "")
+        pattern = r.get("pos_label", "")
+        score = float(r.get("score", 0) or 0)
+        lines.append(f"{i:3}. {phrase} ({pattern}, {score:.3f})")
+
+    return "\n".join(lines)
+
+
 def format_text_output(results: list[dict]) -> str:
     """Format results as concise bullet text: one line per item, no blank lines."""
     if not results:
@@ -102,8 +137,14 @@ def process_file(input_path: Path, output_path: Path, nlp) -> None:
     with open(text_output_path, "w", encoding="utf-8") as f:
         f.write(text_output)
 
+    # Save ranking output (top N phrases by score)
+    ranking_output_path = input_path.with_name(input_path.stem + "_ranking.out.txt")
+    ranking_output = format_ranking_output(results, top_n=50)
+    with open(ranking_output_path, "w", encoding="utf-8") as f:
+        f.write(ranking_output)
+
     print(
-        f"Processed: {input_path.name} -> {output_path.name}, {text_output_path.name}"
+        f"Processed: {input_path.name} -> {output_path.name}, {text_output_path.name}, {ranking_output_path.name}"
     )
     print(f"  Found {len(results)} phrases")
     if results:
