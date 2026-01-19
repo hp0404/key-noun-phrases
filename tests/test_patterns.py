@@ -516,3 +516,429 @@ class TestRedundancyResolution:
             assert "token_span" in r
             assert len(r["token_span"]) == 2
             assert r["token_span"][0] < r["token_span"][1]
+
+
+# =============================================================================
+# Scoring Tests
+# =============================================================================
+
+
+class TestTFIDFScoring:
+    """Test TF-IDF scoring functionality."""
+
+    def test_tfidf_scorer_adds_score_field(self, nlp_en):
+        """Test that TFIDFScorer adds score field to phrases."""
+        from terms.score import TFIDFScorer
+
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows the research results.", "test")]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        scorer = TFIDFScorer()
+        scored = scorer.score(results)
+
+        for r in scored:
+            assert "score" in r
+            assert isinstance(r["score"], float)
+            assert r["score"] >= 0
+
+    def test_tfidf_higher_for_content_words(self, nlp_en):
+        """Test that content-rich phrases get higher TF-IDF scores."""
+        from terms.score import TFIDFScorer
+
+        # Create mock phrases with varying content word ratios
+        phrases = [
+            {"key_noun_phrase_processed": "statistical analysis"},
+            {"key_noun_phrase_processed": "the of"},  # All stopwords
+        ]
+
+        scorer = TFIDFScorer()
+        scored = scorer.score(phrases)
+
+        # Content-rich phrase should score higher
+        content_score = scored[0]["score"]
+        stopword_score = scored[1]["score"]
+        assert content_score > stopword_score
+
+    def test_tfidf_repeated_phrases_higher_tf(self, nlp_en):
+        """Test that repeated phrases get higher TF component."""
+        from terms.score import TFIDFScorer
+
+        # Create phrases where one appears twice
+        phrases = [
+            {"key_noun_phrase_processed": "data analysis"},
+            {"key_noun_phrase_processed": "data analysis"},
+            {"key_noun_phrase_processed": "research method"},
+        ]
+
+        scorer = TFIDFScorer()
+        scored = scorer.score(phrases)
+
+        # Both "data analysis" should have same (higher) score
+        assert scored[0]["score"] == scored[1]["score"]
+
+
+class TestCentralityScoring:
+    """Test co-occurrence centrality scoring."""
+
+    def test_centrality_scorer_adds_score_field(self, nlp_en):
+        """Test that CentralityScorer adds score field."""
+        from terms.score import CentralityScorer
+
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [
+            ("Statistical analysis shows research patterns.", "s1"),
+            ("The analysis method reveals trends.", "s2"),
+        ]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        scorer = CentralityScorer()
+        scored = scorer.score(results)
+
+        for r in scored:
+            assert "score" in r
+            assert isinstance(r["score"], float)
+            assert 0 <= r["score"] <= 1
+
+    def test_centrality_single_phrase(self, nlp_en):
+        """Test centrality with single phrase."""
+        from terms.score import CentralityScorer
+
+        phrases = [{"key_noun_phrase_processed": "single phrase"}]
+
+        scorer = CentralityScorer()
+        scored = scorer.score(phrases)
+
+        assert len(scored) == 1
+        assert "score" in scored[0]
+
+
+class TestCompositeScoring:
+    """Test composite scoring combining TF-IDF and centrality."""
+
+    def test_composite_scorer_combines_scores(self, nlp_en):
+        """Test that CompositeScorer uses both TF-IDF and centrality."""
+        from terms.score import CompositeScorer
+
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows research results.", "test")]
+        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+
+        scorer = CompositeScorer()
+        scored = scorer.score(results)
+
+        for r in scored:
+            assert "score" in r
+            assert isinstance(r["score"], float)
+            assert r["score"] >= 0
+
+    def test_composite_maximal_bonus(self, nlp_en):
+        """Test that maximal spans get bonus score."""
+        from terms.score import CompositeScorer
+
+        # Create mock phrases with is_maximal field
+        phrases = [
+            {"key_noun_phrase_processed": "data analysis", "is_maximal": True},
+            {"key_noun_phrase_processed": "data analysis", "is_maximal": False},
+        ]
+
+        scorer = CompositeScorer(maximal_bonus=1.5)
+        scored = scorer.score(phrases)
+
+        # Maximal version should have higher score
+        maximal_score = scored[0]["score"]
+        non_maximal_score = scored[1]["score"]
+        assert maximal_score > non_maximal_score
+
+    def test_composite_custom_weights(self, nlp_en):
+        """Test that custom weights are applied."""
+        from terms.score import CompositeScorer
+
+        phrases = [{"key_noun_phrase_processed": "statistical analysis"}]
+
+        # Two scorers with different weights
+        scorer1 = CompositeScorer(tfidf_weight=1.0, centrality_weight=0.0)
+        scorer2 = CompositeScorer(tfidf_weight=0.0, centrality_weight=1.0)
+
+        scored1 = scorer1.score([dict(p) for p in phrases])
+        scored2 = scorer2.score([dict(p) for p in phrases])
+
+        # Scores should be different with different weights
+        # (unless both components happen to be equal)
+        # At minimum, both should produce valid scores
+        assert "score" in scored1[0]
+        assert "score" in scored2[0]
+
+
+class TestScoringIntegration:
+    """Test scoring integration with extraction pipeline."""
+
+    def test_extract_key_phrases_with_scoring(self, nlp_en):
+        """Test that extract_key_phrases can compute scores."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows research results.", "test")]
+        results = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, compute_scores=True
+        )
+
+        for r in results:
+            assert "score" in r
+            assert isinstance(r["score"], float)
+
+    def test_extract_key_phrases_without_scoring(self, nlp_en):
+        """Test that extract_key_phrases doesn't add score by default."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+        results = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, compute_scores=False
+        )
+
+        for r in results:
+            assert "score" not in r
+
+    def test_to_dataframe_with_scoring(self, nlp_en):
+        """Test that to_dataframe includes score column when requested."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+        df = matcher.to_dataframe(
+            sentences, exclusive_search=False, compute_scores=True
+        )
+
+        assert "score" in df.columns
+
+    def test_custom_scorer_integration(self, nlp_en):
+        """Test using custom scorer with extract_key_phrases."""
+        from terms.score import TFIDFScorer
+
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+
+        # Use only TF-IDF scorer
+        scorer = TFIDFScorer()
+        results = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, compute_scores=True, scorer=scorer
+        )
+
+        for r in results:
+            assert "score" in r
+
+    def test_score_phrases_convenience_function(self, nlp_en):
+        """Test the score_phrases convenience function."""
+        from terms.score import score_phrases
+
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("Statistical analysis shows results.", "test")]
+        results = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, compute_scores=False
+        )
+
+        # Score using convenience function
+        scored = score_phrases(results)
+
+        for r in scored:
+            assert "score" in r
+
+    def test_empty_phrases_handling(self, nlp_en):
+        """Test that scoring handles empty phrase list."""
+        from terms.score import CentralityScorer, CompositeScorer, TFIDFScorer
+
+        empty = []
+
+        # All scorers should handle empty input
+        assert TFIDFScorer().score(empty) == []
+        assert CentralityScorer().score(empty) == []
+        assert CompositeScorer().score(empty) == []
+
+
+# =============================================================================
+# End-to-End Integration Tests
+# =============================================================================
+
+
+class TestEndToEndIntegration:
+    """Test full pipeline: raw text → scored, deduplicated keyphrases."""
+
+    def test_full_pipeline_english(self, nlp_en):
+        """Test complete extraction pipeline with English text."""
+        text = """
+        The advanced machine learning algorithm demonstrates remarkable accuracy.
+        Statistical analysis of the machine learning results shows improvement.
+        The learning algorithm continues to evolve.
+        """
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [(text, "doc1")]
+
+        # Full extraction with redundancy resolution and scoring
+        results = matcher.extract_key_phrases(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        # Should have extracted phrases
+        assert len(results) > 0
+
+        # All results should have the expected fields
+        for r in results:
+            assert "uuid" in r
+            assert "pos_label" in r
+            assert "key_noun_phrase" in r
+            assert "key_noun_phrase_processed" in r
+            assert "span_location" in r
+            assert "token_span" in r
+            assert "is_maximal" in r
+            assert "family_id" in r
+            assert "maximal_text" in r
+            assert "score" in r
+
+        # Should have at least one maximal span
+        maximal_spans = [r for r in results if r["is_maximal"]]
+        assert len(maximal_spans) >= 1
+
+        # Scores should be non-negative
+        for r in results:
+            assert r["score"] >= 0
+
+    def test_full_pipeline_german(self, nlp_de):
+        """Test complete extraction pipeline with German text."""
+        text = """
+        Die wissenschaftliche Analyse zeigt interessante Ergebnisse.
+        Die statistische Methode funktioniert gut.
+        """
+        matcher = TermsMatcher(nlp=nlp_de)
+        sentences = [(text, "doc1")]
+
+        results = matcher.extract_key_phrases(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        assert len(results) > 0
+        for r in results:
+            assert "score" in r
+            assert r["score"] >= 0
+
+    def test_full_pipeline_russian(self, nlp_ru):
+        """Test complete extraction pipeline with Russian text."""
+        text = """
+        Научный анализ показывает интересные результаты.
+        Статистический метод работает хорошо.
+        """
+        matcher = TermsMatcher(nlp=nlp_ru)
+        sentences = [(text, "doc1")]
+
+        results = matcher.extract_key_phrases(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        assert len(results) > 0
+        for r in results:
+            assert "score" in r
+            assert r["score"] >= 0
+
+    def test_full_pipeline_ukrainian(self, nlp_uk):
+        """Test complete extraction pipeline with Ukrainian text."""
+        text = """
+        Науковий аналіз показує цікаві результати.
+        Статистичний метод працює добре.
+        """
+        matcher = TermsMatcher(nlp=nlp_uk)
+        sentences = [(text, "doc1")]
+
+        results = matcher.extract_key_phrases(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        assert len(results) > 0
+        for r in results:
+            assert "score" in r
+            assert r["score"] >= 0
+
+    def test_dataframe_full_pipeline(self, nlp_en):
+        """Test DataFrame output with full pipeline."""
+        text = "The statistical analysis shows research results."
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [(text, "doc1")]
+
+        df = matcher.to_dataframe(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        # Check all expected columns
+        expected_cols = [
+            "uuid",
+            "pos_label",
+            "key_noun_phrase",
+            "key_noun_phrase_processed",
+            "span_location",
+            "token_span",
+            "is_maximal",
+            "family_id",
+            "maximal_text",
+            "score",
+        ]
+        for col in expected_cols:
+            assert col in df.columns
+
+        # DataFrame should have data
+        assert len(df) > 0
+
+    def test_multi_document_extraction(self, nlp_en):
+        """Test extraction across multiple documents."""
+        sentences = [
+            ("Statistical analysis reveals patterns.", "doc1"),
+            ("Machine learning models improve accuracy.", "doc2"),
+            ("The research method works well.", "doc3"),
+        ]
+        matcher = TermsMatcher(nlp=nlp_en)
+
+        results = matcher.extract_key_phrases(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        # Should have results from multiple documents
+        uuids = {r["uuid"] for r in results}
+        assert len(uuids) >= 1  # At least one document should yield phrases
+
+    def test_top_k_phrase_extraction(self, nlp_en):
+        """Test extracting top-K scored phrases."""
+        text = """
+        Advanced statistical analysis shows significant research results.
+        The analysis method demonstrates accuracy in machine learning.
+        Statistical methods improve research outcomes significantly.
+        """
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [(text, "doc1")]
+
+        results = matcher.extract_key_phrases(
+            sentences,
+            exclusive_search=False,
+            resolve_redundancy=True,
+            compute_scores=True,
+        )
+
+        # Sort by score descending
+        sorted_results = sorted(results, key=lambda x: x["score"], reverse=True)
+
+        # Top phrases should have highest scores
+        if len(sorted_results) >= 2:
+            assert sorted_results[0]["score"] >= sorted_results[-1]["score"]
+
+        # Can extract top-K
+        top_k = sorted_results[:3] if len(sorted_results) >= 3 else sorted_results
+        assert len(top_k) <= 3

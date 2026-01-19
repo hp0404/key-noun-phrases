@@ -10,6 +10,7 @@ from spacy.matcher import Matcher
 from spacy.symbols import AUX, VERB, nsubj, nsubjpass
 
 from .group_spans import annotate_spans
+from .score import CompositeScorer, Scorer, score_phrases
 from .treebank import is_vbg, is_vbn
 
 # German TIGER treebank uses different dependency labels
@@ -209,11 +210,13 @@ class TermsMatcher:
         batch_size: int = 25,
         exclusive_search: bool = True,
         resolve_redundancy: bool = True,
+        compute_scores: bool = False,
+        scorer: "Scorer | None" = None,
     ) -> list[dict[str, typing.Any]]:
-        """Extract key noun phrases with optional redundancy resolution.
+        """Extract key noun phrases with optional redundancy resolution and scoring.
 
         This method collects all results and optionally annotates them with
-        maximal span and family information.
+        maximal span and family information, and computes importance scores.
 
         Parameters
         ----------
@@ -226,6 +229,12 @@ class TermsMatcher:
         resolve_redundancy: bool
             If True, annotate results with is_maximal, family_id, maximal_text.
             If False, these fields remain None.
+        compute_scores: bool
+            If True, compute importance scores for each phrase.
+            If False, no 'score' field is added.
+        scorer: Scorer | None
+            Custom scorer to use. Defaults to CompositeScorer if compute_scores
+            is True and no scorer is provided.
 
         Returns
         -------
@@ -239,6 +248,8 @@ class TermsMatcher:
         )
         if resolve_redundancy and results:
             results = annotate_spans(results)
+        if compute_scores and results:
+            results = score_phrases(results, scorer=scorer)
         return results
 
     def to_dataframe(
@@ -247,6 +258,8 @@ class TermsMatcher:
         batch_size: int = 25,
         exclusive_search: bool = True,
         resolve_redundancy: bool = True,
+        compute_scores: bool = False,
+        scorer: "Scorer | None" = None,
     ) -> pd.DataFrame:
         """Constructs a dataframe from key phrase extraction.
 
@@ -267,6 +280,12 @@ class TermsMatcher:
         resolve_redundancy: bool
             If True, annotate results with is_maximal, family_id, maximal_text.
             If False, these fields remain None.
+        compute_scores: bool
+            If True, compute importance scores for each phrase.
+            If False, no 'score' field is added.
+        scorer: Scorer | None
+            Custom scorer to use. Defaults to CompositeScorer if compute_scores
+            is True and no scorer is provided.
 
         Usage
         -----
@@ -287,5 +306,7 @@ class TermsMatcher:
             batch_size=batch_size,
             exclusive_search=exclusive_search,
             resolve_redundancy=resolve_redundancy,
+            compute_scores=compute_scores,
+            scorer=scorer,
         )
         return pd.DataFrame(data)
