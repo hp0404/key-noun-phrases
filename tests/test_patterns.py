@@ -69,10 +69,7 @@ def extract_phrases(nlp, text, exclusive_search=False):
         set of extracted phrases (lowercased, processed form)
     """
     matcher = TermsMatcher(nlp=nlp)
-    sentences = [(text, "test")]
-    results = list(
-        matcher.yield_key_phrases(sentences, exclusive_search=exclusive_search)
-    )
+    results = list(matcher.yield_key_phrases(text, exclusive_search=exclusive_search))
     return {r["key_noun_phrase_processed"] for r in results}
 
 
@@ -88,10 +85,7 @@ def extract_phrases_raw(nlp, text, exclusive_search=False):
         set of extracted phrases (original form)
     """
     matcher = TermsMatcher(nlp=nlp)
-    sentences = [(text, "test")]
-    results = list(
-        matcher.yield_key_phrases(sentences, exclusive_search=exclusive_search)
-    )
+    results = list(matcher.yield_key_phrases(text, exclusive_search=exclusive_search))
     return {r["key_noun_phrase"] for r in results}
 
 
@@ -429,9 +423,8 @@ def extract_phrases_with_scope(nlp, text, scope, exclusive_search=False):
         set of extracted phrases (lowercased, processed form)
     """
     matcher = TermsMatcher(nlp=nlp)
-    sentences = [(text, "test")]
     results = list(
-        matcher.yield_key_phrases(sentences, exclusive_search=exclusive_search, scope=scope)
+        matcher.yield_key_phrases(text, exclusive_search=exclusive_search, scope=scope)
     )
     return {r["key_noun_phrase_processed"] for r in results}
 
@@ -494,10 +487,10 @@ class TestExtractionScope:
         """Scope parameter should accept string values."""
         text = "The statistical analysis reveals patterns."
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [(text, "test")]
+        texts = [text]
         # Should work with string instead of enum
         results = list(
-            matcher.yield_key_phrases(sentences, exclusive_search=False, scope="sentence")
+            matcher.yield_key_phrases(texts, exclusive_search=False, scope="sentence")
         )
         assert isinstance(results, list)
 
@@ -533,13 +526,13 @@ class TestExtractionScope:
     def test_scope_with_extract_key_phrases(self, nlp_en):
         """Test scope parameter works with extract_key_phrases method."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("The analysis reveals important results.", "test")]
+        texts = "The analysis reveals important results."
 
         results_subject = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, scope=ExtractionScope.SUBJECT
+            texts, exclusive_search=False, scope=ExtractionScope.SUBJECT
         )
         results_sentence = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, scope=ExtractionScope.SENTENCE
+            texts, exclusive_search=False, scope=ExtractionScope.SENTENCE
         )
 
         # Both should return valid results
@@ -551,10 +544,10 @@ class TestExtractionScope:
     def test_scope_with_to_dataframe(self, nlp_en):
         """Test scope parameter works with to_dataframe method."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("The analysis reveals important results.", "test")]
+        texts = "The analysis reveals important results."
 
         df = matcher.to_dataframe(
-            sentences, exclusive_search=False, scope=ExtractionScope.SENTENCE
+            texts, exclusive_search=False, scope=ExtractionScope.SENTENCE
         )
 
         # Should return a valid DataFrame
@@ -573,16 +566,16 @@ class TestPatternLabels:
     def test_pattern_label_adj_noun(self, nlp_en):
         """Verify ADJ-NOUN pattern is labeled correctly."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
-        results = list(matcher.yield_key_phrases(sentences, exclusive_search=False))
+        texts = "Statistical analysis shows results."
+        results = list(matcher.yield_key_phrases(texts, exclusive_search=False))
         labels = {r["pos_label"] for r in results}
         assert "ADJ-NOUN" in labels or len(labels) > 0
 
     def test_pattern_label_noun_adp_noun(self, nlp_en):
         """Verify NOUN-ADP-NOUN pattern is labeled correctly."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("The analysis of data reveals trends.", "test")]
-        results = list(matcher.yield_key_phrases(sentences, exclusive_search=False))
+        texts = "The analysis of data reveals trends."
+        results = list(matcher.yield_key_phrases(texts, exclusive_search=False))
         labels = {r["pos_label"] for r in results}
         # Should have prepositional pattern label
         has_adp_pattern = any("ADP" in label for label in labels)
@@ -600,8 +593,8 @@ class TestRedundancyResolution:
     def test_maximal_span_detection(self, nlp_en):
         """Test that maximal spans are correctly identified."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("The data security incident response plan is effective.", "test")]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        texts = "The data security incident response plan is effective."
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         # Find the maximal span
         maximal_spans = [r for r in results if r["is_maximal"]]
@@ -614,8 +607,8 @@ class TestRedundancyResolution:
     def test_family_grouping(self, nlp_en):
         """Test that subspans are grouped under maximal spans."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("The data security incident response plan is effective.", "test")]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        texts = "The data security incident response plan is effective."
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         # All spans should belong to the same family
         family_ids = {r["family_id"] for r in results}
@@ -625,8 +618,8 @@ class TestRedundancyResolution:
     def test_non_maximal_spans_reference_maximal(self, nlp_en):
         """Test that non-maximal spans reference their maximal span text."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("The data security incident response plan is effective.", "test")]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        texts = "The data security incident response plan is effective."
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         # All non-maximal spans should have maximal_text set
         for r in results:
@@ -637,9 +630,9 @@ class TestRedundancyResolution:
     def test_resolve_redundancy_disabled(self, nlp_en):
         """Test that resolve_redundancy=False leaves fields as None."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
+        texts = "Statistical analysis shows results."
         results = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, resolve_redundancy=False
+            texts, exclusive_search=False, resolve_redundancy=False
         )
 
         for r in results:
@@ -650,8 +643,8 @@ class TestRedundancyResolution:
     def test_dataframe_includes_redundancy_fields(self, nlp_en):
         """Test that to_dataframe includes redundancy resolution fields."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
-        df = matcher.to_dataframe(sentences, exclusive_search=False)
+        texts = "Statistical analysis shows results."
+        df = matcher.to_dataframe(texts, exclusive_search=False)
 
         assert "is_maximal" in df.columns
         assert "family_id" in df.columns
@@ -660,8 +653,8 @@ class TestRedundancyResolution:
     def test_token_span_field(self, nlp_en):
         """Test that token_span field contains correct indices."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        texts = "Statistical analysis shows results."
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         for r in results:
             assert "token_span" in r
@@ -682,8 +675,8 @@ class TestTFIDFScoring:
         from terms.score import TFIDFScorer
 
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows the research results.", "test")]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        texts = "Statistical analysis shows the research results."
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         scorer = TFIDFScorer()
         scored = scorer.score(results)
@@ -737,11 +730,11 @@ class TestCentralityScoring:
         from terms.score import CentralityScorer
 
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [
-            ("Statistical analysis shows research patterns.", "s1"),
-            ("The analysis method reveals trends.", "s2"),
+        texts = [
+            "Statistical analysis shows research patterns.",
+            "The analysis method reveals trends.",
         ]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         scorer = CentralityScorer()
         scored = scorer.score(results)
@@ -772,8 +765,8 @@ class TestCompositeScoring:
         from terms.score import CompositeScorer
 
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows research results.", "test")]
-        results = matcher.extract_key_phrases(sentences, exclusive_search=False)
+        texts = "Statistical analysis shows research results."
+        results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         scorer = CompositeScorer()
         scored = scorer.score(results)
@@ -827,9 +820,9 @@ class TestScoringIntegration:
     def test_extract_key_phrases_with_scoring(self, nlp_en):
         """Test that extract_key_phrases can compute scores."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows research results.", "test")]
+        texts = "Statistical analysis shows research results."
         results = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, compute_scores=True
+            texts, exclusive_search=False, compute_scores=True
         )
 
         for r in results:
@@ -839,9 +832,9 @@ class TestScoringIntegration:
     def test_extract_key_phrases_without_scoring(self, nlp_en):
         """Test that extract_key_phrases doesn't add score by default."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
+        texts = "Statistical analysis shows results."
         results = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, compute_scores=False
+            texts, exclusive_search=False, compute_scores=False
         )
 
         for r in results:
@@ -850,10 +843,8 @@ class TestScoringIntegration:
     def test_to_dataframe_with_scoring(self, nlp_en):
         """Test that to_dataframe includes score column when requested."""
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
-        df = matcher.to_dataframe(
-            sentences, exclusive_search=False, compute_scores=True
-        )
+        texts = "Statistical analysis shows results."
+        df = matcher.to_dataframe(texts, exclusive_search=False, compute_scores=True)
 
         assert "score" in df.columns
 
@@ -862,12 +853,12 @@ class TestScoringIntegration:
         from terms.score import TFIDFScorer
 
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
+        texts = "Statistical analysis shows results."
 
         # Use only TF-IDF scorer
         scorer = TFIDFScorer()
         results = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, compute_scores=True, scorer=scorer
+            texts, exclusive_search=False, compute_scores=True, scorer=scorer
         )
 
         for r in results:
@@ -878,9 +869,9 @@ class TestScoringIntegration:
         from terms.score import score_phrases
 
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [("Statistical analysis shows results.", "test")]
+        texts = "Statistical analysis shows results."
         results = matcher.extract_key_phrases(
-            sentences, exclusive_search=False, compute_scores=False
+            texts, exclusive_search=False, compute_scores=False
         )
 
         # Score using convenience function
@@ -917,11 +908,11 @@ class TestEndToEndIntegration:
         The learning algorithm continues to evolve.
         """
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [(text, "doc1")]
+        texts = text
 
         # Full extraction with redundancy resolution and scoring
         results = matcher.extract_key_phrases(
-            sentences,
+            texts,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,
@@ -932,7 +923,7 @@ class TestEndToEndIntegration:
 
         # All results should have the expected fields
         for r in results:
-            assert "uuid" in r
+            assert "doc_index" in r
             assert "pos_label" in r
             assert "key_noun_phrase" in r
             assert "key_noun_phrase_processed" in r
@@ -958,10 +949,10 @@ class TestEndToEndIntegration:
         Die statistische Methode funktioniert gut.
         """
         matcher = TermsMatcher(nlp=nlp_de)
-        sentences = [(text, "doc1")]
+        texts = text
 
         results = matcher.extract_key_phrases(
-            sentences,
+            texts,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,
@@ -979,10 +970,10 @@ class TestEndToEndIntegration:
         Статистический метод работает хорошо.
         """
         matcher = TermsMatcher(nlp=nlp_ru)
-        sentences = [(text, "doc1")]
+        texts = text
 
         results = matcher.extract_key_phrases(
-            sentences,
+            texts,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,
@@ -1000,10 +991,10 @@ class TestEndToEndIntegration:
         Статистичний метод працює добре.
         """
         matcher = TermsMatcher(nlp=nlp_uk)
-        sentences = [(text, "doc1")]
+        texts = text
 
         results = matcher.extract_key_phrases(
-            sentences,
+            texts,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,
@@ -1018,10 +1009,10 @@ class TestEndToEndIntegration:
         """Test DataFrame output with full pipeline."""
         text = "The statistical analysis shows research results."
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [(text, "doc1")]
+        texts = text
 
         df = matcher.to_dataframe(
-            sentences,
+            texts,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,
@@ -1029,7 +1020,7 @@ class TestEndToEndIntegration:
 
         # Check all expected columns
         expected_cols = [
-            "uuid",
+            "doc_index",
             "pos_label",
             "key_noun_phrase",
             "key_noun_phrase_processed",
@@ -1048,23 +1039,23 @@ class TestEndToEndIntegration:
 
     def test_multi_document_extraction(self, nlp_en):
         """Test extraction across multiple documents."""
-        sentences = [
-            ("Statistical analysis reveals patterns.", "doc1"),
-            ("Machine learning models improve accuracy.", "doc2"),
-            ("The research method works well.", "doc3"),
+        texts = [
+            "Statistical analysis reveals patterns.",
+            "Machine learning models improve accuracy.",
+            "The research method works well.",
         ]
         matcher = TermsMatcher(nlp=nlp_en)
 
         results = matcher.extract_key_phrases(
-            sentences,
+            texts,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,
         )
 
         # Should have results from multiple documents
-        uuids = {r["uuid"] for r in results}
-        assert len(uuids) >= 1  # At least one document should yield phrases
+        doc_indices = {r["doc_index"] for r in results}
+        assert len(doc_indices) >= 1  # At least one document should yield phrases
 
     def test_top_k_phrase_extraction(self, nlp_en):
         """Test extracting top-K scored phrases."""
@@ -1074,10 +1065,9 @@ class TestEndToEndIntegration:
         Statistical methods improve research outcomes significantly.
         """
         matcher = TermsMatcher(nlp=nlp_en)
-        sentences = [(text, "doc1")]
 
         results = matcher.extract_key_phrases(
-            sentences,
+            text,
             exclusive_search=False,
             resolve_redundancy=True,
             compute_scores=True,

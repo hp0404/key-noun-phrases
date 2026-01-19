@@ -82,13 +82,9 @@ def process_file(input_path: Path, output_path: Path, nlp) -> None:
     # Create the matcher
     terms = TermsMatcher(nlp=nlp)
 
-    # Prepare sentences - use the filename as the document ID
-    # The library expects list of (text, uuid) tuples
-    sentences = [(text, input_path.stem)]
-
     # Extract key phrases with all features enabled
     results = terms.extract_key_phrases(
-        sentences,
+        text,
         exclusive_search=False,
         scope=ExtractionScope.SENTENCE,  # Search entire sentence for patterns
         resolve_redundancy=True,  # Group overlapping phrases

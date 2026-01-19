@@ -41,17 +41,22 @@ from terms import TermsMatcher
 nlp = spacy.load("en_core_web_sm")
 terms = TermsMatcher(nlp=nlp)
 
-sentences = [
-    ("Statistical analysis of data reveals patterns.", "doc1"),
-    ("The neural network learns features.", "doc2"),
-]
+# Single text
+text = "Statistical analysis of data reveals patterns."
 
 # As DataFrame
-df = terms.to_dataframe(sentences)
+df = terms.to_dataframe(text)
 
 # As iterator
-for phrase in terms.yield_key_phrases(sentences):
+for phrase in terms.yield_key_phrases(text):
     print(phrase)
+
+# Multiple texts
+texts = [
+    "Statistical analysis of data reveals patterns.",
+    "The neural network learns features.",
+]
+df = terms.to_dataframe(texts)
 ```
 
 ### Redundancy Resolution
@@ -61,7 +66,7 @@ The extractor can identify overlapping phrases and group them into families. A *
 ```python
 # Extract with redundancy resolution (enabled by default)
 results = terms.extract_key_phrases(
-    sentences,
+    text,
     resolve_redundancy=True  # default
 )
 
@@ -81,7 +86,7 @@ Phrases can be scored by importance using TF-IDF and co-occurrence graph central
 ```python
 # Extract with scoring
 results = terms.extract_key_phrases(
-    sentences,
+    text,
     compute_scores=True
 )
 
@@ -89,7 +94,7 @@ results = terms.extract_key_phrases(
 top_phrases = sorted(results, key=lambda x: x["score"], reverse=True)[:10]
 
 # DataFrame with scores
-df = terms.to_dataframe(sentences, compute_scores=True)
+df = terms.to_dataframe(text, compute_scores=True)
 df_sorted = df.sort_values("score", ascending=False)
 ```
 
@@ -100,11 +105,11 @@ from terms.score import TFIDFScorer, CentralityScorer, CompositeScorer
 
 # Use only TF-IDF scoring
 tfidf_scorer = TFIDFScorer()
-results = terms.extract_key_phrases(sentences, compute_scores=True, scorer=tfidf_scorer)
+results = terms.extract_key_phrases(text, compute_scores=True, scorer=tfidf_scorer)
 
 # Use only centrality scoring
 centrality_scorer = CentralityScorer(window_size=5)
-results = terms.extract_key_phrases(sentences, compute_scores=True, scorer=centrality_scorer)
+results = terms.extract_key_phrases(text, compute_scores=True, scorer=centrality_scorer)
 
 # Custom weights for composite scoring
 custom_scorer = CompositeScorer(
@@ -112,7 +117,7 @@ custom_scorer = CompositeScorer(
     centrality_weight=0.3,
     maximal_bonus=1.5  # Bonus for maximal spans
 )
-results = terms.extract_key_phrases(sentences, compute_scores=True, scorer=custom_scorer)
+results = terms.extract_key_phrases(text, compute_scores=True, scorer=custom_scorer)
 ```
 
 ### Full Pipeline Example
@@ -129,11 +134,9 @@ The advanced machine learning algorithm demonstrates remarkable accuracy.
 Statistical analysis of the machine learning results shows improvement.
 """
 
-sentences = [(text, "doc1")]
-
 # Full extraction with all features
 df = terms.to_dataframe(
-    sentences,
+    text,
     exclusive_search=False,      # Include all phrases, not just subject-rooted
     resolve_redundancy=True,     # Group overlapping phrases
     compute_scores=True          # Add importance scores
@@ -152,7 +155,7 @@ print(top_maximal[["key_noun_phrase", "score"]])
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `uuid` | str | Document identifier |
+| `doc_index` | int | Index of the document in the input list (0 for single text) |
 | `pos_label` | str | Matched pattern (e.g., `ADJ-NOUN`) |
 | `key_noun_phrase` | str | Original phrase text |
 | `key_noun_phrase_processed` | str | Lemmatized, lowercased form |

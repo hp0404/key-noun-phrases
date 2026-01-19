@@ -1,6 +1,6 @@
 [
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "головних проблем",
     "key_noun_phrase_processed": "головний проблема",
@@ -18,7 +18,7 @@
     "score": 0.3
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-ADJ-NOUN",
     "key_noun_phrase": "головних проблем затяжних воєн",
     "key_noun_phrase_processed": "головний проблема затяжний війна",
@@ -36,7 +36,7 @@
     "score": 0.720204128503084
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "проблем затяжних воєн",
     "key_noun_phrase_processed": "проблема затяжний війна",
@@ -54,7 +54,7 @@
     "score": 0.4589309172250606
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "затяжних воєн",
     "key_noun_phrase_processed": "затяжний війна",
@@ -72,7 +72,7 @@
     "score": 0.32099706933066247
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "неминуче погіршення",
     "key_noun_phrase_processed": "неминучий погіршення",
@@ -90,7 +90,7 @@
     "score": 0.3132343312094232
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-NOUN",
     "key_noun_phrase": "неминуче погіршення якості",
     "key_noun_phrase_processed": "неминучий погіршення якість",
@@ -108,7 +108,7 @@
     "score": 0.6044424286316177
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "погіршення якості",
     "key_noun_phrase_processed": "погіршення якість",
@@ -126,7 +126,7 @@
     "score": 0.3327677234885839
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN-NOUN",
     "key_noun_phrase": "погіршення якості піхоти",
     "key_noun_phrase_processed": "погіршення якість піхота",
@@ -144,7 +144,7 @@
     "score": 0.5605019353495458
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "якості піхоти",
     "key_noun_phrase_processed": "якість піхота",
@@ -159,10 +159,10 @@
     "is_maximal": false,
     "family_id": "family_3",
     "maximal_text": "погіршення якості піхоти",
-    "score": 0.9716723361858929
+    "score": 0.9716723361858932
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "наступних причин",
     "key_noun_phrase_processed": "наступний причина",
@@ -180,7 +180,7 @@
     "score": 0.3853176165515579
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "Кількість кадрових солдатів",
     "key_noun_phrase_processed": "кількість кадровий солдат",
@@ -198,7 +198,7 @@
     "score": 0.5950679738771766
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "кадрових солдатів",
     "key_noun_phrase_processed": "кадровий солдат",
@@ -213,10 +213,10 @@
     "is_maximal": false,
     "family_id": "family_5",
     "maximal_text": "Кількість кадрових солдатів",
-    "score": 0.42352078709854013
+    "score": 0.42352078709854024
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "початку війни",
     "key_noun_phrase_processed": "початок війна",
@@ -231,10 +231,10 @@
     "is_maximal": true,
     "family_id": "family_6",
     "maximal_text": "початку війни",
-    "score": 0.39204381895033197
+    "score": 0.392043818950332
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "бойових втрат",
     "key_noun_phrase_processed": "бойовий втрата",
@@ -252,7 +252,7 @@
     "score": 0.4173069012212958
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "мотивованих резервістів",
     "key_noun_phrase_processed": "мотивований резервіст",
@@ -267,10 +267,10 @@
     "is_maximal": true,
     "family_id": "family_8",
     "maximal_text": "мотивованих резервістів",
-    "score": 0.4512722032613309
+    "score": 0.45127220326133094
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-NOUN",
     "key_noun_phrase": "війська з початком",
     "key_noun_phrase_processed": "військо з початок",
@@ -288,7 +288,7 @@
     "score": 0.5721213163240784
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "початком повномасштабного вторгнення",
     "key_noun_phrase_processed": "початок повномасштабний вторгнення",
@@ -306,7 +306,7 @@
     "score": 0.5857667057319298
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "повномасштабного вторгнення",
     "key_noun_phrase_processed": "повномасштабний вторгнення",
@@ -324,7 +324,7 @@
     "score": 0.3454964047108615
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NUM-NOUN",
     "key_noun_phrase": "двох категорій",
     "key_noun_phrase_processed": "два категорія",
@@ -342,7 +342,7 @@
     "score": 0.38645233163379594
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "важких ушкоджень",
     "key_noun_phrase_processed": "важкий ушкодження",
@@ -360,7 +360,7 @@
     "score": 0.392314816140024
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-VERB",
     "key_noun_phrase": "ушкоджень дожили",
     "key_noun_phrase_processed": "ушкодження дожити",
@@ -378,7 +378,7 @@
     "score": 0.39455849999771625
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "нинішнього часу",
     "key_noun_phrase_processed": "нинішній час",
@@ -393,10 +393,10 @@
     "is_maximal": true,
     "family_id": "family_14",
     "maximal_text": "нинішнього часу",
-    "score": 0.3828689201456361
+    "score": 0.38286892014563606
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-VERB",
     "key_noun_phrase": "початку прийшли",
     "key_noun_phrase_processed": "початок прийти",
@@ -414,7 +414,7 @@
     "score": 0.3867532699160648
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-ADJ-NOUN",
     "key_noun_phrase": "війська з палаючими поглядами",
     "key_noun_phrase_processed": "військо з палаючий погляд",
@@ -429,10 +429,10 @@
     "is_maximal": true,
     "family_id": "family_16",
     "maximal_text": "війська з палаючими поглядами",
-    "score": 0.7483727797791614
+    "score": 0.7483727797791612
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "палаючими поглядами",
     "key_noun_phrase_processed": "палаючий погляд",
@@ -450,7 +450,7 @@
     "score": 0.3211224252589671
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NUM-NOUN",
     "key_noun_phrase": "1,5 роки",
     "key_noun_phrase_processed": "1,5 рік",
@@ -468,7 +468,7 @@
     "score": 0.38697766331713507
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-VERB",
     "key_noun_phrase": "роки пройшли",
     "key_noun_phrase_processed": "рік пройти",
@@ -486,7 +486,7 @@
     "score": 0.38723918827822595
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-ADJ-NOUN",
     "key_noun_phrase": "знайшли легальну причину",
     "key_noun_phrase_processed": "знайти легальний причина",
@@ -504,7 +504,7 @@
     "score": 0.572929802982405
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "легальну причину",
     "key_noun_phrase_processed": "легальний причина",
@@ -522,7 +522,7 @@
     "score": 0.3289148434758639
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-VERB",
     "key_noun_phrase": "причину списатися",
     "key_noun_phrase_processed": "причина списатися",
@@ -540,7 +540,7 @@
     "score": 0.3939214970324002
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "абсолютній більшості",
     "key_noun_phrase_processed": "абсолютний більшість",
@@ -558,7 +558,7 @@
     "score": 0.4120316694336194
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-CCONJ-NOUN",
     "key_noun_phrase": "перемоги і успіхи",
     "key_noun_phrase_processed": "перемога і успіх",
@@ -576,7 +576,7 @@
     "score": 0.5901575952058286
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "Підготовка особового складу",
     "key_noun_phrase_processed": "підготовка особовий склад",
@@ -594,7 +594,7 @@
     "score": 0.5837576037867035
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "особового складу",
     "key_noun_phrase_processed": "особовий склад",
@@ -612,7 +612,7 @@
     "score": 0.3678295213252622
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-ADP-NOUN",
     "key_noun_phrase": "особового складу в цілому",
     "key_noun_phrase_processed": "особовий склад в ціле",
@@ -630,7 +630,7 @@
     "score": 0.7839470543119238
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-NOUN",
     "key_noun_phrase": "складу в цілому",
     "key_noun_phrase_processed": "склад в ціле",
@@ -645,10 +645,10 @@
     "is_maximal": false,
     "family_id": "family_24",
     "maximal_text": "особового складу в цілому",
-    "score": 0.4911184645876416
+    "score": 0.49111846458764163
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-VERB",
     "key_noun_phrase": "цілому залишається",
     "key_noun_phrase_processed": "ціле залишатися",
@@ -666,7 +666,7 @@
     "score": 0.48488617035118275
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-ADJ-ADJ-NOUN",
     "key_noun_phrase": "невідповідною сучасному піхотному бою",
     "key_noun_phrase_processed": "невідповідний сучасний піхотний бой",
@@ -684,7 +684,7 @@
     "score": 0.7885690105316069
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-ADJ-NOUN",
     "key_noun_phrase": "сучасному піхотному бою",
     "key_noun_phrase_processed": "сучасний піхотний бой",
@@ -702,7 +702,7 @@
     "score": 0.49158308687554425
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "піхотному бою",
     "key_noun_phrase_processed": "піхотний бой",
@@ -720,7 +720,7 @@
     "score": 1.0
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "місяць вишколу",
     "key_noun_phrase_processed": "місяць вишкіл",
@@ -738,7 +738,7 @@
     "score": 0.41292956594959584
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-NOUN",
     "key_noun_phrase": "збирати АК",
     "key_noun_phrase_processed": "збирати ак",
@@ -756,7 +756,7 @@
     "score": 0.44314472096514224
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "якість підготовки",
     "key_noun_phrase_processed": "якість підготовка",
@@ -771,10 +771,10 @@
     "is_maximal": true,
     "family_id": "family_29",
     "maximal_text": "якість підготовки",
-    "score": 0.5651783299409854
+    "score": 0.5651783299409855
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "підготовки української піхоти",
     "key_noun_phrase_processed": "підготовка український піхота",
@@ -789,10 +789,10 @@
     "is_maximal": true,
     "family_id": "family_30",
     "maximal_text": "підготовки української піхоти",
-    "score": 0.5996363606801708
+    "score": 0.5996363606801709
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "української піхоти",
     "key_noun_phrase_processed": "український піхота",
@@ -807,10 +807,10 @@
     "is_maximal": false,
     "family_id": "family_30",
     "maximal_text": "підготовки української піхоти",
-    "score": 0.3769175023907569
+    "score": 0.37691750239075694
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-ADP-ADJ-NOUN",
     "key_noun_phrase": "української піхоти на закордонних полігонах",
     "key_noun_phrase_processed": "український піхота на закордонний полігон",
@@ -828,7 +828,7 @@
     "score": 0.8746006484100921
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-ADJ-NOUN",
     "key_noun_phrase": "піхоти на закордонних полігонах",
     "key_noun_phrase_processed": "піхота на закордонний полігон",
@@ -846,7 +846,7 @@
     "score": 0.6521301387739417
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "закордонних полігонах",
     "key_noun_phrase_processed": "закордонний полігон",
@@ -864,7 +864,7 @@
     "score": 0.374734942887168
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "суперечливі відгуки",
     "key_noun_phrase_processed": "суперечливий відгук",
@@ -882,7 +882,7 @@
     "score": 0.47936353679838084
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-NOUN",
     "key_noun_phrase": "є виключення",
     "key_noun_phrase_processed": "бути виключення",
@@ -897,10 +897,10 @@
     "is_maximal": true,
     "family_id": "family_33",
     "maximal_text": "є виключення",
-    "score": 0.42218412350582923
+    "score": 0.4221841235058293
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "окремі підрозділи",
     "key_noun_phrase_processed": "окремий підрозділ",
@@ -915,10 +915,10 @@
     "is_maximal": true,
     "family_id": "family_34",
     "maximal_text": "окремі підрозділи",
-    "score": 0.44141829359989626
+    "score": 0.4414182935998962
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "3-тя ОШБ",
     "key_noun_phrase_processed": "3-тя ошб",
@@ -933,10 +933,10 @@
     "is_maximal": true,
     "family_id": "family_35",
     "maximal_text": "3-тя ОШБ",
-    "score": 0.45290531252749366
+    "score": 0.4529053125274937
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-NOUN",
     "key_noun_phrase": "займаються вишколом",
     "key_noun_phrase_processed": "займатися вишколом",
@@ -951,10 +951,10 @@
     "is_maximal": true,
     "family_id": "family_36",
     "maximal_text": "займаються вишколом",
-    "score": 0.4189020770139248
+    "score": 0.41890207701392485
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-NOUN",
     "key_noun_phrase": "своїх рекрутів",
     "key_noun_phrase_processed": "свій рекрут",
@@ -972,7 +972,7 @@
     "score": 0.43033976718908423
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-NOUN",
     "key_noun_phrase": "тенденцією в ЗСУ",
     "key_noun_phrase_processed": "тенденція в зсу",
@@ -990,7 +990,7 @@
     "score": 0.6120604750399049
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-NOUN",
     "key_noun_phrase": "усіх підрозділах",
     "key_noun_phrase_processed": "увесь підрозділ",
@@ -1008,7 +1008,7 @@
     "score": 0.41302190511199055
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-VERB",
     "key_noun_phrase": "підрозділах є",
     "key_noun_phrase_processed": "підрозділ бути",
@@ -1023,10 +1023,10 @@
     "is_maximal": true,
     "family_id": "family_40",
     "maximal_text": "підрозділах є",
-    "score": 0.4180016062407737
+    "score": 0.41800160624077376
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-ADJ-NOUN",
     "key_noun_phrase": "є гарний мікроклімат",
     "key_noun_phrase_processed": "бути гарний мікроклімат",
@@ -1044,7 +1044,7 @@
     "score": 0.5950033373486447
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "гарний мікроклімат",
     "key_noun_phrase_processed": "гарний мікроклімат",
@@ -1062,7 +1062,7 @@
     "score": 0.33733859806968736
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-ADJ-NOUN",
     "key_noun_phrase": "сприяє швидкій адаптації",
     "key_noun_phrase_processed": "сприяти швидкий адаптація",
@@ -1077,10 +1077,10 @@
     "is_maximal": true,
     "family_id": "family_42",
     "maximal_text": "сприяє швидкій адаптації",
-    "score": 0.5854567487730044
+    "score": 0.5854567487730045
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "швидкій адаптації",
     "key_noun_phrase_processed": "швидкий адаптація",
@@ -1098,7 +1098,7 @@
     "score": 0.33629984346287506
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-NOUN",
     "key_noun_phrase": "швидкій адаптації новачків",
     "key_noun_phrase_processed": "швидкий адаптація новачок",
@@ -1116,7 +1116,7 @@
     "score": 0.5794830154717686
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "адаптації новачків",
     "key_noun_phrase_processed": "адаптація новачок",
@@ -1134,7 +1134,7 @@
     "score": 0.3323426604755441
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-CCONJ-NOUN",
     "key_noun_phrase": "новачків та розбудові",
     "key_noun_phrase_processed": "новачок та розбудові",
@@ -1152,7 +1152,7 @@
     "score": 0.5799666116925424
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "розбудові бойового побратимства",
     "key_noun_phrase_processed": "розбудові бойовий побратимство",
@@ -1167,10 +1167,10 @@
     "is_maximal": true,
     "family_id": "family_45",
     "maximal_text": "розбудові бойового побратимства",
-    "score": 0.5782363551104586
+    "score": 0.5782363551104587
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "бойового побратимства",
     "key_noun_phrase_processed": "бойовий побратимство",
@@ -1188,7 +1188,7 @@
     "score": 0.332551612757794
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-ADJ-NOUN",
     "key_noun_phrase": "стосується бойового злагодження",
     "key_noun_phrase_processed": "стосуватися бойовий злагодження",
@@ -1206,7 +1206,7 @@
     "score": 0.5805728939803635
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "бойового злагодження",
     "key_noun_phrase_processed": "бойовий злагодження",
@@ -1221,10 +1221,10 @@
     "is_maximal": false,
     "family_id": "family_46",
     "maximal_text": "стосується бойового злагодження",
-    "score": 0.3318094334568947
+    "score": 0.3318094334568946
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-NOUN",
     "key_noun_phrase": "бойового злагодження частин",
     "key_noun_phrase_processed": "бойовий злагодження частина",
@@ -1242,7 +1242,7 @@
     "score": 0.5855959927826062
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "злагодження частин",
     "key_noun_phrase_processed": "злагодження частина",
@@ -1260,7 +1260,7 @@
     "score": 0.3396919073968565
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN-ADP-NOUN",
     "key_noun_phrase": "злагодження частин у рамках",
     "key_noun_phrase_processed": "злагодження частина у рамка",
@@ -1278,7 +1278,7 @@
     "score": 0.7629795537907524
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-NOUN",
     "key_noun_phrase": "частин у рамках",
     "key_noun_phrase_processed": "частина у рамка",
@@ -1296,7 +1296,7 @@
     "score": 0.49956476334329303
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "рамках окремих з’єднань",
     "key_noun_phrase_processed": "рамка окремий з’єднань",
@@ -1314,7 +1314,7 @@
     "score": 0.6001156227507649
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "окремих з’єднань",
     "key_noun_phrase_processed": "окремий з’єднань",
@@ -1329,10 +1329,10 @@
     "is_maximal": false,
     "family_id": "family_49",
     "maximal_text": "рамках окремих з’єднань",
-    "score": 0.342238291576454
+    "score": 0.3422382915764541
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "Радянських рудиментів",
     "key_noun_phrase_processed": "радянський рудимент",
@@ -1347,10 +1347,10 @@
     "is_maximal": false,
     "family_id": "family_50",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.36361124894707414
+    "score": 0.3636112489470742
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-ADP-NOUN",
     "key_noun_phrase": "Радянських рудиментів в ЗСУ",
     "key_noun_phrase_processed": "радянський рудимент в зсу",
@@ -1368,7 +1368,7 @@
     "score": 0.7926165398019772
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-NOUN",
     "key_noun_phrase": "рудиментів в ЗСУ",
     "key_noun_phrase_processed": "рудимент в зсу",
@@ -1386,7 +1386,7 @@
     "score": 0.4977562279477413
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "VERB-ADJ-NOUN",
     "key_noun_phrase": "сприяє високій мотивації",
     "key_noun_phrase_processed": "сприяти високий мотивація",
@@ -1404,7 +1404,7 @@
     "score": 0.6349712390787822
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "високій мотивації",
     "key_noun_phrase_processed": "високий мотивація",
@@ -1419,10 +1419,10 @@
     "is_maximal": false,
     "family_id": "family_51",
     "maximal_text": "сприяє високій мотивації",
-    "score": 0.37070513935731486
+    "score": 0.3707051393573149
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "якісній підготовці",
     "key_noun_phrase_processed": "якісний підготовка",
@@ -1440,7 +1440,7 @@
     "score": 0.42260561509990224
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-CCONJ-NOUN",
     "key_noun_phrase": "підготовці та зростанню",
     "key_noun_phrase_processed": "підготовка та зростання",
@@ -1458,7 +1458,7 @@
     "score": 0.6561833376470586
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "зростанню бойового духу",
     "key_noun_phrase_processed": "зростання бойовий дух",
@@ -1476,7 +1476,7 @@
     "score": 0.6363365924185705
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "бойового духу",
     "key_noun_phrase_processed": "бойовий дух",
@@ -1491,10 +1491,10 @@
     "is_maximal": false,
     "family_id": "family_54",
     "maximal_text": "зростанню бойового духу",
-    "score": 0.3551946034161416
+    "score": 0.3551946034161417
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-NOUN",
     "key_noun_phrase": "бойового духу солдатів",
     "key_noun_phrase_processed": "бойовий дух солдат",
@@ -1509,10 +1509,10 @@
     "is_maximal": true,
     "family_id": "family_55",
     "maximal_text": "бойового духу солдатів",
-    "score": 0.6813953103266931
+    "score": 0.6813953103266932
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "духу солдатів",
     "key_noun_phrase_processed": "дух солдат",
@@ -1527,10 +1527,10 @@
     "is_maximal": false,
     "family_id": "family_55",
     "maximal_text": "бойового духу солдатів",
-    "score": 0.388514307388441
+    "score": 0.38851430738844106
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-NOUN",
     "key_noun_phrase": "декілька причин",
     "key_noun_phrase_processed": "декілька причина",
@@ -1545,10 +1545,10 @@
     "is_maximal": true,
     "family_id": "family_56",
     "maximal_text": "декілька причин",
-    "score": 0.42762415955476024
+    "score": 0.42762415955476013
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-NOUN",
     "key_noun_phrase": "цій ситуації",
     "key_noun_phrase_processed": "цей ситуація",
@@ -1563,10 +1563,10 @@
     "is_maximal": true,
     "family_id": "family_57",
     "maximal_text": "цій ситуації",
-    "score": 0.5336420024836755
+    "score": 0.5336420024836757
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "противника якість",
     "key_noun_phrase_processed": "противник якість",
@@ -1584,7 +1584,7 @@
     "score": 0.39369526384255826
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN-NOUN",
     "key_noun_phrase": "противника якість піхоти",
     "key_noun_phrase_processed": "противник якість піхота",
@@ -1602,7 +1602,7 @@
     "score": 0.6057926073986025
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "якість піхоти",
     "key_noun_phrase_processed": "якість піхота",
@@ -1617,10 +1617,10 @@
     "is_maximal": false,
     "family_id": "family_58",
     "maximal_text": "противника якість піхоти",
-    "score": 0.9716723361858929
+    "score": 0.9716723361858932
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-NOUN",
     "key_noun_phrase": "всіх пунктах",
     "key_noun_phrase_processed": "всі пункт",
@@ -1635,10 +1635,10 @@
     "is_maximal": true,
     "family_id": "family_59",
     "maximal_text": "всіх пунктах",
-    "score": 0.49222980870854477
+    "score": 0.4922298087085447
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-CCONJ-NOUN",
     "key_noun_phrase": "пунктах і категоріях",
     "key_noun_phrase_processed": "пункт і категорія",
@@ -1656,7 +1656,7 @@
     "score": 0.6554129484005065
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-ADJ-NOUN",
     "key_noun_phrase": "всіх рівних складових",
     "key_noun_phrase_processed": "всі рівний складова",
@@ -1674,7 +1674,7 @@
     "score": 0.687274981157314
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "рівних складових",
     "key_noun_phrase_processed": "рівний складова",
@@ -1689,10 +1689,10 @@
     "is_maximal": false,
     "family_id": "family_61",
     "maximal_text": "всіх рівних складових",
-    "score": 0.47420758764165116
+    "score": 0.4742075876416511
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-ADP-ADJ-NOUN",
     "key_noun_phrase": "рівних складових в піхотному бою",
     "key_noun_phrase_processed": "рівний складова в піхотний бой",
@@ -1710,7 +1710,7 @@
     "score": 0.8274745268698845
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADP-ADJ-NOUN",
     "key_noun_phrase": "складових в піхотному бою",
     "key_noun_phrase_processed": "складова в піхотний бой",
@@ -1728,7 +1728,7 @@
     "score": 0.6648359773858649
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "піхотному бою",
     "key_noun_phrase_processed": "піхотний бой",
@@ -1746,7 +1746,7 @@
     "score": 1.0
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN-ADJ-NOUN",
     "key_noun_phrase": "піхотному бою український вояк",
     "key_noun_phrase_processed": "піхотний бой український вояк",
@@ -1764,7 +1764,7 @@
     "score": 0.755536896752179
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-ADJ-NOUN",
     "key_noun_phrase": "бою український вояк",
     "key_noun_phrase_processed": "бой український вояк",
@@ -1782,7 +1782,7 @@
     "score": 0.4910661916465824
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "український вояк",
     "key_noun_phrase_processed": "український вояк",
@@ -1797,10 +1797,10 @@
     "is_maximal": false,
     "family_id": "family_63",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.3564076708610037
+    "score": 0.3564076708610038
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "DET-NOUN",
     "key_noun_phrase": "цій війні",
     "key_noun_phrase_processed": "цей війна",
@@ -1818,7 +1818,7 @@
     "score": 0.38330867581668426
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "порівняння якостей",
     "key_noun_phrase_processed": "порівняння якість",
@@ -1836,7 +1836,7 @@
     "score": 0.32281378948148015
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN-NOUN",
     "key_noun_phrase": "порівняння якостей піхотинців",
     "key_noun_phrase_processed": "порівняння якість піхотинець",
@@ -1854,7 +1854,7 @@
     "score": 0.5695857161226826
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NOUN-NOUN",
     "key_noun_phrase": "якостей піхотинців",
     "key_noun_phrase_processed": "якість піхотинець",
@@ -1872,7 +1872,7 @@
     "score": 0.30214926532335135
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "NUM-NOUN",
     "key_noun_phrase": "обох сторін",
     "key_noun_phrase_processed": "обоє сторона",
@@ -1890,7 +1890,7 @@
     "score": 0.360449086088388
   },
   {
-    "uuid": "uk_telegram",
+    "doc_index": 0,
     "pos_label": "ADJ-NOUN",
     "key_noun_phrase": "геополітичні фактори",
     "key_noun_phrase_processed": "геополітичний фактор",

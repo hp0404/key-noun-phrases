@@ -25,14 +25,14 @@ class Span:
         end: End token index (exclusive)
         text: The surface text of the span
         label: The POS pattern label (e.g., "ADJ-NOUN")
-        uuid: The sentence identifier
+        doc_index: The index of the document in the input list
     """
 
     start: int
     end: int
     text: str
     label: str
-    uuid: str
+    doc_index: int
 
     @property
     def length(self) -> int:
@@ -41,7 +41,7 @@ class Span:
 
     def __hash__(self):
         """Make Span hashable for use in sets."""
-        return hash((self.start, self.end, self.text, self.label, self.uuid))
+        return hash((self.start, self.end, self.text, self.label, self.doc_index))
 
 
 def contains(a: Span, b: Span) -> bool:
@@ -200,7 +200,7 @@ def annotate_spans(
     ----------
     results : list[dict]
         List of result dicts from yield_key_phrases, each containing
-        at minimum: uuid, token_span, key_noun_phrase, pos_label
+        at minimum: doc_index, token_span, key_noun_phrase, pos_label
 
     Returns
     -------
@@ -210,17 +210,17 @@ def annotate_spans(
     if not results:
         return []
 
-    # Group results by uuid (sentence)
-    by_uuid: dict[str, list[dict]] = {}
+    # Group results by doc_index (sentence)
+    by_doc_index: dict[int, list[dict]] = {}
     for r in results:
-        uuid = r["uuid"]
-        if uuid not in by_uuid:
-            by_uuid[uuid] = []
-        by_uuid[uuid].append(r)
+        doc_index = r["doc_index"]
+        if doc_index not in by_doc_index:
+            by_doc_index[doc_index] = []
+        by_doc_index[doc_index].append(r)
 
     # Process each sentence's spans
     annotated = []
-    for uuid, sentence_results in by_uuid.items():
+    for doc_index, sentence_results in by_doc_index.items():
         # Convert to Span objects
         spans = [
             Span(
@@ -228,7 +228,7 @@ def annotate_spans(
                 end=r["token_span"][1],
                 text=r["key_noun_phrase"],
                 label=r["pos_label"],
-                uuid=uuid,
+                doc_index=doc_index,
             )
             for r in sentence_results
         ]

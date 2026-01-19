@@ -125,19 +125,17 @@ class TermsMatcher:
 
     def yield_key_phrases(
         self,
-        sentences: list[tuple[str, str]],
+        texts: str | list[str],
         batch_size: int = 25,
         exclusive_search: bool = True,
         scope: ExtractionScope = ExtractionScope.SUBJECT,
     ) -> typing.Iterator[dict[str, typing.Any]]:
-        """Yields key noun phrases found in sentences.
+        """Yields key noun phrases found in texts.
 
         Parameters
         ----------
-        sentences: list[tuple[uuid, text]]
-            list of pairs, each consisting of text and its identifier (so that
-            we could 'place' exact phrase within some context (found by uuid);
-            it must follow this structure: [("Some text", "uuid1"), ("Another sentence", "uuid2"), ...]
+        texts: str | list[str]
+            A single text string or a list of text strings to process.
         batch_size: int
             the number of texts to buffer
         exclusive_search: bool
@@ -158,16 +156,15 @@ class TermsMatcher:
         >>> from spacy.lang.ru.examples import sentences
         >>> nlp = spacy.load("ru_core_news_md")
         >>> terms = TermsMatcher(nlp=nlp)
-        >>> transformed_sentences = [(sent, idx) for idx, sent in enumerate(sentences)]
-        >>> for key_noun_phrase in terms.yield_key_phrases(transformed_sentences):
+        >>> for key_noun_phrase in terms.yield_key_phrases(sentences):
         ...     print(key_noun_phrase)
         ...
 
         Yields
         ------
         dict with the following fields:
-            uuid: str
-                The identifier passed in with the sentence
+            doc_index: int
+                The index of the document in the input list (0 for single text)
             pos_label: str
                 The POS pattern label that matched (e.g., "ADJ-NOUN")
             key_noun_phrase: str
@@ -207,15 +204,22 @@ class TermsMatcher:
         if isinstance(scope, str):
             scope = ExtractionScope(scope)
 
-        for sentence, uuid in self.nlp.pipe(
-            sentences, as_tuples=True, batch_size=batch_size
+        # Normalize input: convert single string to list
+        if isinstance(texts, str):
+            texts = [texts]
+
+        # Create tuples with doc_index for nlp.pipe
+        texts_with_index = [(text, idx) for idx, text in enumerate(texts)]
+
+        for sentence, doc_index in self.nlp.pipe(
+            texts_with_index, as_tuples=True, batch_size=batch_size
         ):
             if scope == ExtractionScope.SENTENCE:
                 # Search the entire sentence
                 yield from self._match_span(
                     sentence,
                     sentence[:],
-                    uuid,
+                    doc_index,
                     exclusive_search=False,  # No anchor token for sentence scope
                     anchor_token=None,
                 )
@@ -244,13 +248,11 @@ class TermsMatcher:
                         should_search = (is_subject or is_object) and head_is_verb
 
                     if should_search:
-                        subtree = sentence[
-                            token.left_edge.i : token.right_edge.i + 1
-                        ]
+                        subtree = sentence[token.left_edge.i : token.right_edge.i + 1]
                         for result in self._match_span(
                             sentence,
                             subtree,
-                            uuid,
+                            doc_index,
                             exclusive_search,
                             anchor_token=token,
                         ):
@@ -263,7 +265,7 @@ class TermsMatcher:
         self,
         sentence: spacy.tokens.Doc,
         subtree: spacy.tokens.Span,
-        uuid: str,
+        doc_index: int,
         exclusive_search: bool,
         anchor_token: spacy.tokens.Token | None,
     ) -> typing.Iterator[dict[str, typing.Any]]:
@@ -275,8 +277,8 @@ class TermsMatcher:
             The full sentence document
         subtree: spacy.tokens.Span
             The span to search within
-        uuid: str
-            Document identifier
+        doc_index: int
+            Index of the document in the input list
         exclusive_search: bool
             If True and anchor_token is provided, only yield phrases containing
             the anchor token and with proper verb forms
@@ -297,7 +299,7 @@ class TermsMatcher:
                 ):
                     continue
             yield {
-                "uuid": uuid,
+                "doc_index": doc_index,
                 "pos_label": pos_label,
                 "key_noun_phrase": span.text,
                 "key_noun_phrase_processed": " ".join(
@@ -312,7 +314,7 @@ class TermsMatcher:
 
     def extract_key_phrases(
         self,
-        sentences: list[tuple[str, str]],
+        texts: str | list[str],
         batch_size: int = 25,
         exclusive_search: bool = True,
         scope: ExtractionScope = ExtractionScope.SUBJECT,
@@ -327,8 +329,8 @@ class TermsMatcher:
 
         Parameters
         ----------
-        sentences: list[tuple[uuid, text]]
-            List of (text, uuid) pairs
+        texts: str | list[str]
+            A single text string or a list of text strings to process.
         batch_size: int
             The number of texts to buffer
         exclusive_search: bool
@@ -356,7 +358,7 @@ class TermsMatcher:
         """
         results = list(
             self.yield_key_phrases(
-                sentences,
+                texts,
                 batch_size=batch_size,
                 exclusive_search=exclusive_search,
                 scope=scope,
@@ -370,7 +372,7 @@ class TermsMatcher:
 
     def to_dataframe(
         self,
-        sentences: list[tuple[str, str]],
+        texts: str | list[str],
         batch_size: int = 25,
         exclusive_search: bool = True,
         scope: ExtractionScope = ExtractionScope.SUBJECT,
@@ -382,10 +384,8 @@ class TermsMatcher:
 
         Parameters
         ----------
-        sentences: list[tuple[uuid, text]]
-            list of pairs, each consisting of text and its identifier (so that
-            we could 'place' exact phrase within some context (found by uuid);
-            it must follow this structure: [("Some text", "uuid1"), ("Another sentence", "uuid2"), ...]
+        texts: str | list[str]
+            A single text string or a list of text strings to process.
         batch_size: int
             the number of texts to buffer
         exclusive_search: bool
@@ -415,8 +415,7 @@ class TermsMatcher:
         >>> from spacy.lang.ru.examples import sentences
         >>> nlp = spacy.load("ru_core_news_md")
         >>> terms = TermsMatcher(nlp=nlp)
-        >>> transformed_sentences = [(sent, idx) for idx, sent in enumerate(sentences)]
-        >>> df = terms.to_dataframe(transformed_sentences)
+        >>> df = terms.to_dataframe(sentences)
 
         Notes
         -----
@@ -425,7 +424,7 @@ class TermsMatcher:
         format like JSONLines.
         """
         data = self.extract_key_phrases(
-            sentences,
+            texts,
             batch_size=batch_size,
             exclusive_search=exclusive_search,
             scope=scope,
