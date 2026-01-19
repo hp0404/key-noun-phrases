@@ -1,10 +1,89 @@
-- UK patterns (terms/assets/uk_patterns.json): 
-    - based on the examples in examples/text/uk_telegram.out.txt, which patterns are matching low-value / non-context-specific content that you would recommend removing?
-- Scoring: Please review score.py and the example output in examples/text/uk_telegram.out.txt, and suggest changes that would make substantively meaningful terms rank higher—specifically, war-related terms in this case—rather than the generic phrases that appear in almost any context.
-
-
-
-
+- UK patterns (terms/assets/uk_patterns.json):
     - VERB patterns (VERB-NOUN, VERB-ADJ-NOUN, etc.) may be too broad
         - captures action phrases like "збирати АК", "займаються вишколом" instead of noun phrases
         - consider restricting to participle forms only using MORPH constraints
+    - Remove DET-NOUN and DET-ADJ-NOUN patterns
+        - matches generic determiner phrases: "своїх рекрутів", "цій ситуації", "цій війні", "всіх пунктах"
+        - these are deictic expressions with no domain-specific value
+        - action: delete lines 179-189 from uk_patterns.json
+    - Remove NOUN-VERB pattern
+        - fragments sentences rather than capturing noun phrases
+        - examples: "ушкоджень дожили", "початку прийшли", "роки пройшли", "підрозділах є"
+        - these are accidental adjacencies across clause boundaries
+        - action: delete lines 143-152 from uk_patterns.json
+    - Remove NUM-NOUN and NUM-ADJ-NOUN patterns
+        - captures generic quantifiers: "двох категорій", "1,5 роки", "обох сторін"
+        - low semantic value for domain-specific extraction
+        - action: delete lines 167-177 from uk_patterns.json
+    - Add missing patterns for proper nouns and military terminology
+        - PROPN (standalone) - captures significant single proper nouns like "Азов", "ЗСУ"
+        - PROPN-PROPN - compound proper nouns
+        - PROPN-NUM or ordinal+PROPN - military unit designations like "3-тя ОШБ"
+        - ADJ-PROPN - adjective + proper noun combinations
+        - NOUN-ADP-PROPN - institutional references like "тенденцією в ЗСУ"
+
+- Missing patterns analysis (based on uk_telegram.txt input vs output):
+    - Standalone PROPN pattern
+        - "Азов" appears in text but not captured (only "3-тя ОШБ" captured as ADJ-NOUN)
+        - "ЗСУ" only captured within longer phrases ("тенденцією в ЗСУ", "рудиментів в ЗСУ")
+        - single proper nouns are often highly domain-specific
+        - pattern: `[{"POS": "PROPN"}]`
+        - risk: may capture too many low-value proper nouns (names, places)
+        - mitigation: apply high frequency threshold or filter by NER type
+    - ADJ-PROPN and PROPN-ADJ patterns
+        - would capture "український ЗСУ" style combinations if they exist
+        - pattern: `[{"POS": "ADJ"}, {"POS": "PROPN"}]`
+    - PROPN-NOUN and NOUN-PROPN patterns
+        - captures institutional compound terms
+        - pattern: `[{"POS": "PROPN"}, {"POS": "NOUN"}]`
+    - Nominalized participle patterns (VERB used as NOUN)
+        - "мобілізовані" (the mobilized) - used nominally in "Нові мобілізовані"
+        - Ukrainian participles can be nominalized and act as nouns
+        - may require MORPH constraint: `{"POS": "VERB", "MORPH": {"IS_SUPERSET": ["VerbForm=Part"]}}`
+        - or rely on spaCy tagging them as ADJ when nominalized
+    - Patterns NOT worth adding:
+        - ADP-NOUN (prepositional phrases like "на фронт", "на війну")
+            - too noisy, would capture all prepositional phrases
+            - low semantic value as standalone terms
+        - Single ADJ patterns
+            - "російського", "українського" - too context-dependent alone
+        - Hyphenated compound adjectives ("матеріально-технічні")
+            - spaCy typically handles these as single ADJ tokens
+            - no special pattern needed
+    - Phrases in text that remain uncaptured:
+        - "на фронт" (to the front) - ADP-NOUN, too generic
+        - "зі служби" (from service) - ADP-NOUN, too generic
+        - "телемарафоні" (TV marathon) - single NOUN, not pattern-worthy
+        - "матеріально-технічні, економічні та геополітичні фактори" - only last two words captured
+            - coordinate ADJ lists before NOUN not handled (would need special pattern)
+    - Consider adding ADJ-CCONJ-ADJ-NOUN pattern
+        - captures "перемоги і успіхи" style but for adjectives: "технічні та економічні фактори"
+        - pattern: `[{"POS": "ADJ"}, {"POS": "CCONJ"}, {"POS": "ADJ"}, {"POS": "NOUN"}]`
+
+- Scoring improvements (terms/score.py):
+    - Add Ukrainian stopwords (critical for IDF proxy to function)
+        - current stopwords (lines 18-87) are all English, providing zero benefit for Ukrainian
+        - add Ukrainian function words: "в", "у", "на", "з", "із", "за", "до", "та", "і", "й", "це", "цей", "який", etc.
+        - add Ukrainian pronouns: "він", "вона", "вони", "свій", "наш", "ваш", etc.
+        - add Ukrainian auxiliaries: "бути", "є", "був", "була", "буде", etc.
+        - action: create UKRAINIAN_STOPWORDS frozenset, make stopwords language-configurable
+    - Replace length bias with specificity weighting
+        - current formula (line 153): `length_factor = min(len(tokens) / 2, 2.0)` rewards length regardless of quality
+        - causes "особового складу в цілому" (0.784) to outrank "бойових втрат" (0.417)
+        - action: replace with POS-based specificity scoring
+    - Add POS-label quality weights
+        - scoring currently ignores pos_label field entirely
+        - define PATTERN_WEIGHTS dict with quality multipliers:
+            - ADJ-NOUN, ADJ-ADJ-NOUN, NOUN-ADJ-NOUN: 1.0-1.1 (high quality)
+            - NOUN-NOUN: 0.9 (good)
+            - NOUN-ADP-NOUN: 0.8 (often fragmentary)
+            - DET-NOUN, NUM-NOUN: 0.4-0.5 (generic, if kept)
+            - NOUN-VERB: 0.3 (sentence fragments, if kept)
+        - action: add pattern weight lookup in _compute_idf_proxy or composite scoring
+    - Add PROPN (proper noun) boost
+        - phrases with "ЗСУ", "ОШБ", "АК", "Азов" are highly domain-specific
+        - currently receive no special treatment
+        - action: track contains_propn during extraction, apply 1.3-1.5x multiplier in scoring
+    - Improve centrality scoring relevance
+        - high centrality may indicate generic phrases that appear in many contexts
+        - action: weight centrality by average specificity of connected nodes, not just edge count
