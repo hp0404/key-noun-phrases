@@ -123,7 +123,7 @@
     "is_maximal": true,
     "family_id": "family_5",
     "maximal_text": "місяць вишколу",
-    "score": 0.735727377090704
+    "score": 0.7357273770907041
   },
   {
     "uuid": "uk_telegram",
@@ -141,7 +141,7 @@
     "is_maximal": true,
     "family_id": "family_6",
     "maximal_text": "збирати АК",
-    "score": 0.5643693540464161
+    "score": 0.564369354046416
   },
   {
     "uuid": "uk_telegram",
@@ -249,7 +249,7 @@
     "is_maximal": true,
     "family_id": "family_12",
     "maximal_text": "гарний мікроклімат",
-    "score": 0.5979046980691234
+    "score": 0.5979046980691235
   },
   {
     "uuid": "uk_telegram",
@@ -321,7 +321,7 @@
     "is_maximal": false,
     "family_id": "family_14",
     "maximal_text": "швидкій адаптації новачків",
-    "score": 0.5829793711302502
+    "score": 0.5829793711302501
   },
   {
     "uuid": "uk_telegram",
@@ -357,7 +357,7 @@
     "is_maximal": false,
     "family_id": "family_15",
     "maximal_text": "розбудові бойового побратимства",
-    "score": 0.4421297820311405
+    "score": 0.44212978203114056
   },
   {
     "uuid": "uk_telegram",
@@ -375,7 +375,7 @@
     "is_maximal": false,
     "family_id": "family_16",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.4648110655987057
+    "score": 0.46481106559870566
   },
   {
     "uuid": "uk_telegram",

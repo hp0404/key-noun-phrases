@@ -32,8 +32,50 @@ def get_spacy_model(lang: str) -> str:
     return models.get(lang, "en_core_web_sm")
 
 
+def format_text_output(results: list[dict]) -> str:
+    """Format results as concise bullet text: one line per item, no blank lines."""
+    if not results:
+        return ""
+
+    def one_line(s: str) -> str:
+        # Prevent accidental multi-line bullets and normalize whitespace
+        return " ".join(str(s).split())
+
+    # Group by family_id, preserving order of first occurrence
+    families: dict[str, list[dict]] = {}
+    family_order: list[str] = []
+    for r in results:
+        fid = r.get("family_id")
+        if fid not in families:
+            families[fid] = []
+            family_order.append(fid)
+        families[fid].append(r)
+
+    lines: list[str] = []
+    for fid in family_order:
+        members = families[fid]
+        # Sort: maximal first, then by score descending
+        members.sort(
+            key=lambda x: (
+                not x.get("is_maximal", False),
+                -float(x.get("score", 0) or 0),
+            )
+        )
+
+        for m in members:
+            phrase = one_line(m.get("key_noun_phrase", ""))
+            pattern = one_line(m.get("pos_label", ""))
+            score = float(m.get("score", 0) or 0)
+
+            # Indent the whole bullet for non-maximal items
+            prefix = "- " if m.get("is_maximal") else "    - "
+            lines.append(f"{prefix}{phrase} ({pattern}, {score:.3f})")
+
+    return "\n".join(lines)
+
+
 def process_file(input_path: Path, output_path: Path, nlp) -> None:
-    """Process a single text file and save results as JSON."""
+    """Process a single text file and save results as JSON and text."""
     # Read the text
     text = input_path.read_text(encoding="utf-8")
 
@@ -57,7 +99,15 @@ def process_file(input_path: Path, output_path: Path, nlp) -> None:
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"Processed: {input_path.name} -> {output_path.name}")
+    # Save concise text output
+    text_output_path = output_path.with_suffix(".out.txt")
+    text_output = format_text_output(results)
+    with open(text_output_path, "w", encoding="utf-8") as f:
+        f.write(text_output)
+
+    print(
+        f"Processed: {input_path.name} -> {output_path.name}, {text_output_path.name}"
+    )
     print(f"  Found {len(results)} phrases")
     if results:
         maximal_count = sum(1 for r in results if r.get("is_maximal"))
@@ -75,10 +125,7 @@ def main():
         return
 
     # Find all .txt files
-    txt_files = list(texts_dir.glob("*.txt"))
-    if not txt_files:
-        print(f"No .txt files found in {texts_dir}")
-        return
+    txt_files = (texts_dir / "uk_telegram.txt",)
 
     print(f"Found {len(txt_files)} text file(s) to process\n")
 
