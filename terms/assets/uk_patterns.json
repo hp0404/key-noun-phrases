@@ -164,18 +164,6 @@
         ]
     },
     {
-        "label": "PART-NOUN",
-        "pattern": [
-            [{"POS": "PART"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
-        ]
-    },
-    {
-        "label": "PART-ADJ-NOUN",
-        "pattern": [
-            [{"POS": "PART"}, {"POS": "ADJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
-        ]
-    },
-    {
         "label": "NUM-NOUN",
         "pattern": [
             [{"POS": "NUM"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
@@ -185,6 +173,24 @@
         "label": "NUM-ADJ-NOUN",
         "pattern": [
             [{"POS": "NUM"}, {"POS": "ADJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "DET-NOUN",
+        "pattern": [
+            [{"POS": "DET"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "DET-ADJ-NOUN",
+        "pattern": [
+            [{"POS": "DET"}, {"POS": "ADJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
+        ]
+    },
+    {
+        "label": "NOUN-CCONJ-NOUN",
+        "pattern": [
+            [{"POS": {"IN": ["NOUN", "PROPN"]}}, {"POS": "CCONJ"}, {"POS": {"IN": ["NOUN", "PROPN"]}}]
         ]
     }
 ]

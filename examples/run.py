@@ -6,7 +6,7 @@ from pathlib import Path
 
 import spacy
 
-from terms import TermsMatcher
+from terms import ExtractionScope, TermsMatcher
 
 
 def detect_language(file_path: Path) -> str:
@@ -89,7 +89,8 @@ def process_file(input_path: Path, output_path: Path, nlp) -> None:
     # Extract key phrases with all features enabled
     results = terms.extract_key_phrases(
         sentences,
-        exclusive_search=False,  # Include all phrases, not just subject-rooted
+        exclusive_search=False,
+        scope=ExtractionScope.SENTENCE,  # Search entire sentence for patterns
         resolve_redundancy=True,  # Group overlapping phrases
         compute_scores=True,  # Add importance scores
     )

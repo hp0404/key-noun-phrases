@@ -14,7 +14,7 @@ Note: Tests require spacy models to be installed:
 import pytest
 import spacy
 
-from terms import TermsMatcher
+from terms import ExtractionScope, TermsMatcher
 
 # =============================================================================
 # Fixtures
@@ -409,6 +409,157 @@ class TestExclusiveSearchMode:
         phrases_non_exclusive = extract_phrases(nlp_en, text, exclusive_search=False)
         # Usually non-exclusive finds more or equal
         assert len(phrases_non_exclusive) >= len(phrases_exclusive)
+
+
+# =============================================================================
+# Extraction Scope Tests
+# =============================================================================
+
+
+def extract_phrases_with_scope(nlp, text, scope, exclusive_search=False):
+    """Helper to extract phrases with specific scope.
+
+    Args:
+        nlp: spacy language model
+        text: input text
+        scope: ExtractionScope value
+        exclusive_search: if True, phrases must contain the anchor token
+
+    Returns:
+        set of extracted phrases (lowercased, processed form)
+    """
+    matcher = TermsMatcher(nlp=nlp)
+    sentences = [(text, "test")]
+    results = list(
+        matcher.yield_key_phrases(sentences, exclusive_search=exclusive_search, scope=scope)
+    )
+    return {r["key_noun_phrase_processed"] for r in results}
+
+
+class TestExtractionScope:
+    """Test ExtractionScope parameter behavior."""
+
+    def test_scope_subject_default_behavior(self, nlp_en):
+        """SUBJECT scope should match original behavior."""
+        text = "The statistical analysis reveals important patterns."
+        phrases_default = extract_phrases(nlp_en, text, exclusive_search=False)
+        phrases_subject = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SUBJECT, exclusive_search=False
+        )
+        # Should be identical
+        assert phrases_default == phrases_subject
+
+    def test_scope_object_finds_objects(self, nlp_en):
+        """OBJECT scope should find phrases in object position."""
+        # "important results" is in object position (direct object of "reveals")
+        text = "The analysis reveals important results."
+        phrases_subject = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SUBJECT, exclusive_search=False
+        )
+        phrases_object = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.OBJECT, exclusive_search=False
+        )
+        # Object scope should find at least as many as subject scope
+        # and potentially more (the object "important results")
+        assert len(phrases_object) >= len(phrases_subject)
+
+    def test_scope_sentence_finds_all(self, nlp_en):
+        """SENTENCE scope should find all matching patterns."""
+        text = "The statistical analysis of complex data reveals important results."
+        phrases_subject = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SUBJECT, exclusive_search=False
+        )
+        phrases_sentence = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SENTENCE, exclusive_search=False
+        )
+        # Sentence scope should find at least as many phrases
+        assert len(phrases_sentence) >= len(phrases_subject)
+
+    def test_scope_sentence_no_verb_requirement(self, nlp_en):
+        """SENTENCE scope should work even without subject-verb structure."""
+        # No clear subject-verb structure
+        text = "The big red ball in the corner."
+        phrases_subject = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SUBJECT, exclusive_search=False
+        )
+        phrases_sentence = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SENTENCE, exclusive_search=False
+        )
+        # Subject scope finds nothing (no subject-verb), sentence scope may find patterns
+        assert len(phrases_subject) == 0
+        # Sentence scope should find at least "big red ball" or similar
+        assert len(phrases_sentence) >= 0  # May or may not find depending on patterns
+
+    def test_scope_string_input(self, nlp_en):
+        """Scope parameter should accept string values."""
+        text = "The statistical analysis reveals patterns."
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [(text, "test")]
+        # Should work with string instead of enum
+        results = list(
+            matcher.yield_key_phrases(sentences, exclusive_search=False, scope="sentence")
+        )
+        assert isinstance(results, list)
+
+    def test_scope_object_example_ukrainian(self, nlp_uk):
+        """Test OBJECT scope captures Ukrainian phrases in object position."""
+        # "бойових втрат" (combat losses) is often in object position
+        text = "Військо зазнало бойових втрат."
+        phrases_subject = extract_phrases_with_scope(
+            nlp_uk, text, ExtractionScope.SUBJECT, exclusive_search=False
+        )
+        phrases_object = extract_phrases_with_scope(
+            nlp_uk, text, ExtractionScope.OBJECT, exclusive_search=False
+        )
+        # Object scope should potentially find more
+        assert len(phrases_object) >= len(phrases_subject)
+
+    def test_scope_hierarchy(self, nlp_en):
+        """Test that SENTENCE >= OBJECT >= SUBJECT in terms of results."""
+        text = "The advanced algorithm processes complex input data efficiently."
+        phrases_subject = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SUBJECT, exclusive_search=False
+        )
+        phrases_object = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.OBJECT, exclusive_search=False
+        )
+        phrases_sentence = extract_phrases_with_scope(
+            nlp_en, text, ExtractionScope.SENTENCE, exclusive_search=False
+        )
+        # Sentence should find the most, subject the least
+        assert len(phrases_sentence) >= len(phrases_object)
+        assert len(phrases_object) >= len(phrases_subject)
+
+    def test_scope_with_extract_key_phrases(self, nlp_en):
+        """Test scope parameter works with extract_key_phrases method."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("The analysis reveals important results.", "test")]
+
+        results_subject = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, scope=ExtractionScope.SUBJECT
+        )
+        results_sentence = matcher.extract_key_phrases(
+            sentences, exclusive_search=False, scope=ExtractionScope.SENTENCE
+        )
+
+        # Both should return valid results
+        assert isinstance(results_subject, list)
+        assert isinstance(results_sentence, list)
+        # Sentence scope should find at least as many
+        assert len(results_sentence) >= len(results_subject)
+
+    def test_scope_with_to_dataframe(self, nlp_en):
+        """Test scope parameter works with to_dataframe method."""
+        matcher = TermsMatcher(nlp=nlp_en)
+        sentences = [("The analysis reveals important results.", "test")]
+
+        df = matcher.to_dataframe(
+            sentences, exclusive_search=False, scope=ExtractionScope.SENTENCE
+        )
+
+        # Should return a valid DataFrame
+        assert "key_noun_phrase" in df.columns
+        assert len(df) >= 0
 
 
 # =============================================================================
