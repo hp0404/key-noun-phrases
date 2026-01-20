@@ -1,0 +1,4700 @@
+[
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Kremlin",
+    "key_noun_phrase_processed": "kremlin",
+    "span_location": [
+      4,
+      11
+    ],
+    "token_span": [
+      1,
+      2
+    ],
+    "is_maximal": true,
+    "family_id": "family_1",
+    "maximal_text": "Kremlin",
+    "score": 1.3223999999999998
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "State",
+    "key_noun_phrase_processed": "state",
+    "span_location": [
+      58,
+      63
+    ],
+    "token_span": [
+      10,
+      11
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "State Duma candidates",
+    "score": 0.36621575159012065
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "State Duma",
+    "key_noun_phrase_processed": "state duma",
+    "span_location": [
+      58,
+      68
+    ],
+    "token_span": [
+      10,
+      12
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "State Duma candidates",
+    "score": 0.7608015411747747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "State Duma",
+    "key_noun_phrase_processed": "state duma",
+    "span_location": [
+      58,
+      68
+    ],
+    "token_span": [
+      10,
+      12
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "State Duma candidates",
+    "score": 0.7608015411747747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Duma",
+    "key_noun_phrase_processed": "duma",
+    "span_location": [
+      64,
+      68
+    ],
+    "token_span": [
+      11,
+      12
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "State Duma candidates",
+    "score": 0.500374308182553
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "State Duma candidates",
+    "key_noun_phrase_processed": "state duma candidate",
+    "span_location": [
+      58,
+      79
+    ],
+    "token_span": [
+      10,
+      13
+    ],
+    "is_maximal": true,
+    "family_id": "family_2",
+    "maximal_text": "State Duma candidates",
+    "score": 0.09205198909856398
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Duma candidates",
+    "key_noun_phrase_processed": "duma candidate",
+    "span_location": [
+      64,
+      79
+    ],
+    "token_span": [
+      11,
+      13
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "State Duma candidates",
+    "score": 0.09681982844637249
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Kremlin",
+    "key_noun_phrase_processed": "kremlin",
+    "span_location": [
+      97,
+      104
+    ],
+    "token_span": [
+      16,
+      17
+    ],
+    "is_maximal": true,
+    "family_id": "family_3",
+    "maximal_text": "Kremlin",
+    "score": 1.3223999999999998
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "United",
+    "key_noun_phrase_processed": "united",
+    "span_location": [
+      107,
+      113
+    ],
+    "token_span": [
+      18,
+      19
+    ],
+    "is_maximal": false,
+    "family_id": "family_4",
+    "maximal_text": "United Russia",
+    "score": 0.7224076791031497
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      107,
+      120
+    ],
+    "token_span": [
+      18,
+      20
+    ],
+    "is_maximal": true,
+    "family_id": "family_5",
+    "maximal_text": "United Russia",
+    "score": 1.2365999259808038
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      107,
+      120
+    ],
+    "token_span": [
+      18,
+      20
+    ],
+    "is_maximal": true,
+    "family_id": "family_5",
+    "maximal_text": "United Russia",
+    "score": 1.2365999259808038
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russia",
+    "key_noun_phrase_processed": "russia",
+    "span_location": [
+      114,
+      120
+    ],
+    "token_span": [
+      19,
+      20
+    ],
+    "is_maximal": false,
+    "family_id": "family_4",
+    "maximal_text": "United Russia",
+    "score": 0.8026689518514109
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN",
+    "key_noun_phrase": "ruling party",
+    "key_noun_phrase_processed": "rule party",
+    "span_location": [
+      121,
+      133
+    ],
+    "token_span": [
+      20,
+      22
+    ],
+    "is_maximal": true,
+    "family_id": "family_6",
+    "maximal_text": "ruling party",
+    "score": 0.07746523170697052
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-DET-NOUN",
+    "key_noun_phrase": "party in the September",
+    "key_noun_phrase_processed": "party in the september",
+    "span_location": [
+      128,
+      150
+    ],
+    "token_span": [
+      21,
+      25
+    ],
+    "is_maximal": true,
+    "family_id": "family_7",
+    "maximal_text": "party in the September",
+    "score": 0.027389959306104522
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "September",
+    "key_noun_phrase_processed": "september",
+    "span_location": [
+      141,
+      150
+    ],
+    "token_span": [
+      24,
+      25
+    ],
+    "is_maximal": false,
+    "family_id": "family_8",
+    "maximal_text": "September 2026",
+    "score": 0.23517440487728258
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-NUM",
+    "key_noun_phrase": "September 2026",
+    "key_noun_phrase_processed": "september 2026",
+    "span_location": [
+      141,
+      155
+    ],
+    "token_span": [
+      24,
+      26
+    ],
+    "is_maximal": true,
+    "family_id": "family_8",
+    "maximal_text": "September 2026",
+    "score": 0.2574417965727463
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "State",
+    "key_noun_phrase_processed": "state",
+    "span_location": [
+      156,
+      161
+    ],
+    "token_span": [
+      26,
+      27
+    ],
+    "is_maximal": false,
+    "family_id": "family_9",
+    "maximal_text": "State Duma elections",
+    "score": 0.36621575159012065
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "State Duma",
+    "key_noun_phrase_processed": "state duma",
+    "span_location": [
+      156,
+      166
+    ],
+    "token_span": [
+      26,
+      28
+    ],
+    "is_maximal": false,
+    "family_id": "family_9",
+    "maximal_text": "State Duma elections",
+    "score": 0.7608015411747747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "State Duma",
+    "key_noun_phrase_processed": "state duma",
+    "span_location": [
+      156,
+      166
+    ],
+    "token_span": [
+      26,
+      28
+    ],
+    "is_maximal": false,
+    "family_id": "family_9",
+    "maximal_text": "State Duma elections",
+    "score": 0.7608015411747747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Duma",
+    "key_noun_phrase_processed": "duma",
+    "span_location": [
+      162,
+      166
+    ],
+    "token_span": [
+      27,
+      28
+    ],
+    "is_maximal": false,
+    "family_id": "family_9",
+    "maximal_text": "State Duma elections",
+    "score": 0.500374308182553
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "State Duma elections",
+    "key_noun_phrase_processed": "state duma election",
+    "span_location": [
+      156,
+      176
+    ],
+    "token_span": [
+      26,
+      29
+    ],
+    "is_maximal": true,
+    "family_id": "family_9",
+    "maximal_text": "State Duma elections",
+    "score": 0.17294085874811033
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Duma elections",
+    "key_noun_phrase_processed": "duma election",
+    "span_location": [
+      162,
+      176
+    ],
+    "token_span": [
+      27,
+      29
+    ],
+    "is_maximal": false,
+    "family_id": "family_9",
+    "maximal_text": "State Duma elections",
+    "score": 0.13930287400522273
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Russian outlet",
+    "key_noun_phrase_processed": "russian outlet",
+    "span_location": [
+      197,
+      211
+    ],
+    "token_span": [
+      33,
+      35
+    ],
+    "is_maximal": false,
+    "family_id": "family_10",
+    "maximal_text": "Russian outlet RBK",
+    "score": 0.0832011688794423
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "Russian outlet RBK",
+    "key_noun_phrase_processed": "russian outlet rbk",
+    "span_location": [
+      197,
+      215
+    ],
+    "token_span": [
+      33,
+      36
+    ],
+    "is_maximal": true,
+    "family_id": "family_10",
+    "maximal_text": "Russian outlet RBK",
+    "score": 0.0961954651209463
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "outlet RBK",
+    "key_noun_phrase_processed": "outlet rbk",
+    "span_location": [
+      205,
+      215
+    ],
+    "token_span": [
+      34,
+      36
+    ],
+    "is_maximal": false,
+    "family_id": "family_10",
+    "maximal_text": "Russian outlet RBK",
+    "score": 0.06903683044910093
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "RBK",
+    "key_noun_phrase_processed": "rbk",
+    "span_location": [
+      212,
+      215
+    ],
+    "token_span": [
+      35,
+      36
+    ],
+    "is_maximal": false,
+    "family_id": "family_10",
+    "maximal_text": "Russian outlet RBK",
+    "score": 0.4796401730643596
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-ADP-NOUN",
+    "key_noun_phrase": "outlet RBK on January",
+    "key_noun_phrase_processed": "outlet rbk on january",
+    "span_location": [
+      205,
+      226
+    ],
+    "token_span": [
+      34,
+      38
+    ],
+    "is_maximal": true,
+    "family_id": "family_11",
+    "maximal_text": "outlet RBK on January",
+    "score": 0.03068729113889228
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "RBK on January",
+    "key_noun_phrase_processed": "rbk on january",
+    "span_location": [
+      212,
+      226
+    ],
+    "token_span": [
+      35,
+      38
+    ],
+    "is_maximal": false,
+    "family_id": "family_11",
+    "maximal_text": "outlet RBK on January",
+    "score": 0.04786290911488891
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "January",
+    "key_noun_phrase_processed": "january",
+    "span_location": [
+      219,
+      226
+    ],
+    "token_span": [
+      37,
+      38
+    ],
+    "is_maximal": false,
+    "family_id": "family_12",
+    "maximal_text": "January 19",
+    "score": 0.09065895128314608
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-NUM",
+    "key_noun_phrase": "January 19",
+    "key_noun_phrase_processed": "january 19",
+    "span_location": [
+      219,
+      229
+    ],
+    "token_span": [
+      37,
+      39
+    ],
+    "is_maximal": true,
+    "family_id": "family_12",
+    "maximal_text": "January 19",
+    "score": 0.12959672130018512
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russian",
+    "key_noun_phrase_processed": "russian",
+    "span_location": [
+      239,
+      246
+    ],
+    "token_span": [
+      41,
+      42
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.5977882707985471
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Russian Presidential",
+    "key_noun_phrase_processed": "russian presidential",
+    "span_location": [
+      239,
+      259
+    ],
+    "token_span": [
+      41,
+      43
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.2535417965727463
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Russian Presidential",
+    "key_noun_phrase_processed": "russian presidential",
+    "span_location": [
+      239,
+      259
+    ],
+    "token_span": [
+      41,
+      43
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.2535417965727463
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Presidential",
+    "key_noun_phrase_processed": "presidential",
+    "span_location": [
+      247,
+      259
+    ],
+    "token_span": [
+      42,
+      43
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.07343758801061713
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian Presidential Administration",
+    "key_noun_phrase_processed": "russian presidential administration",
+    "span_location": [
+      239,
+      274
+    ],
+    "token_span": [
+      41,
+      44
+    ],
+    "is_maximal": true,
+    "family_id": "family_14",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.16432457542100845
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Russian Presidential Administration",
+    "key_noun_phrase_processed": "russian presidential administration",
+    "span_location": [
+      239,
+      274
+    ],
+    "token_span": [
+      41,
+      44
+    ],
+    "is_maximal": true,
+    "family_id": "family_14",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.16432457542100845
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Presidential Administration",
+    "key_noun_phrase_processed": "presidential administration",
+    "span_location": [
+      247,
+      274
+    ],
+    "token_span": [
+      42,
+      44
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.26658114802224625
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Presidential Administration",
+    "key_noun_phrase_processed": "presidential administration",
+    "span_location": [
+      247,
+      274
+    ],
+    "token_span": [
+      42,
+      44
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.26658114802224625
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Administration",
+    "key_noun_phrase_processed": "administration",
+    "span_location": [
+      260,
+      274
+    ],
+    "token_span": [
+      43,
+      44
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "Russian Presidential Administration",
+    "score": 0.06577231932742549
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN",
+    "key_noun_phrase": "ruling United",
+    "key_noun_phrase_processed": "rule united",
+    "span_location": [
+      288,
+      301
+    ],
+    "token_span": [
+      47,
+      49
+    ],
+    "is_maximal": false,
+    "family_id": "family_15",
+    "maximal_text": "ruling United Russia",
+    "score": 0.06457279757636243
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "United",
+    "key_noun_phrase_processed": "united",
+    "span_location": [
+      295,
+      301
+    ],
+    "token_span": [
+      48,
+      49
+    ],
+    "is_maximal": false,
+    "family_id": "family_15",
+    "maximal_text": "ruling United Russia",
+    "score": 0.7224076791031497
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN-NOUN",
+    "key_noun_phrase": "ruling United Russia",
+    "key_noun_phrase_processed": "rule united russia",
+    "span_location": [
+      288,
+      308
+    ],
+    "token_span": [
+      47,
+      50
+    ],
+    "is_maximal": true,
+    "family_id": "family_15",
+    "maximal_text": "ruling United Russia",
+    "score": 0.09133619750657364
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      295,
+      308
+    ],
+    "token_span": [
+      48,
+      50
+    ],
+    "is_maximal": false,
+    "family_id": "family_15",
+    "maximal_text": "ruling United Russia",
+    "score": 1.0304999383173366
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      295,
+      308
+    ],
+    "token_span": [
+      48,
+      50
+    ],
+    "is_maximal": false,
+    "family_id": "family_15",
+    "maximal_text": "ruling United Russia",
+    "score": 1.0304999383173366
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russia",
+    "key_noun_phrase_processed": "russia",
+    "span_location": [
+      302,
+      308
+    ],
+    "token_span": [
+      49,
+      50
+    ],
+    "is_maximal": false,
+    "family_id": "family_15",
+    "maximal_text": "ruling United Russia",
+    "score": 0.8026689518514109
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "United Russia Party",
+    "key_noun_phrase_processed": "united russia party",
+    "span_location": [
+      295,
+      314
+    ],
+    "token_span": [
+      48,
+      51
+    ],
+    "is_maximal": true,
+    "family_id": "family_17",
+    "maximal_text": "United Russia Party",
+    "score": 0.32759999999999995
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "United Russia Party",
+    "key_noun_phrase_processed": "united russia party",
+    "span_location": [
+      295,
+      314
+    ],
+    "token_span": [
+      48,
+      51
+    ],
+    "is_maximal": true,
+    "family_id": "family_17",
+    "maximal_text": "United Russia Party",
+    "score": 0.32759999999999995
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Russia Party",
+    "key_noun_phrase_processed": "russia party",
+    "span_location": [
+      302,
+      314
+    ],
+    "token_span": [
+      49,
+      51
+    ],
+    "is_maximal": false,
+    "family_id": "family_16",
+    "maximal_text": "United Russia Party",
+    "score": 0.5075179961190259
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Russia Party",
+    "key_noun_phrase_processed": "russia party",
+    "span_location": [
+      302,
+      314
+    ],
+    "token_span": [
+      49,
+      51
+    ],
+    "is_maximal": false,
+    "family_id": "family_16",
+    "maximal_text": "United Russia Party",
+    "score": 0.5075179961190259
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Party",
+    "key_noun_phrase_processed": "party",
+    "span_location": [
+      309,
+      314
+    ],
+    "token_span": [
+      50,
+      51
+    ],
+    "is_maximal": false,
+    "family_id": "family_16",
+    "maximal_text": "United Russia Party",
+    "score": 0.26656430509090095
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "United",
+    "key_noun_phrase_processed": "united",
+    "span_location": [
+      360,
+      366
+    ],
+    "token_span": [
+      59,
+      60
+    ],
+    "is_maximal": false,
+    "family_id": "family_18",
+    "maximal_text": "United Russia",
+    "score": 0.7224076791031497
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      360,
+      373
+    ],
+    "token_span": [
+      59,
+      61
+    ],
+    "is_maximal": true,
+    "family_id": "family_19",
+    "maximal_text": "United Russia",
+    "score": 1.2365999259808038
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      360,
+      373
+    ],
+    "token_span": [
+      59,
+      61
+    ],
+    "is_maximal": true,
+    "family_id": "family_19",
+    "maximal_text": "United Russia",
+    "score": 1.2365999259808038
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russia",
+    "key_noun_phrase_processed": "russia",
+    "span_location": [
+      367,
+      373
+    ],
+    "token_span": [
+      60,
+      61
+    ],
+    "is_maximal": false,
+    "family_id": "family_18",
+    "maximal_text": "United Russia",
+    "score": 0.8026689518514109
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-DET-NOUN",
+    "key_noun_phrase": "Russia in the September",
+    "key_noun_phrase_processed": "russia in the september",
+    "span_location": [
+      367,
+      390
+    ],
+    "token_span": [
+      60,
+      64
+    ],
+    "is_maximal": true,
+    "family_id": "family_20",
+    "maximal_text": "Russia in the September",
+    "score": 0.022052754414896722
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "September",
+    "key_noun_phrase_processed": "september",
+    "span_location": [
+      381,
+      390
+    ],
+    "token_span": [
+      63,
+      64
+    ],
+    "is_maximal": false,
+    "family_id": "family_21",
+    "maximal_text": "September 2026",
+    "score": 0.23517440487728258
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-NUM",
+    "key_noun_phrase": "September 2026",
+    "key_noun_phrase_processed": "september 2026",
+    "span_location": [
+      381,
+      395
+    ],
+    "token_span": [
+      63,
+      65
+    ],
+    "is_maximal": true,
+    "family_id": "family_21",
+    "maximal_text": "September 2026",
+    "score": 0.2574417965727463
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "State",
+    "key_noun_phrase_processed": "state",
+    "span_location": [
+      396,
+      401
+    ],
+    "token_span": [
+      65,
+      66
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "State Duma elections",
+    "score": 0.36621575159012065
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "State Duma",
+    "key_noun_phrase_processed": "state duma",
+    "span_location": [
+      396,
+      406
+    ],
+    "token_span": [
+      65,
+      67
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "State Duma elections",
+    "score": 0.7608015411747747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "State Duma",
+    "key_noun_phrase_processed": "state duma",
+    "span_location": [
+      396,
+      406
+    ],
+    "token_span": [
+      65,
+      67
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "State Duma elections",
+    "score": 0.7608015411747747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Duma",
+    "key_noun_phrase_processed": "duma",
+    "span_location": [
+      402,
+      406
+    ],
+    "token_span": [
+      66,
+      67
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "State Duma elections",
+    "score": 0.500374308182553
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "State Duma elections",
+    "key_noun_phrase_processed": "state duma election",
+    "span_location": [
+      396,
+      416
+    ],
+    "token_span": [
+      65,
+      68
+    ],
+    "is_maximal": true,
+    "family_id": "family_22",
+    "maximal_text": "State Duma elections",
+    "score": 0.17294085874811033
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Duma elections",
+    "key_noun_phrase_processed": "duma election",
+    "span_location": [
+      402,
+      416
+    ],
+    "token_span": [
+      66,
+      68
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "State Duma elections",
+    "score": 0.13930287400522273
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russian",
+    "key_noun_phrase_processed": "russian",
+    "span_location": [
+      418,
+      425
+    ],
+    "token_span": [
+      69,
+      70
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.5977882707985471
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Russian Security",
+    "key_noun_phrase_processed": "russian security",
+    "span_location": [
+      418,
+      434
+    ],
+    "token_span": [
+      69,
+      71
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.2536050600927194
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Russian Security",
+    "key_noun_phrase_processed": "russian security",
+    "span_location": [
+      418,
+      434
+    ],
+    "token_span": [
+      69,
+      71
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.2536050600927194
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Security",
+    "key_noun_phrase_processed": "security",
+    "span_location": [
+      426,
+      434
+    ],
+    "token_span": [
+      70,
+      71
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.11121836377429242
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian Security Council",
+    "key_noun_phrase_processed": "russian security council",
+    "span_location": [
+      418,
+      442
+    ],
+    "token_span": [
+      69,
+      72
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.1412315627035178
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Russian Security Council",
+    "key_noun_phrase_processed": "russian security council",
+    "span_location": [
+      418,
+      442
+    ],
+    "token_span": [
+      69,
+      72
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.1412315627035178
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Security Council",
+    "key_noun_phrase_processed": "security council",
+    "span_location": [
+      426,
+      442
+    ],
+    "token_span": [
+      70,
+      72
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.28374870522680923
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Security Council",
+    "key_noun_phrase_processed": "security council",
+    "span_location": [
+      426,
+      442
+    ],
+    "token_span": [
+      70,
+      72
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.28374870522680923
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Council",
+    "key_noun_phrase_processed": "council",
+    "span_location": [
+      435,
+      442
+    ],
+    "token_span": [
+      71,
+      72
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.05923641580552965
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian Security Council Chairperson",
+    "key_noun_phrase_processed": "russian security council chairperson",
+    "span_location": [
+      418,
+      454
+    ],
+    "token_span": [
+      69,
+      73
+    ],
+    "is_maximal": true,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.08189930860565868
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Security Council Chairperson",
+    "key_noun_phrase_processed": "security council chairperson",
+    "span_location": [
+      426,
+      454
+    ],
+    "token_span": [
+      70,
+      73
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.1424546808384448
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Security Council Chairperson",
+    "key_noun_phrase_processed": "security council chairperson",
+    "span_location": [
+      426,
+      454
+    ],
+    "token_span": [
+      70,
+      73
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.1424546808384448
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Council Chairperson",
+    "key_noun_phrase_processed": "council chairperson",
+    "span_location": [
+      435,
+      454
+    ],
+    "token_span": [
+      71,
+      73
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.2565488775624445
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Council Chairperson",
+    "key_noun_phrase_processed": "council chairperson",
+    "span_location": [
+      435,
+      454
+    ],
+    "token_span": [
+      71,
+      73
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.2565488775624445
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Chairperson",
+    "key_noun_phrase_processed": "chairperson",
+    "span_location": [
+      443,
+      454
+    ],
+    "token_span": [
+      72,
+      73
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "Russian Security Council Chairperson",
+    "score": 0.06271584218486208
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Security Council Chairperson Dmitry",
+    "key_noun_phrase_processed": "security council chairperson dmitry",
+    "span_location": [
+      426,
+      461
+    ],
+    "token_span": [
+      70,
+      74
+    ],
+    "is_maximal": true,
+    "family_id": "family_24",
+    "maximal_text": "Security Council Chairperson Dmitry",
+    "score": 0.09107054878096028
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Council Chairperson Dmitry",
+    "key_noun_phrase_processed": "council chairperson dmitry",
+    "span_location": [
+      435,
+      461
+    ],
+    "token_span": [
+      71,
+      74
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "Security Council Chairperson Dmitry",
+    "score": 0.14166014480866307
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Council Chairperson Dmitry",
+    "key_noun_phrase_processed": "council chairperson dmitry",
+    "span_location": [
+      435,
+      461
+    ],
+    "token_span": [
+      71,
+      74
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "Security Council Chairperson Dmitry",
+    "score": 0.14166014480866307
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Chairperson Dmitry",
+    "key_noun_phrase_processed": "chairperson dmitry",
+    "span_location": [
+      443,
+      461
+    ],
+    "token_span": [
+      72,
+      74
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "Security Council Chairperson Dmitry",
+    "score": 0.27301125782189994
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Chairperson Dmitry",
+    "key_noun_phrase_processed": "chairperson dmitry",
+    "span_location": [
+      443,
+      461
+    ],
+    "token_span": [
+      72,
+      74
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "Security Council Chairperson Dmitry",
+    "score": 0.27301125782189994
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Dmitry",
+    "key_noun_phrase_processed": "dmitry",
+    "span_location": [
+      455,
+      461
+    ],
+    "token_span": [
+      73,
+      74
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "Security Council Chairperson Dmitry",
+    "score": 0.07098250629121336
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Council Chairperson Dmitry Medvedev",
+    "key_noun_phrase_processed": "council chairperson dmitry medvedev",
+    "span_location": [
+      435,
+      470
+    ],
+    "token_span": [
+      71,
+      75
+    ],
+    "is_maximal": true,
+    "family_id": "family_25",
+    "maximal_text": "Council Chairperson Dmitry Medvedev",
+    "score": 0.07761584907354635
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Chairperson Dmitry Medvedev",
+    "key_noun_phrase_processed": "chairperson dmitry medvedev",
+    "span_location": [
+      443,
+      470
+    ],
+    "token_span": [
+      72,
+      75
+    ],
+    "is_maximal": false,
+    "family_id": "family_25",
+    "maximal_text": "Council Chairperson Dmitry Medvedev",
+    "score": 0.18957675153153097
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Chairperson Dmitry Medvedev",
+    "key_noun_phrase_processed": "chairperson dmitry medvedev",
+    "span_location": [
+      443,
+      470
+    ],
+    "token_span": [
+      72,
+      75
+    ],
+    "is_maximal": false,
+    "family_id": "family_25",
+    "maximal_text": "Council Chairperson Dmitry Medvedev",
+    "score": 0.18957675153153097
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Dmitry Medvedev",
+    "key_noun_phrase_processed": "dmitry medvedev",
+    "span_location": [
+      455,
+      470
+    ],
+    "token_span": [
+      73,
+      75
+    ],
+    "is_maximal": false,
+    "family_id": "family_25",
+    "maximal_text": "Council Chairperson Dmitry Medvedev",
+    "score": 0.2585896283727039
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Dmitry Medvedev",
+    "key_noun_phrase_processed": "dmitry medvedev",
+    "span_location": [
+      455,
+      470
+    ],
+    "token_span": [
+      73,
+      75
+    ],
+    "is_maximal": false,
+    "family_id": "family_25",
+    "maximal_text": "Council Chairperson Dmitry Medvedev",
+    "score": 0.2585896283727039
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Medvedev",
+    "key_noun_phrase_processed": "medvedev",
+    "span_location": [
+      462,
+      470
+    ],
+    "token_span": [
+      74,
+      75
+    ],
+    "is_maximal": false,
+    "family_id": "family_25",
+    "maximal_text": "Council Chairperson Dmitry Medvedev",
+    "score": 0.3760441346221587
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Russian Foreign",
+    "key_noun_phrase_processed": "russian foreign",
+    "span_location": [
+      472,
+      487
+    ],
+    "token_span": [
+      76,
+      78
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.24438540193017255
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "Russian Foreign",
+    "key_noun_phrase_processed": "russian foreign",
+    "span_location": [
+      472,
+      487
+    ],
+    "token_span": [
+      76,
+      78
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.24438540193017255
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Foreign",
+    "key_noun_phrase_processed": "foreign",
+    "span_location": [
+      480,
+      487
+    ],
+    "token_span": [
+      77,
+      78
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.09269453355297466
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "Russian Foreign Minister",
+    "key_noun_phrase_processed": "russian foreign minister",
+    "span_location": [
+      472,
+      496
+    ],
+    "token_span": [
+      76,
+      79
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.09048234447437767
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Foreign Minister",
+    "key_noun_phrase_processed": "foreign minister",
+    "span_location": [
+      480,
+      496
+    ],
+    "token_span": [
+      77,
+      79
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.2656648008526065
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Foreign Minister",
+    "key_noun_phrase_processed": "foreign minister",
+    "span_location": [
+      480,
+      496
+    ],
+    "token_span": [
+      77,
+      79
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.2656648008526065
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Minister",
+    "key_noun_phrase_processed": "minister",
+    "span_location": [
+      488,
+      496
+    ],
+    "token_span": [
+      78,
+      79
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.06649947846587313
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian Foreign Minister Sergei",
+    "key_noun_phrase_processed": "russian foreign minister sergei",
+    "span_location": [
+      472,
+      503
+    ],
+    "token_span": [
+      76,
+      80
+    ],
+    "is_maximal": true,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.06696003660941434
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Foreign Minister Sergei",
+    "key_noun_phrase_processed": "foreign minister sergei",
+    "span_location": [
+      480,
+      503
+    ],
+    "token_span": [
+      77,
+      80
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.14196765639557868
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Foreign Minister Sergei",
+    "key_noun_phrase_processed": "foreign minister sergei",
+    "span_location": [
+      480,
+      503
+    ],
+    "token_span": [
+      77,
+      80
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.14196765639557868
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Minister Sergei",
+    "key_noun_phrase_processed": "minister sergei",
+    "span_location": [
+      488,
+      503
+    ],
+    "token_span": [
+      78,
+      80
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.25859857855106555
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Minister Sergei",
+    "key_noun_phrase_processed": "minister sergei",
+    "span_location": [
+      488,
+      503
+    ],
+    "token_span": [
+      78,
+      80
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.25859857855106555
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Sergei",
+    "key_noun_phrase_processed": "sergei",
+    "span_location": [
+      497,
+      503
+    ],
+    "token_span": [
+      79,
+      80
+    ],
+    "is_maximal": false,
+    "family_id": "family_26",
+    "maximal_text": "Russian Foreign Minister Sergei",
+    "score": 0.06228474411703328
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Foreign Minister Sergei Lavrov",
+    "key_noun_phrase_processed": "foreign minister sergei lavrov",
+    "span_location": [
+      480,
+      510
+    ],
+    "token_span": [
+      77,
+      81
+    ],
+    "is_maximal": true,
+    "family_id": "family_27",
+    "maximal_text": "Foreign Minister Sergei Lavrov",
+    "score": 0.08321682914624566
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Minister Sergei Lavrov",
+    "key_noun_phrase_processed": "minister sergei lavrov",
+    "span_location": [
+      488,
+      510
+    ],
+    "token_span": [
+      78,
+      81
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "Foreign Minister Sergei Lavrov",
+    "score": 0.15323139032865174
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Minister Sergei Lavrov",
+    "key_noun_phrase_processed": "minister sergei lavrov",
+    "span_location": [
+      488,
+      510
+    ],
+    "token_span": [
+      78,
+      81
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "Foreign Minister Sergei Lavrov",
+    "score": 0.15323139032865174
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Sergei Lavrov",
+    "key_noun_phrase_processed": "sergei lavrov",
+    "span_location": [
+      497,
+      510
+    ],
+    "token_span": [
+      79,
+      81
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "Foreign Minister Sergei Lavrov",
+    "score": 0.2677449358355437
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Sergei Lavrov",
+    "key_noun_phrase_processed": "sergei lavrov",
+    "span_location": [
+      497,
+      510
+    ],
+    "token_span": [
+      79,
+      81
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "Foreign Minister Sergei Lavrov",
+    "score": 0.2677449358355437
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Lavrov",
+    "key_noun_phrase_processed": "lavrov",
+    "span_location": [
+      504,
+      510
+    ],
+    "token_span": [
+      80,
+      81
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "Foreign Minister Sergei Lavrov",
+    "score": 0.0841639150184277
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russian",
+    "key_noun_phrase_processed": "russian",
+    "span_location": [
+      512,
+      519
+    ],
+    "token_span": [
+      82,
+      83
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.5977882707985471
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Russian Yunarmia",
+    "key_noun_phrase_processed": "russian yunarmia",
+    "span_location": [
+      512,
+      528
+    ],
+    "token_span": [
+      82,
+      84
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.2562139776673822
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Russian Yunarmia",
+    "key_noun_phrase_processed": "russian yunarmia",
+    "span_location": [
+      512,
+      528
+    ],
+    "token_span": [
+      82,
+      84
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.2562139776673822
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Yunarmia",
+    "key_noun_phrase_processed": "yunarmia",
+    "span_location": [
+      520,
+      528
+    ],
+    "token_span": [
+      83,
+      84
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.1902948754355401
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian Yunarmia Chief",
+    "key_noun_phrase_processed": "russian yunarmia chief",
+    "span_location": [
+      512,
+      534
+    ],
+    "token_span": [
+      82,
+      85
+    ],
+    "is_maximal": true,
+    "family_id": "family_29",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.1705022495468782
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Russian Yunarmia Chief",
+    "key_noun_phrase_processed": "russian yunarmia chief",
+    "span_location": [
+      512,
+      534
+    ],
+    "token_span": [
+      82,
+      85
+    ],
+    "is_maximal": true,
+    "family_id": "family_29",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.1705022495468782
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Yunarmia Chief",
+    "key_noun_phrase_processed": "yunarmia chief",
+    "span_location": [
+      520,
+      534
+    ],
+    "token_span": [
+      83,
+      85
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.36482759969089845
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Yunarmia Chief",
+    "key_noun_phrase_processed": "yunarmia chief",
+    "span_location": [
+      520,
+      534
+    ],
+    "token_span": [
+      83,
+      85
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.36482759969089845
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Chief",
+    "key_noun_phrase_processed": "chief",
+    "span_location": [
+      529,
+      534
+    ],
+    "token_span": [
+      84,
+      85
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "Russian Yunarmia Chief",
+    "score": 0.06654999485804233
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-DET-NOUN",
+    "key_noun_phrase": "Chief of the General",
+    "key_noun_phrase_processed": "chief of the general",
+    "span_location": [
+      529,
+      549
+    ],
+    "token_span": [
+      84,
+      88
+    ],
+    "is_maximal": true,
+    "family_id": "family_30",
+    "maximal_text": "Chief of the General",
+    "score": 0.0189
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "General",
+    "key_noun_phrase_processed": "general",
+    "span_location": [
+      542,
+      549
+    ],
+    "token_span": [
+      87,
+      88
+    ],
+    "is_maximal": false,
+    "family_id": "family_30",
+    "maximal_text": "Chief of the General",
+    "score": 0.15683444679413577
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "General Staff",
+    "key_noun_phrase_processed": "general staff",
+    "span_location": [
+      542,
+      555
+    ],
+    "token_span": [
+      87,
+      89
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.2535995156493959
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "General Staff",
+    "key_noun_phrase_processed": "general staff",
+    "span_location": [
+      542,
+      555
+    ],
+    "token_span": [
+      87,
+      89
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.2535995156493959
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Staff",
+    "key_noun_phrase_processed": "staff",
+    "span_location": [
+      550,
+      555
+    ],
+    "token_span": [
+      88,
+      89
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.1389282480415156
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "General Staff Captain",
+    "key_noun_phrase_processed": "general staff captain",
+    "span_location": [
+      542,
+      563
+    ],
+    "token_span": [
+      87,
+      90
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.1409359100718222
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "General Staff Captain",
+    "key_noun_phrase_processed": "general staff captain",
+    "span_location": [
+      542,
+      563
+    ],
+    "token_span": [
+      87,
+      90
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.1409359100718222
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Staff Captain",
+    "key_noun_phrase_processed": "staff captain",
+    "span_location": [
+      550,
+      563
+    ],
+    "token_span": [
+      88,
+      90
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.3136245676735172
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Staff Captain",
+    "key_noun_phrase_processed": "staff captain",
+    "span_location": [
+      550,
+      563
+    ],
+    "token_span": [
+      88,
+      90
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.3136245676735172
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Captain",
+    "key_noun_phrase_processed": "captain",
+    "span_location": [
+      556,
+      563
+    ],
+    "token_span": [
+      89,
+      90
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.059908146438951974
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "General Staff Captain Vladislav",
+    "key_noun_phrase_processed": "general staff captain vladislav",
+    "span_location": [
+      542,
+      573
+    ],
+    "token_span": [
+      87,
+      91
+    ],
+    "is_maximal": true,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.09381719580935385
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Staff Captain Vladislav",
+    "key_noun_phrase_processed": "staff captain vladislav",
+    "span_location": [
+      550,
+      573
+    ],
+    "token_span": [
+      88,
+      91
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.16483953464581835
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Staff Captain Vladislav",
+    "key_noun_phrase_processed": "staff captain vladislav",
+    "span_location": [
+      550,
+      573
+    ],
+    "token_span": [
+      88,
+      91
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.16483953464581835
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Captain Vladislav",
+    "key_noun_phrase_processed": "captain vladislav",
+    "span_location": [
+      556,
+      573
+    ],
+    "token_span": [
+      89,
+      91
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.2612648916062262
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Captain Vladislav",
+    "key_noun_phrase_processed": "captain vladislav",
+    "span_location": [
+      556,
+      573
+    ],
+    "token_span": [
+      89,
+      91
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.2612648916062262
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Vladislav",
+    "key_noun_phrase_processed": "vladislav",
+    "span_location": [
+      564,
+      573
+    ],
+    "token_span": [
+      90,
+      91
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "General Staff Captain Vladislav",
+    "score": 0.07958882443083312
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Staff Captain Vladislav Golovin",
+    "key_noun_phrase_processed": "staff captain vladislav golovin",
+    "span_location": [
+      550,
+      581
+    ],
+    "token_span": [
+      88,
+      92
+    ],
+    "is_maximal": true,
+    "family_id": "family_32",
+    "maximal_text": "Staff Captain Vladislav Golovin",
+    "score": 0.08932031369934365
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Captain Vladislav Golovin",
+    "key_noun_phrase_processed": "captain vladislav golovin",
+    "span_location": [
+      556,
+      581
+    ],
+    "token_span": [
+      89,
+      92
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "Staff Captain Vladislav Golovin",
+    "score": 0.14443516289662897
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "Captain Vladislav Golovin",
+    "key_noun_phrase_processed": "captain vladislav golovin",
+    "span_location": [
+      556,
+      581
+    ],
+    "token_span": [
+      89,
+      92
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "Staff Captain Vladislav Golovin",
+    "score": 0.14443516289662897
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Vladislav Golovin",
+    "key_noun_phrase_processed": "vladislav golovin",
+    "span_location": [
+      564,
+      581
+    ],
+    "token_span": [
+      90,
+      92
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "Staff Captain Vladislav Golovin",
+    "score": 0.26324796728751526
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Vladislav Golovin",
+    "key_noun_phrase_processed": "vladislav golovin",
+    "span_location": [
+      564,
+      581
+    ],
+    "token_span": [
+      90,
+      92
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "Staff Captain Vladislav Golovin",
+    "score": 0.26324796728751526
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Golovin",
+    "key_noun_phrase_processed": "golovin",
+    "span_location": [
+      574,
+      581
+    ],
+    "token_span": [
+      91,
+      92
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "Staff Captain Vladislav Golovin",
+    "score": 0.06787000199031348
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Maryana",
+    "key_noun_phrase_processed": "maryana",
+    "span_location": [
+      584,
+      591
+    ],
+    "token_span": [
+      94,
+      95
+    ],
+    "is_maximal": false,
+    "family_id": "family_33",
+    "maximal_text": "Maryana Lysenko",
+    "score": 0.07382816977906165
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Maryana Lysenko",
+    "key_noun_phrase_processed": "maryana lysenko",
+    "span_location": [
+      584,
+      599
+    ],
+    "token_span": [
+      94,
+      96
+    ],
+    "is_maximal": true,
+    "family_id": "family_34",
+    "maximal_text": "Maryana Lysenko",
+    "score": 0.32076607439164173
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Maryana Lysenko",
+    "key_noun_phrase_processed": "maryana lysenko",
+    "span_location": [
+      584,
+      599
+    ],
+    "token_span": [
+      94,
+      96
+    ],
+    "is_maximal": true,
+    "family_id": "family_34",
+    "maximal_text": "Maryana Lysenko",
+    "score": 0.32076607439164173
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Lysenko",
+    "key_noun_phrase_processed": "lysenko",
+    "span_location": [
+      592,
+      599
+    ],
+    "token_span": [
+      95,
+      96
+    ],
+    "is_maximal": false,
+    "family_id": "family_33",
+    "maximal_text": "Maryana Lysenko",
+    "score": 0.08136569831212724
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "prominent Russian doctor",
+    "key_noun_phrase_processed": "prominent russian doctor",
+    "span_location": [
+      603,
+      627
+    ],
+    "token_span": [
+      98,
+      101
+    ],
+    "is_maximal": true,
+    "family_id": "family_35",
+    "maximal_text": "prominent Russian doctor",
+    "score": 0.10026583906031585
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Russian doctor",
+    "key_noun_phrase_processed": "russian doctor",
+    "span_location": [
+      613,
+      627
+    ],
+    "token_span": [
+      99,
+      101
+    ],
+    "is_maximal": false,
+    "family_id": "family_35",
+    "maximal_text": "prominent Russian doctor",
+    "score": 0.09453609715913792
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "City",
+    "key_noun_phrase_processed": "city",
+    "span_location": [
+      636,
+      640
+    ],
+    "token_span": [
+      103,
+      104
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.12334755019251017
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "City Clinical",
+    "key_noun_phrase_processed": "city clinical",
+    "span_location": [
+      636,
+      649
+    ],
+    "token_span": [
+      103,
+      105
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.25355473360716774
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "City Clinical",
+    "key_noun_phrase_processed": "city clinical",
+    "span_location": [
+      636,
+      649
+    ],
+    "token_span": [
+      103,
+      105
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.25355473360716774
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Clinical",
+    "key_noun_phrase_processed": "clinical",
+    "span_location": [
+      641,
+      649
+    ],
+    "token_span": [
+      104,
+      105
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.13891150744658948
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "City Clinical Hospital",
+    "key_noun_phrase_processed": "city clinical hospital",
+    "span_location": [
+      636,
+      658
+    ],
+    "token_span": [
+      103,
+      106
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.13740588272094204
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "City Clinical Hospital",
+    "key_noun_phrase_processed": "city clinical hospital",
+    "span_location": [
+      636,
+      658
+    ],
+    "token_span": [
+      103,
+      106
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.13740588272094204
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Clinical Hospital",
+    "key_noun_phrase_processed": "clinical hospital",
+    "span_location": [
+      641,
+      658
+    ],
+    "token_span": [
+      104,
+      106
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.3397616010081225
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Clinical Hospital",
+    "key_noun_phrase_processed": "clinical hospital",
+    "span_location": [
+      641,
+      658
+    ],
+    "token_span": [
+      104,
+      106
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.3397616010081225
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Hospital",
+    "key_noun_phrase_processed": "hospital",
+    "span_location": [
+      650,
+      658
+    ],
+    "token_span": [
+      105,
+      106
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.06827290801966107
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "City Clinical Hospital No",
+    "key_noun_phrase_processed": "city clinical hospital no",
+    "span_location": [
+      636,
+      661
+    ],
+    "token_span": [
+      103,
+      107
+    ],
+    "is_maximal": true,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.0576198084975139
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Clinical Hospital No",
+    "key_noun_phrase_processed": "clinical hospital no",
+    "span_location": [
+      641,
+      661
+    ],
+    "token_span": [
+      104,
+      107
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.1818246786618797
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Hospital No",
+    "key_noun_phrase_processed": "hospital no",
+    "span_location": [
+      650,
+      661
+    ],
+    "token_span": [
+      105,
+      107
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "City Clinical Hospital No",
+    "score": 0.08874098758166571
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Clinical Hospital No.",
+    "key_noun_phrase_processed": "clinical hospital no",
+    "span_location": [
+      641,
+      662
+    ],
+    "token_span": [
+      104,
+      108
+    ],
+    "is_maximal": true,
+    "family_id": "family_37",
+    "maximal_text": "Clinical Hospital No.",
+    "score": 0.21818961439425563
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Hospital No.",
+    "key_noun_phrase_processed": "hospital no",
+    "span_location": [
+      650,
+      662
+    ],
+    "token_span": [
+      105,
+      108
+    ],
+    "is_maximal": false,
+    "family_id": "family_37",
+    "maximal_text": "Clinical Hospital No.",
+    "score": 0.08874098758166571
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "No.",
+    "key_noun_phrase_processed": "no",
+    "span_location": [
+      659,
+      662
+    ],
+    "token_span": [
+      106,
+      108
+    ],
+    "is_maximal": false,
+    "family_id": "family_37",
+    "maximal_text": "Clinical Hospital No.",
+    "score": 0.033820205062995934
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "title of Hero",
+    "key_noun_phrase_processed": "title of hero",
+    "span_location": [
+      683,
+      696
+    ],
+    "token_span": [
+      112,
+      115
+    ],
+    "is_maximal": true,
+    "family_id": "family_38",
+    "maximal_text": "title of Hero",
+    "score": 0.11912356698812414
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Hero",
+    "key_noun_phrase_processed": "hero",
+    "span_location": [
+      692,
+      696
+    ],
+    "token_span": [
+      114,
+      115
+    ],
+    "is_maximal": false,
+    "family_id": "family_38",
+    "maximal_text": "title of Hero",
+    "score": 0.08591285959333277
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "Hero of Labor",
+    "key_noun_phrase_processed": "hero of labor",
+    "span_location": [
+      692,
+      705
+    ],
+    "token_span": [
+      114,
+      117
+    ],
+    "is_maximal": true,
+    "family_id": "family_39",
+    "maximal_text": "Hero of Labor",
+    "score": 0.1255572475427788
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Labor",
+    "key_noun_phrase_processed": "labor",
+    "span_location": [
+      700,
+      705
+    ],
+    "token_span": [
+      116,
+      117
+    ],
+    "is_maximal": false,
+    "family_id": "family_39",
+    "maximal_text": "Hero of Labor",
+    "score": 0.10635462767308496
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "COVID-19 pandemic",
+    "key_noun_phrase_processed": "covid-19 pandemic",
+    "span_location": [
+      734,
+      751
+    ],
+    "token_span": [
+      122,
+      124
+    ],
+    "is_maximal": false,
+    "family_id": "family_40",
+    "maximal_text": "COVID-19 pandemic in Russia",
+    "score": 0.10000789179280334
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-ADP-NOUN",
+    "key_noun_phrase": "COVID-19 pandemic in Russia",
+    "key_noun_phrase_processed": "covid-19 pandemic in russia",
+    "span_location": [
+      734,
+      761
+    ],
+    "token_span": [
+      122,
+      126
+    ],
+    "is_maximal": true,
+    "family_id": "family_40",
+    "maximal_text": "COVID-19 pandemic in Russia",
+    "score": 0.22035431956387402
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "pandemic in Russia",
+    "key_noun_phrase_processed": "pandemic in russia",
+    "span_location": [
+      743,
+      761
+    ],
+    "token_span": [
+      123,
+      126
+    ],
+    "is_maximal": false,
+    "family_id": "family_40",
+    "maximal_text": "COVID-19 pandemic in Russia",
+    "score": 0.025657827675986337
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russia",
+    "key_noun_phrase_processed": "russia",
+    "span_location": [
+      755,
+      761
+    ],
+    "token_span": [
+      125,
+      126
+    ],
+    "is_maximal": false,
+    "family_id": "family_40",
+    "maximal_text": "COVID-19 pandemic in Russia",
+    "score": 0.8026689518514109
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Kremlin",
+    "key_noun_phrase_processed": "kremlin",
+    "span_location": [
+      768,
+      775
+    ],
+    "token_span": [
+      129,
+      130
+    ],
+    "is_maximal": true,
+    "family_id": "family_41",
+    "maximal_text": "Kremlin",
+    "score": 1.3223999999999998
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Kremlin",
+    "key_noun_phrase_processed": "kremlin",
+    "span_location": [
+      788,
+      795
+    ],
+    "token_span": [
+      133,
+      134
+    ],
+    "is_maximal": true,
+    "family_id": "family_42",
+    "maximal_text": "Kremlin",
+    "score": 1.3223999999999998
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-ADJ-NOUN",
+    "key_noun_phrase": "awarded Russian milblogger",
+    "key_noun_phrase_processed": "award russian milblogger",
+    "span_location": [
+      796,
+      822
+    ],
+    "token_span": [
+      135,
+      138
+    ],
+    "is_maximal": true,
+    "family_id": "family_43",
+    "maximal_text": "awarded Russian milblogger",
+    "score": 0.10298417421389965
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Russian milblogger",
+    "key_noun_phrase_processed": "russian milblogger",
+    "span_location": [
+      804,
+      822
+    ],
+    "token_span": [
+      136,
+      138
+    ],
+    "is_maximal": false,
+    "family_id": "family_43",
+    "maximal_text": "awarded Russian milblogger",
+    "score": 0.07661224942216119
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "Russian milblogger Yevgeny",
+    "key_noun_phrase_processed": "russian milblogger yevgeny",
+    "span_location": [
+      804,
+      830
+    ],
+    "token_span": [
+      136,
+      139
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.15977243634311
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "milblogger Yevgeny",
+    "key_noun_phrase_processed": "milblogger yevgeny",
+    "span_location": [
+      812,
+      830
+    ],
+    "token_span": [
+      137,
+      139
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.0888522235468909
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Yevgeny",
+    "key_noun_phrase_processed": "yevgeny",
+    "span_location": [
+      823,
+      830
+    ],
+    "token_span": [
+      138,
+      139
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.10301098650609064
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian milblogger Yevgeny Poddubny.[1",
+    "key_noun_phrase_processed": "russian milblogger yevgeny poddubny.[1",
+    "span_location": [
+      804,
+      842
+    ],
+    "token_span": [
+      136,
+      140
+    ],
+    "is_maximal": true,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.07198115532355127
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "milblogger Yevgeny Poddubny.[1",
+    "key_noun_phrase_processed": "milblogger yevgeny poddubny.[1",
+    "span_location": [
+      812,
+      842
+    ],
+    "token_span": [
+      137,
+      140
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.09408302060329532
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Yevgeny Poddubny.[1",
+    "key_noun_phrase_processed": "yevgeny poddubny.[1",
+    "span_location": [
+      823,
+      842
+    ],
+    "token_span": [
+      138,
+      140
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.2821568437809814
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Yevgeny Poddubny.[1",
+    "key_noun_phrase_processed": "yevgeny poddubny.[1",
+    "span_location": [
+      823,
+      842
+    ],
+    "token_span": [
+      138,
+      140
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.2821568437809814
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Poddubny.[1",
+    "key_noun_phrase_processed": "poddubny.[1",
+    "span_location": [
+      831,
+      842
+    ],
+    "token_span": [
+      139,
+      140
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "Russian milblogger Yevgeny Poddubny.[1",
+    "score": 0.07702763158613526
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN",
+    "key_noun_phrase": "recurring lists",
+    "key_noun_phrase_processed": "recur list",
+    "span_location": [
+      868,
+      883
+    ],
+    "token_span": [
+      145,
+      147
+    ],
+    "is_maximal": true,
+    "family_id": "family_45",
+    "maximal_text": "recurring lists",
+    "score": 0.07696385196753285
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "popular political figures",
+    "key_noun_phrase_processed": "popular political figure",
+    "span_location": [
+      920,
+      945
+    ],
+    "token_span": [
+      151,
+      154
+    ],
+    "is_maximal": true,
+    "family_id": "family_46",
+    "maximal_text": "popular political figures",
+    "score": 0.12428430344130612
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "political figures",
+    "key_noun_phrase_processed": "political figure",
+    "span_location": [
+      928,
+      945
+    ],
+    "token_span": [
+      152,
+      154
+    ],
+    "is_maximal": false,
+    "family_id": "family_46",
+    "maximal_text": "popular political figures",
+    "score": 0.08050505118044599
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "prominent positions",
+    "key_noun_phrase_processed": "prominent position",
+    "span_location": [
+      955,
+      974
+    ],
+    "token_span": [
+      156,
+      158
+    ],
+    "is_maximal": true,
+    "family_id": "family_47",
+    "maximal_text": "prominent positions",
+    "score": 0.0929199345239798
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "Russian political sphere",
+    "key_noun_phrase_processed": "russian political sphere",
+    "span_location": [
+      982,
+      1006
+    ],
+    "token_span": [
+      160,
+      163
+    ],
+    "is_maximal": true,
+    "family_id": "family_48",
+    "maximal_text": "Russian political sphere",
+    "score": 0.10362094851422415
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "political sphere",
+    "key_noun_phrase_processed": "political sphere",
+    "span_location": [
+      990,
+      1006
+    ],
+    "token_span": [
+      161,
+      163
+    ],
+    "is_maximal": false,
+    "family_id": "family_48",
+    "maximal_text": "Russian political sphere",
+    "score": 0.07813102138505497
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "other senior government",
+    "key_noun_phrase_processed": "other senior government",
+    "span_location": [
+      1018,
+      1041
+    ],
+    "token_span": [
+      165,
+      168
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "other senior government posts",
+    "score": 0.08505470598247945
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "senior government",
+    "key_noun_phrase_processed": "senior government",
+    "span_location": [
+      1024,
+      1041
+    ],
+    "token_span": [
+      166,
+      168
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "other senior government posts",
+    "score": 0.08173560038667281
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN-NOUN",
+    "key_noun_phrase": "other senior government posts",
+    "key_noun_phrase_processed": "other senior government post",
+    "span_location": [
+      1018,
+      1047
+    ],
+    "token_span": [
+      165,
+      169
+    ],
+    "is_maximal": true,
+    "family_id": "family_49",
+    "maximal_text": "other senior government posts",
+    "score": 0.07430186273319896
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "senior government posts",
+    "key_noun_phrase_processed": "senior government post",
+    "span_location": [
+      1024,
+      1047
+    ],
+    "token_span": [
+      166,
+      169
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "other senior government posts",
+    "score": 0.08176302836650874
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "government posts",
+    "key_noun_phrase_processed": "government post",
+    "span_location": [
+      1031,
+      1047
+    ],
+    "token_span": [
+      167,
+      169
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "other senior government posts",
+    "score": 0.08805745038470178
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "parliamentary seats",
+    "key_noun_phrase_processed": "parliamentary seat",
+    "span_location": [
+      1083,
+      1102
+    ],
+    "token_span": [
+      176,
+      178
+    ],
+    "is_maximal": false,
+    "family_id": "family_50",
+    "maximal_text": "parliamentary seats in favor",
+    "score": 0.09360363088278519
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "parliamentary seats in favor",
+    "key_noun_phrase_processed": "parliamentary seat in favor",
+    "span_location": [
+      1083,
+      1111
+    ],
+    "token_span": [
+      176,
+      180
+    ],
+    "is_maximal": true,
+    "family_id": "family_50",
+    "maximal_text": "parliamentary seats in favor",
+    "score": 0.042055356238167814
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "seats in favor",
+    "key_noun_phrase_processed": "seat in favor",
+    "span_location": [
+      1097,
+      1111
+    ],
+    "token_span": [
+      177,
+      180
+    ],
+    "is_maximal": false,
+    "family_id": "family_50",
+    "maximal_text": "parliamentary seats in favor",
+    "score": 0.06409106145631549
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-CCONJ-ADJ-NOUN",
+    "key_noun_phrase": "powerful or lucrative positions",
+    "key_noun_phrase_processed": "powerful or lucrative position",
+    "span_location": [
+      1136,
+      1167
+    ],
+    "token_span": [
+      184,
+      188
+    ],
+    "is_maximal": true,
+    "family_id": "family_51",
+    "maximal_text": "powerful or lucrative positions",
+    "score": 0.09237425889762603
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "lucrative positions",
+    "key_noun_phrase_processed": "lucrative position",
+    "span_location": [
+      1148,
+      1167
+    ],
+    "token_span": [
+      186,
+      188
+    ],
+    "is_maximal": false,
+    "family_id": "family_51",
+    "maximal_text": "powerful or lucrative positions",
+    "score": 0.07904090597068408
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Putin",
+    "key_noun_phrase_processed": "putin",
+    "span_location": [
+      1197,
+      1202
+    ],
+    "token_span": [
+      194,
+      195
+    ],
+    "is_maximal": true,
+    "family_id": "family_52",
+    "maximal_text": "Putin",
+    "score": 0.5411051698163329
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "-war public figures",
+    "key_noun_phrase_processed": "war public figure",
+    "span_location": [
+      1241,
+      1260
+    ],
+    "token_span": [
+      201,
+      205
+    ],
+    "is_maximal": true,
+    "family_id": "family_53",
+    "maximal_text": "-war public figures",
+    "score": 0.15054389967545403
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "war public figures",
+    "key_noun_phrase_processed": "war public figure",
+    "span_location": [
+      1242,
+      1260
+    ],
+    "token_span": [
+      202,
+      205
+    ],
+    "is_maximal": false,
+    "family_id": "family_53",
+    "maximal_text": "-war public figures",
+    "score": 0.12545324972954502
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "public figures",
+    "key_noun_phrase_processed": "public figure",
+    "span_location": [
+      1246,
+      1260
+    ],
+    "token_span": [
+      203,
+      205
+    ],
+    "is_maximal": false,
+    "family_id": "family_53",
+    "maximal_text": "-war public figures",
+    "score": 0.1258300435313194
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Kremlin",
+    "key_noun_phrase_processed": "kremlin",
+    "span_location": [
+      1274,
+      1281
+    ],
+    "token_span": [
+      207,
+      208
+    ],
+    "is_maximal": false,
+    "family_id": "family_54",
+    "maximal_text": "Kremlin effort",
+    "score": 1.1019999999999999
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Kremlin effort",
+    "key_noun_phrase_processed": "kremlin effort",
+    "span_location": [
+      1274,
+      1288
+    ],
+    "token_span": [
+      207,
+      209
+    ],
+    "is_maximal": true,
+    "family_id": "family_54",
+    "maximal_text": "Kremlin effort",
+    "score": 0.10436126958249423
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "pro-war figures",
+    "key_noun_phrase_processed": "pro war figure",
+    "span_location": [
+      1300,
+      1315
+    ],
+    "token_span": [
+      211,
+      215
+    ],
+    "is_maximal": true,
+    "family_id": "family_56",
+    "maximal_text": "pro-war figures",
+    "score": 0.10923770238490178
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PUNCT-ADJ-NOUN",
+    "key_noun_phrase": "pro-war figures",
+    "key_noun_phrase_processed": "pro war figure",
+    "span_location": [
+      1300,
+      1315
+    ],
+    "token_span": [
+      211,
+      215
+    ],
+    "is_maximal": true,
+    "family_id": "family_56",
+    "maximal_text": "pro-war figures",
+    "score": 0.10923770238490178
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "-war figures",
+    "key_noun_phrase_processed": "war figure",
+    "span_location": [
+      1303,
+      1315
+    ],
+    "token_span": [
+      212,
+      215
+    ],
+    "is_maximal": false,
+    "family_id": "family_55",
+    "maximal_text": "pro-war figures",
+    "score": 0.07979473644116056
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "war figures",
+    "key_noun_phrase_processed": "war figure",
+    "span_location": [
+      1304,
+      1315
+    ],
+    "token_span": [
+      213,
+      215
+    ],
+    "is_maximal": false,
+    "family_id": "family_55",
+    "maximal_text": "pro-war figures",
+    "score": 0.07979473644116056
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-DET-NOUN",
+    "key_noun_phrase": "figures as the role",
+    "key_noun_phrase_processed": "figure as the role",
+    "span_location": [
+      1308,
+      1327
+    ],
+    "token_span": [
+      214,
+      218
+    ],
+    "is_maximal": true,
+    "family_id": "family_57",
+    "maximal_text": "figures as the role",
+    "score": 0.024879542600705767
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "role models",
+    "key_noun_phrase_processed": "role model",
+    "span_location": [
+      1323,
+      1334
+    ],
+    "token_span": [
+      217,
+      219
+    ],
+    "is_maximal": true,
+    "family_id": "family_58",
+    "maximal_text": "role models",
+    "score": 0.08115561921225663
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russia",
+    "key_noun_phrase_processed": "russia",
+    "span_location": [
+      1346,
+      1352
+    ],
+    "token_span": [
+      221,
+      222
+    ],
+    "is_maximal": true,
+    "family_id": "family_59",
+    "maximal_text": "Russia",
+    "score": 0.963202742221693
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "informal state",
+    "key_noun_phrase_processed": "informal state",
+    "span_location": [
+      1355,
+      1369
+    ],
+    "token_span": [
+      223,
+      225
+    ],
+    "is_maximal": false,
+    "family_id": "family_60",
+    "maximal_text": "informal state ideology",
+    "score": 0.07835667297821587
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "informal state ideology",
+    "key_noun_phrase_processed": "informal state ideology",
+    "span_location": [
+      1355,
+      1378
+    ],
+    "token_span": [
+      223,
+      226
+    ],
+    "is_maximal": true,
+    "family_id": "family_60",
+    "maximal_text": "informal state ideology",
+    "score": 0.09512903554259627
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "state ideology",
+    "key_noun_phrase_processed": "state ideology",
+    "span_location": [
+      1364,
+      1378
+    ],
+    "token_span": [
+      224,
+      226
+    ],
+    "is_maximal": false,
+    "family_id": "family_60",
+    "maximal_text": "informal state ideology",
+    "score": 0.07491786652445766
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-ADJ-NOUN",
+    "key_noun_phrase": "ideology and political priorities",
+    "key_noun_phrase_processed": "ideology and political priority",
+    "span_location": [
+      1370,
+      1403
+    ],
+    "token_span": [
+      225,
+      229
+    ],
+    "is_maximal": true,
+    "family_id": "family_61",
+    "maximal_text": "ideology and political priorities",
+    "score": 0.049171118883521166
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "political priorities",
+    "key_noun_phrase_processed": "political priority",
+    "span_location": [
+      1383,
+      1403
+    ],
+    "token_span": [
+      227,
+      229
+    ],
+    "is_maximal": false,
+    "family_id": "family_61",
+    "maximal_text": "ideology and political priorities",
+    "score": 0.07750846135249635
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "final unified federal list",
+    "key_noun_phrase_processed": "final unified federal list",
+    "span_location": [
+      1480,
+      1506
+    ],
+    "token_span": [
+      245,
+      249
+    ],
+    "is_maximal": true,
+    "family_id": "family_62",
+    "maximal_text": "final unified federal list",
+    "score": 0.10230305051485135
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "unified federal list",
+    "key_noun_phrase_processed": "unified federal list",
+    "span_location": [
+      1486,
+      1506
+    ],
+    "token_span": [
+      246,
+      249
+    ],
+    "is_maximal": false,
+    "family_id": "family_62",
+    "maximal_text": "final unified federal list",
+    "score": 0.08495240340546618
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "federal list",
+    "key_noun_phrase_processed": "federal list",
+    "span_location": [
+      1494,
+      1506
+    ],
+    "token_span": [
+      247,
+      249
+    ],
+    "is_maximal": false,
+    "family_id": "family_62",
+    "maximal_text": "final unified federal list",
+    "score": 0.08944342940497141
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "candidates representative",
+    "key_noun_phrase_processed": "candidate representative",
+    "span_location": [
+      1589,
+      1614
+    ],
+    "token_span": [
+      265,
+      267
+    ],
+    "is_maximal": true,
+    "family_id": "family_63",
+    "maximal_text": "candidates representative",
+    "score": 0.09192905002655086
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-DET-NOUN",
+    "key_noun_phrase": "representative of the United",
+    "key_noun_phrase_processed": "representative of the united",
+    "span_location": [
+      1600,
+      1628
+    ],
+    "token_span": [
+      266,
+      270
+    ],
+    "is_maximal": true,
+    "family_id": "family_64",
+    "maximal_text": "representative of the United",
+    "score": 0.022464901972856395
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "United",
+    "key_noun_phrase_processed": "united",
+    "span_location": [
+      1622,
+      1628
+    ],
+    "token_span": [
+      269,
+      270
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 0.7224076791031497
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      1622,
+      1635
+    ],
+    "token_span": [
+      269,
+      271
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 1.0304999383173366
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "United Russia",
+    "key_noun_phrase_processed": "united russia",
+    "span_location": [
+      1622,
+      1635
+    ],
+    "token_span": [
+      269,
+      271
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 1.0304999383173366
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Russia",
+    "key_noun_phrase_processed": "russia",
+    "span_location": [
+      1629,
+      1635
+    ],
+    "token_span": [
+      270,
+      271
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 0.8026689518514109
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "United Russia Party",
+    "key_noun_phrase_processed": "united russia party",
+    "span_location": [
+      1622,
+      1641
+    ],
+    "token_span": [
+      269,
+      272
+    ],
+    "is_maximal": true,
+    "family_id": "family_66",
+    "maximal_text": "United Russia Party",
+    "score": 0.32759999999999995
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "United Russia Party",
+    "key_noun_phrase_processed": "united russia party",
+    "span_location": [
+      1622,
+      1641
+    ],
+    "token_span": [
+      269,
+      272
+    ],
+    "is_maximal": true,
+    "family_id": "family_66",
+    "maximal_text": "United Russia Party",
+    "score": 0.32759999999999995
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Russia Party",
+    "key_noun_phrase_processed": "russia party",
+    "span_location": [
+      1629,
+      1641
+    ],
+    "token_span": [
+      270,
+      272
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 0.5075179961190259
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Russia Party",
+    "key_noun_phrase_processed": "russia party",
+    "span_location": [
+      1629,
+      1641
+    ],
+    "token_span": [
+      270,
+      272
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 0.5075179961190259
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Party",
+    "key_noun_phrase_processed": "party",
+    "span_location": [
+      1636,
+      1641
+    ],
+    "token_span": [
+      271,
+      272
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "United Russia Party",
+    "score": 0.26656430509090095
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Russian President",
+    "key_noun_phrase_processed": "russian president",
+    "span_location": [
+      1657,
+      1674
+    ],
+    "token_span": [
+      276,
+      278
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.23512385431659638
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "Russian President",
+    "key_noun_phrase_processed": "russian president",
+    "span_location": [
+      1657,
+      1674
+    ],
+    "token_span": [
+      276,
+      278
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.23512385431659638
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "President",
+    "key_noun_phrase_processed": "president",
+    "span_location": [
+      1665,
+      1674
+    ],
+    "token_span": [
+      277,
+      278
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.06763520922104153
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "Russian President Vladimir",
+    "key_noun_phrase_processed": "russian president vladimir",
+    "span_location": [
+      1657,
+      1683
+    ],
+    "token_span": [
+      276,
+      279
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.07695690416276364
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "President Vladimir",
+    "key_noun_phrase_processed": "president vladimir",
+    "span_location": [
+      1665,
+      1683
+    ],
+    "token_span": [
+      277,
+      279
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.25803430259560506
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "President Vladimir",
+    "key_noun_phrase_processed": "president vladimir",
+    "span_location": [
+      1665,
+      1683
+    ],
+    "token_span": [
+      277,
+      279
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.25803430259560506
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Vladimir",
+    "key_noun_phrase_processed": "vladimir",
+    "span_location": [
+      1675,
+      1683
+    ],
+    "token_span": [
+      278,
+      279
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.06140979860755177
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN-NOUN",
+    "key_noun_phrase": "Russian President Vladimir Putin",
+    "key_noun_phrase_processed": "russian president vladimir putin",
+    "span_location": [
+      1657,
+      1689
+    ],
+    "token_span": [
+      276,
+      280
+    ],
+    "is_maximal": true,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.07467651304926831
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "President Vladimir Putin",
+    "key_noun_phrase_processed": "president vladimir putin",
+    "span_location": [
+      1665,
+      1689
+    ],
+    "token_span": [
+      277,
+      280
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.15015015349572888
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN-PROPN",
+    "key_noun_phrase": "President Vladimir Putin",
+    "key_noun_phrase_processed": "president vladimir putin",
+    "span_location": [
+      1665,
+      1689
+    ],
+    "token_span": [
+      277,
+      280
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.15015015349572888
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Vladimir Putin",
+    "key_noun_phrase_processed": "vladimir putin",
+    "span_location": [
+      1675,
+      1689
+    ],
+    "token_span": [
+      278,
+      280
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.27191569482286837
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Vladimir Putin",
+    "key_noun_phrase_processed": "vladimir putin",
+    "span_location": [
+      1675,
+      1689
+    ],
+    "token_span": [
+      278,
+      280
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.27191569482286837
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Putin",
+    "key_noun_phrase_processed": "putin",
+    "span_location": [
+      1684,
+      1689
+    ],
+    "token_span": [
+      279,
+      280
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "Russian President Vladimir Putin",
+    "score": 0.4509209748469441
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "political agenda.[2",
+    "key_noun_phrase_processed": "political agenda.[2",
+    "span_location": [
+      1693,
+      1712
+    ],
+    "token_span": [
+      282,
+      284
+    ],
+    "is_maximal": true,
+    "family_id": "family_68",
+    "maximal_text": "political agenda.[2",
+    "score": 0.09171771017773267
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "RBK",
+    "key_noun_phrase_processed": "rbk",
+    "span_location": [
+      1714,
+      1717
+    ],
+    "token_span": [
+      285,
+      286
+    ],
+    "is_maximal": true,
+    "family_id": "family_69",
+    "maximal_text": "RBK",
+    "score": 0.5755682076772315
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Putin",
+    "key_noun_phrase_processed": "putin",
+    "span_location": [
+      1743,
+      1748
+    ],
+    "token_span": [
+      290,
+      291
+    ],
+    "is_maximal": true,
+    "family_id": "family_70",
+    "maximal_text": "Putin",
+    "score": 0.5411051698163329
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "final list",
+    "key_noun_phrase_processed": "final list",
+    "span_location": [
+      1764,
+      1774
+    ],
+    "token_span": [
+      294,
+      296
+    ],
+    "is_maximal": false,
+    "family_id": "family_71",
+    "maximal_text": "final list of candidates",
+    "score": 0.07568214079582457
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "final list of candidates",
+    "key_noun_phrase_processed": "final list of candidate",
+    "span_location": [
+      1764,
+      1788
+    ],
+    "token_span": [
+      294,
+      298
+    ],
+    "is_maximal": true,
+    "family_id": "family_71",
+    "maximal_text": "final list of candidates",
+    "score": 0.04453294847883294
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "list of candidates",
+    "key_noun_phrase_processed": "list of candidate",
+    "span_location": [
+      1770,
+      1788
+    ],
+    "token_span": [
+      295,
+      298
+    ],
+    "is_maximal": false,
+    "family_id": "family_71",
+    "maximal_text": "final list of candidates",
+    "score": 0.051542219540965245
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "RBK",
+    "key_noun_phrase_processed": "rbk",
+    "span_location": [
+      1801,
+      1804
+    ],
+    "token_span": [
+      300,
+      301
+    ],
+    "is_maximal": true,
+    "family_id": "family_72",
+    "maximal_text": "RBK",
+    "score": 0.5755682076772315
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Medvedev",
+    "key_noun_phrase_processed": "medvedev",
+    "span_location": [
+      1819,
+      1827
+    ],
+    "token_span": [
+      303,
+      304
+    ],
+    "is_maximal": true,
+    "family_id": "family_73",
+    "maximal_text": "Medvedev",
+    "score": 0.4512529615465904
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "fringe Kremlin",
+    "key_noun_phrase_processed": "fringe kremlin",
+    "span_location": [
+      1855,
+      1869
+    ],
+    "token_span": [
+      308,
+      310
+    ],
+    "is_maximal": false,
+    "family_id": "family_74",
+    "maximal_text": "fringe Kremlin positions",
+    "score": 0.07271129826542395
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Kremlin",
+    "key_noun_phrase_processed": "kremlin",
+    "span_location": [
+      1862,
+      1869
+    ],
+    "token_span": [
+      309,
+      310
+    ],
+    "is_maximal": false,
+    "family_id": "family_74",
+    "maximal_text": "fringe Kremlin positions",
+    "score": 1.1019999999999999
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "fringe Kremlin positions",
+    "key_noun_phrase_processed": "fringe kremlin position",
+    "span_location": [
+      1855,
+      1879
+    ],
+    "token_span": [
+      308,
+      311
+    ],
+    "is_maximal": true,
+    "family_id": "family_74",
+    "maximal_text": "fringe Kremlin positions",
+    "score": 0.08932195836272917
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Kremlin positions",
+    "key_noun_phrase_processed": "kremlin position",
+    "span_location": [
+      1862,
+      1879
+    ],
+    "token_span": [
+      309,
+      311
+    ],
+    "is_maximal": false,
+    "family_id": "family_74",
+    "maximal_text": "fringe Kremlin positions",
+    "score": 0.07274822297634756
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "overt nuclear threats",
+    "key_noun_phrase_processed": "overt nuclear threat",
+    "span_location": [
+      1917,
+      1938
+    ],
+    "token_span": [
+      317,
+      320
+    ],
+    "is_maximal": true,
+    "family_id": "family_75",
+    "maximal_text": "overt nuclear threats",
+    "score": 0.10472451917506068
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "nuclear threats",
+    "key_noun_phrase_processed": "nuclear threat",
+    "span_location": [
+      1923,
+      1938
+    ],
+    "token_span": [
+      318,
+      320
+    ],
+    "is_maximal": false,
+    "family_id": "family_75",
+    "maximal_text": "overt nuclear threats",
+    "score": 0.08326285346078137
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Europe",
+    "key_noun_phrase_processed": "europe",
+    "span_location": [
+      1948,
+      1954
+    ],
+    "token_span": [
+      322,
+      323
+    ],
+    "is_maximal": true,
+    "family_id": "family_76",
+    "maximal_text": "Europe",
+    "score": 0.07056303308899624
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "United",
+    "key_noun_phrase_processed": "united",
+    "span_location": [
+      1963,
+      1969
+    ],
+    "token_span": [
+      325,
+      326
+    ],
+    "is_maximal": false,
+    "family_id": "family_77",
+    "maximal_text": "United States",
+    "score": 0.7224076791031497
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "United States",
+    "key_noun_phrase_processed": "united states",
+    "span_location": [
+      1963,
+      1976
+    ],
+    "token_span": [
+      325,
+      327
+    ],
+    "is_maximal": true,
+    "family_id": "family_78",
+    "maximal_text": "United States",
+    "score": 0.30419999999999997
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "United States",
+    "key_noun_phrase_processed": "united states",
+    "span_location": [
+      1963,
+      1976
+    ],
+    "token_span": [
+      325,
+      327
+    ],
+    "is_maximal": true,
+    "family_id": "family_78",
+    "maximal_text": "United States",
+    "score": 0.30419999999999997
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "States",
+    "key_noun_phrase_processed": "states",
+    "span_location": [
+      1970,
+      1976
+    ],
+    "token_span": [
+      326,
+      327
+    ],
+    "is_maximal": false,
+    "family_id": "family_77",
+    "maximal_text": "United States",
+    "score": 0.058499999999999996
+  }
+]

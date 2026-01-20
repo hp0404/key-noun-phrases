@@ -593,21 +593,23 @@ class TestRedundancyResolution:
     def test_maximal_span_detection(self, nlp_en):
         """Test that maximal spans are correctly identified."""
         matcher = TermsMatcher(nlp=nlp_en)
-        texts = "The data security incident response plan is effective."
+        # Use 4-noun phrase (max supported by NOUN-NOUN-NOUN-NOUN pattern)
+        texts = "The data security response plan is effective."
         results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         # Find the maximal span
         maximal_spans = [r for r in results if r["is_maximal"]]
         assert len(maximal_spans) == 1
         assert (
-            "data security incident response plan"
+            "data security response plan"
             in maximal_spans[0]["key_noun_phrase"]
         )
 
     def test_family_grouping(self, nlp_en):
         """Test that subspans are grouped under maximal spans."""
         matcher = TermsMatcher(nlp=nlp_en)
-        texts = "The data security incident response plan is effective."
+        # Use 4-noun phrase (max supported by NOUN-NOUN-NOUN-NOUN pattern)
+        texts = "The data security response plan is effective."
         results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         # All spans should belong to the same family
@@ -618,14 +620,15 @@ class TestRedundancyResolution:
     def test_non_maximal_spans_reference_maximal(self, nlp_en):
         """Test that non-maximal spans reference their maximal span text."""
         matcher = TermsMatcher(nlp=nlp_en)
-        texts = "The data security incident response plan is effective."
+        # Use 4-noun phrase (max supported by NOUN-NOUN-NOUN-NOUN pattern)
+        texts = "The data security response plan is effective."
         results = matcher.extract_key_phrases(texts, exclusive_search=False)
 
         # All non-maximal spans should have maximal_text set
         for r in results:
             if not r["is_maximal"]:
                 assert r["maximal_text"] is not None
-                assert "data security incident response plan" in r["maximal_text"]
+                assert "data security response plan" in r["maximal_text"]
 
     def test_resolve_redundancy_disabled(self, nlp_en):
         """Test that resolve_redundancy=False leaves fields as None."""

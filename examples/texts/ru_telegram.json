@@ -87,7 +87,7 @@
     "is_maximal": true,
     "family_id": "family_3",
     "maximal_text": "вселенская катастрофа в сфере",
-    "score": 0.13639606328636614
+    "score": 0.13639606328636616
   },
   {
     "doc_index": 0,
@@ -105,7 +105,7 @@
     "is_maximal": false,
     "family_id": "family_3",
     "maximal_text": "вселенская катастрофа в сфере",
-    "score": 0.06585415318700281
+    "score": 0.0658541531870028
   },
   {
     "doc_index": 0,
@@ -141,7 +141,7 @@
     "is_maximal": false,
     "family_id": "family_4",
     "maximal_text": "сфере международных отношений",
-    "score": 0.595562440641036
+    "score": 0.5955624406410361
   },
   {
     "doc_index": 0,
@@ -195,7 +195,7 @@
     "is_maximal": false,
     "family_id": "family_6",
     "maximal_text": "похищенного венесуэльского президента",
-    "score": 0.17274140298553
+    "score": 0.17274140298553003
   },
   {
     "doc_index": 0,
@@ -411,7 +411,7 @@
     "is_maximal": false,
     "family_id": "family_11",
     "maximal_text": "Мирандой и Чавесом",
-    "score": 0.14729442989547514
+    "score": 0.14729442989547517
   },
   {
     "doc_index": 0,
@@ -465,7 +465,7 @@
     "is_maximal": true,
     "family_id": "family_13",
     "maximal_text": "Трамп",
-    "score": 1.390377901619921
+    "score": 1.3903779016199211
   },
   {
     "doc_index": 0,
@@ -591,7 +591,7 @@
     "is_maximal": true,
     "family_id": "family_19",
     "maximal_text": "Трамп",
-    "score": 1.390377901619921
+    "score": 1.3903779016199211
   },
   {
     "doc_index": 0,
@@ -753,7 +753,7 @@
     "is_maximal": false,
     "family_id": "family_24",
     "maximal_text": "удавку на Трампа",
-    "score": 1.158648251349934
+    "score": 1.1586482513499343
   },
   {
     "doc_index": 0,
@@ -951,7 +951,7 @@
     "is_maximal": false,
     "family_id": "family_31",
     "maximal_text": "правомерность действий России",
-    "score": 0.14062679191895935
+    "score": 0.14062679191895938
   },
   {
     "doc_index": 0,
@@ -969,7 +969,7 @@
     "is_maximal": false,
     "family_id": "family_31",
     "maximal_text": "правомерность действий России",
-    "score": 1.2819211059434275
+    "score": 1.2819211059434277
   },
   {
     "doc_index": 0,
@@ -1095,7 +1095,7 @@
     "is_maximal": false,
     "family_id": "family_34",
     "maximal_text": "Санкции против России",
-    "score": 1.2819211059434275
+    "score": 1.2819211059434277
   },
   {
     "doc_index": 0,
@@ -1113,7 +1113,7 @@
     "is_maximal": true,
     "family_id": "family_35",
     "maximal_text": "Трамп",
-    "score": 1.390377901619921
+    "score": 1.3903779016199211
   },
   {
     "doc_index": 0,
@@ -1203,7 +1203,7 @@
     "is_maximal": true,
     "family_id": "family_37",
     "maximal_text": "Россию",
-    "score": 1.538305327132113
+    "score": 1.5383053271321132
   },
   {
     "doc_index": 0,
@@ -1221,7 +1221,7 @@
     "is_maximal": false,
     "family_id": "family_38",
     "maximal_text": "компромиссам по гарантиям безопасности",
-    "score": 0.08536118794819643
+    "score": 0.08536118794819644
   },
   {
     "doc_index": 0,
@@ -1239,7 +1239,7 @@
     "is_maximal": true,
     "family_id": "family_38",
     "maximal_text": "компромиссам по гарантиям безопасности",
-    "score": 0.13472696657188948
+    "score": 0.1347269665718895
   },
   {
     "doc_index": 0,
@@ -1437,7 +1437,7 @@
     "is_maximal": false,
     "family_id": "family_42",
     "maximal_text": "старого дегенеративного русофоба Грэма",
-    "score": 0.12801082551115628
+    "score": 0.12801082551115625
   },
   {
     "doc_index": 0,
@@ -1473,7 +1473,7 @@
     "is_maximal": true,
     "family_id": "family_44",
     "maximal_text": "называемого теневого флота",
-    "score": 0.19801010203368538
+    "score": 0.1980101020336854
   },
   {
     "doc_index": 0,
@@ -1527,7 +1527,7 @@
     "is_maximal": true,
     "family_id": "family_46",
     "maximal_text": "России",
-    "score": 1.538305327132113
+    "score": 1.5383053271321132
   },
   {
     "doc_index": 0,
@@ -1545,7 +1545,7 @@
     "is_maximal": true,
     "family_id": "family_47",
     "maximal_text": "угрозой захвата",
-    "score": 0.17242525818360796
+    "score": 0.172425258183608
   },
   {
     "doc_index": 0,
@@ -1563,7 +1563,7 @@
     "is_maximal": true,
     "family_id": "family_48",
     "maximal_text": "защиты от американских незаконных санкций",
-    "score": 0.09139125825184707
+    "score": 0.09139125825184709
   },
   {
     "doc_index": 0,
@@ -1671,7 +1671,7 @@
     "is_maximal": false,
     "family_id": "family_49",
     "maximal_text": "явное нарушение Конвенции",
-    "score": 0.5500295086607616
+    "score": 0.5500295086607615
   },
   {
     "doc_index": 0,
@@ -1689,7 +1689,7 @@
     "is_maximal": true,
     "family_id": "family_50",
     "maximal_text": "нарушение Конвенции ООН",
-    "score": 0.16378272069831876
+    "score": 0.16378272069831878
   },
   {
     "doc_index": 0,
@@ -1797,7 +1797,7 @@
     "is_maximal": false,
     "family_id": "family_52",
     "maximal_text": "морскому праву 1982 г.",
-    "score": 0.371543684635655
+    "score": 0.37154368463565507
   },
   {
     "doc_index": 0,
@@ -1815,7 +1815,7 @@
     "is_maximal": true,
     "family_id": "family_52",
     "maximal_text": "морскому праву 1982 г.",
-    "score": 0.1557432889110465
+    "score": 0.15574328891104647
   },
   {
     "doc_index": 0,
@@ -1923,7 +1923,7 @@
     "is_maximal": false,
     "family_id": "family_55",
     "maximal_text": "выдача временного разрешения",
-    "score": 0.2228598046287181
+    "score": 0.22285980462871807
   },
   {
     "doc_index": 0,
@@ -2085,7 +2085,7 @@
     "is_maximal": true,
     "family_id": "family_61",
     "maximal_text": "непреложного факта",
-    "score": 0.18465212867991201
+    "score": 0.18465212867991204
   },
   {
     "doc_index": 0,
@@ -2175,7 +2175,7 @@
     "is_maximal": false,
     "family_id": "family_63",
     "maximal_text": "преступный захват гражданского судна",
-    "score": 0.177200596032784
+    "score": 0.17720059603278404
   },
   {
     "doc_index": 0,
@@ -2193,7 +2193,7 @@
     "is_maximal": false,
     "family_id": "family_63",
     "maximal_text": "преступный захват гражданского судна",
-    "score": 0.16658760393802235
+    "score": 0.16658760393802238
   },
   {
     "doc_index": 0,
@@ -2229,7 +2229,7 @@
     "is_maximal": false,
     "family_id": "family_64",
     "maximal_text": "рамках Конвенции",
-    "score": 0.5500295086607616
+    "score": 0.5500295086607615
   },
   {
     "doc_index": 0,
@@ -2283,7 +2283,7 @@
     "is_maximal": false,
     "family_id": "family_65",
     "maximal_text": "Конвенции по международному морскому праву",
-    "score": 0.371543684635655
+    "score": 0.37154368463565507
   },
   {
     "doc_index": 0,
@@ -2337,7 +2337,7 @@
     "is_maximal": false,
     "family_id": "family_67",
     "maximal_text": "нынешние международные отношения",
-    "score": 0.595562440641036
+    "score": 0.5955624406410361
   },
   {
     "doc_index": 0,
@@ -2373,7 +2373,7 @@
     "is_maximal": true,
     "family_id": "family_69",
     "maximal_text": "года в форменный Бедлам",
-    "score": 0.1141232452366312
+    "score": 0.11412324523663124
   },
   {
     "doc_index": 0,
@@ -2499,7 +2499,7 @@
     "is_maximal": false,
     "family_id": "family_71",
     "maximal_text": "санитары с огромными кулаками",
-    "score": 0.17824011776879672
+    "score": 0.17824011776879675
   },
   {
     "doc_index": 0,
@@ -2517,7 +2517,7 @@
     "is_maximal": true,
     "family_id": "family_72",
     "maximal_text": "флегматичными лицами",
-    "score": 0.29821906312104207
+    "score": 0.2982190631210422
   },
   {
     "doc_index": 0,
@@ -2571,7 +2571,7 @@
     "is_maximal": false,
     "family_id": "family_75",
     "maximal_text": "спасительный укол галоперидола",
-    "score": 0.20995063963169805
+    "score": 0.2099506396316981
   },
   {
     "doc_index": 0,
@@ -2589,7 +2589,7 @@
     "is_maximal": true,
     "family_id": "family_75",
     "maximal_text": "спасительный укол галоперидола",
-    "score": 0.20491741330286137
+    "score": 0.2049174133028614
   },
   {
     "doc_index": 0,
@@ -2607,7 +2607,7 @@
     "is_maximal": false,
     "family_id": "family_75",
     "maximal_text": "спасительный укол галоперидола",
-    "score": 0.15279706176364385
+    "score": 0.15279706176364383
   },
   {
     "doc_index": 0,
@@ -2625,7 +2625,7 @@
     "is_maximal": false,
     "family_id": "family_76",
     "maximal_text": "нынешней ночью на западе",
-    "score": 0.18355898123062483
+    "score": 0.1835589812306249
   },
   {
     "doc_index": 0,
@@ -2643,7 +2643,7 @@
     "is_maximal": true,
     "family_id": "family_76",
     "maximal_text": "нынешней ночью на западе",
-    "score": 0.0833640333503863
+    "score": 0.08336403335038627
   },
   {
     "doc_index": 0,
