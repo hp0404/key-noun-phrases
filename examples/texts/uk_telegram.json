@@ -15,7 +15,7 @@
     "is_maximal": false,
     "family_id": "family_1",
     "maximal_text": "головних проблем затяжних воєн",
-    "score": 0.3
+    "score": 0.15
   },
   {
     "doc_index": 0,
@@ -33,7 +33,7 @@
     "is_maximal": true,
     "family_id": "family_1",
     "maximal_text": "головних проблем затяжних воєн",
-    "score": 0.2522041285030841
+    "score": 0.2522915598637608
   },
   {
     "doc_index": 0,
@@ -51,7 +51,7 @@
     "is_maximal": false,
     "family_id": "family_1",
     "maximal_text": "головних проблем затяжних воєн",
-    "score": 0.3089309172250606
+    "score": 0.3108588305011994
   },
   {
     "doc_index": 0,
@@ -69,7 +69,7 @@
     "is_maximal": false,
     "family_id": "family_1",
     "maximal_text": "головних проблем затяжних воєн",
-    "score": 0.32099706933066247
+    "score": 0.3250388547331906
   },
   {
     "doc_index": 0,
@@ -87,7 +87,7 @@
     "is_maximal": false,
     "family_id": "family_2",
     "maximal_text": "неминуче погіршення якості",
-    "score": 0.3132343312094232
+    "score": 0.3156873224004467
   },
   {
     "doc_index": 0,
@@ -105,7 +105,7 @@
     "is_maximal": true,
     "family_id": "family_2",
     "maximal_text": "неминуче погіршення якості",
-    "score": 0.4244424286316178
+    "score": 0.43716008783065635
   },
   {
     "doc_index": 0,
@@ -123,7 +123,7 @@
     "is_maximal": false,
     "family_id": "family_2",
     "maximal_text": "неминуче погіршення якості",
-    "score": 0.30276772348858394
+    "score": 0.30860551171502215
   },
   {
     "doc_index": 0,
@@ -141,7 +141,7 @@
     "is_maximal": true,
     "family_id": "family_3",
     "maximal_text": "погіршення якості піхоти",
-    "score": 0.344501935349546
+    "score": 0.34759643757496816
   },
   {
     "doc_index": 0,
@@ -159,7 +159,7 @@
     "is_maximal": false,
     "family_id": "family_3",
     "maximal_text": "погіршення якості піхоти",
-    "score": 0.9116723361858932
+    "score": 0.9295799298117664
   },
   {
     "doc_index": 0,
@@ -177,7 +177,7 @@
     "is_maximal": true,
     "family_id": "family_4",
     "maximal_text": "наступних причин",
-    "score": 0.3853176165515579
+    "score": 0.3864881384792454
   },
   {
     "doc_index": 0,
@@ -195,7 +195,7 @@
     "is_maximal": true,
     "family_id": "family_5",
     "maximal_text": "Кількість кадрових солдатів",
-    "score": 0.41506797387717664
+    "score": 0.4119548573718828
   },
   {
     "doc_index": 0,
@@ -213,7 +213,7 @@
     "is_maximal": false,
     "family_id": "family_5",
     "maximal_text": "Кількість кадрових солдатів",
-    "score": 0.42352078709854024
+    "score": 0.3947143575323592
   },
   {
     "doc_index": 0,
@@ -231,7 +231,7 @@
     "is_maximal": true,
     "family_id": "family_6",
     "maximal_text": "початку війни",
-    "score": 0.35604381895033205
+    "score": 0.3537677560758687
   },
   {
     "doc_index": 0,
@@ -249,7 +249,7 @@
     "is_maximal": true,
     "family_id": "family_7",
     "maximal_text": "бойових втрат",
-    "score": 0.4173069012212958
+    "score": 0.40536052800603956
   },
   {
     "doc_index": 0,
@@ -267,7 +267,7 @@
     "is_maximal": true,
     "family_id": "family_8",
     "maximal_text": "мотивованих резервістів",
-    "score": 0.45127220326133094
+    "score": 0.4159588977791999
   },
   {
     "doc_index": 0,
@@ -285,7 +285,7 @@
     "is_maximal": true,
     "family_id": "family_9",
     "maximal_text": "війська з початком",
-    "score": 0.21212131632407838
+    "score": 0.1319629832613401
   },
   {
     "doc_index": 0,
@@ -303,7 +303,7 @@
     "is_maximal": true,
     "family_id": "family_10",
     "maximal_text": "початком повномасштабного вторгнення",
-    "score": 0.4057667057319298
+    "score": 0.3879526427264543
   },
   {
     "doc_index": 0,
@@ -321,25 +321,7 @@
     "is_maximal": false,
     "family_id": "family_10",
     "maximal_text": "початком повномасштабного вторгнення",
-    "score": 0.3454964047108615
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NUM-NOUN",
-    "key_noun_phrase": "двох категорій",
-    "key_noun_phrase_processed": "два категорія",
-    "span_location": [
-      352,
-      366
-    ],
-    "token_span": [
-      65,
-      67
-    ],
-    "is_maximal": true,
-    "family_id": "family_11",
-    "maximal_text": "двох категорій",
-    "score": 0.098452331633796
+    "score": 0.32252589206871796
   },
   {
     "doc_index": 0,
@@ -355,27 +337,9 @@
       72
     ],
     "is_maximal": true,
-    "family_id": "family_12",
+    "family_id": "family_11",
     "maximal_text": "важких ушкоджень",
-    "score": 0.392314816140024
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NOUN-VERB",
-    "key_noun_phrase": "ушкоджень дожили",
-    "key_noun_phrase_processed": "ушкодження дожити",
-    "span_location": [
-      383,
-      399
-    ],
-    "token_span": [
-      71,
-      73
-    ],
-    "is_maximal": true,
-    "family_id": "family_13",
-    "maximal_text": "ушкоджень дожили",
-    "score": 0.1425584999977163
+    "score": 0.3793205105369824
   },
   {
     "doc_index": 0,
@@ -391,27 +355,9 @@
       76
     ],
     "is_maximal": true,
-    "family_id": "family_14",
+    "family_id": "family_12",
     "maximal_text": "нинішнього часу",
-    "score": 0.38286892014563606
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NOUN-VERB",
-    "key_noun_phrase": "початку прийшли",
-    "key_noun_phrase_processed": "початок прийти",
-    "span_location": [
-      491,
-      506
-    ],
-    "token_span": [
-      90,
-      92
-    ],
-    "is_maximal": true,
-    "family_id": "family_15",
-    "maximal_text": "початку прийшли",
-    "score": 0.13475326991606482
+    "score": 0.37915167138195743
   },
   {
     "doc_index": 0,
@@ -427,9 +373,9 @@
       97
     ],
     "is_maximal": true,
-    "family_id": "family_16",
+    "family_id": "family_13",
     "maximal_text": "війська з палаючими поглядами",
-    "score": 0.24437277977916133
+    "score": 0.14932555635153208
   },
   {
     "doc_index": 0,
@@ -445,63 +391,9 @@
       97
     ],
     "is_maximal": false,
-    "family_id": "family_16",
+    "family_id": "family_13",
     "maximal_text": "війська з палаючими поглядами",
-    "score": 0.3211224252589671
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NUM-NOUN",
-    "key_noun_phrase": "1,5 роки",
-    "key_noun_phrase_processed": "1,5 рік",
-    "span_location": [
-      546,
-      554
-    ],
-    "token_span": [
-      100,
-      102
-    ],
-    "is_maximal": true,
-    "family_id": "family_17",
-    "maximal_text": "1,5 роки",
-    "score": 0.17097766331713507
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NOUN-VERB",
-    "key_noun_phrase": "роки пройшли",
-    "key_noun_phrase_processed": "рік пройти",
-    "span_location": [
-      550,
-      562
-    ],
-    "token_span": [
-      101,
-      103
-    ],
-    "is_maximal": true,
-    "family_id": "family_18",
-    "maximal_text": "роки пройшли",
-    "score": 0.13523918827822598
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-ADJ-NOUN",
-    "key_noun_phrase": "знайшли легальну причину",
-    "key_noun_phrase_processed": "знайти легальний причина",
-    "span_location": [
-      621,
-      645
-    ],
-    "token_span": [
-      117,
-      120
-    ],
-    "is_maximal": true,
-    "family_id": "family_19",
-    "maximal_text": "знайшли легальну причину",
-    "score": 0.28492980298240506
+    "score": 0.3174745212541587
   },
   {
     "doc_index": 0,
@@ -516,28 +408,10 @@
       118,
       120
     ],
-    "is_maximal": false,
-    "family_id": "family_19",
-    "maximal_text": "знайшли легальну причину",
-    "score": 0.3289148434758639
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NOUN-VERB",
-    "key_noun_phrase": "причину списатися",
-    "key_noun_phrase_processed": "причина списатися",
-    "span_location": [
-      638,
-      655
-    ],
-    "token_span": [
-      119,
-      121
-    ],
     "is_maximal": true,
-    "family_id": "family_20",
-    "maximal_text": "причину списатися",
-    "score": 0.14192149703240023
+    "family_id": "family_14",
+    "maximal_text": "легальну причину",
+    "score": 0.3859234277942237
   },
   {
     "doc_index": 0,
@@ -553,9 +427,9 @@
       146
     ],
     "is_maximal": true,
-    "family_id": "family_21",
+    "family_id": "family_15",
     "maximal_text": "абсолютній більшості",
-    "score": 0.4120316694336194
+    "score": 0.388246466197812
   },
   {
     "doc_index": 0,
@@ -571,9 +445,9 @@
       167
     ],
     "is_maximal": true,
-    "family_id": "family_22",
+    "family_id": "family_16",
     "maximal_text": "перемоги і успіхи",
-    "score": 0.21815759520582864
+    "score": 0.1969149063890684
   },
   {
     "doc_index": 0,
@@ -589,9 +463,9 @@
       174
     ],
     "is_maximal": true,
-    "family_id": "family_23",
+    "family_id": "family_17",
     "maximal_text": "Підготовка особового складу",
-    "score": 0.40375760378670356
+    "score": 0.4126101303385985
   },
   {
     "doc_index": 0,
@@ -607,9 +481,9 @@
       174
     ],
     "is_maximal": false,
-    "family_id": "family_23",
+    "family_id": "family_17",
     "maximal_text": "Підготовка особового складу",
-    "score": 0.36782952132526214
+    "score": 0.3386259553776993
   },
   {
     "doc_index": 0,
@@ -625,9 +499,9 @@
       176
     ],
     "is_maximal": true,
-    "family_id": "family_24",
+    "family_id": "family_18",
     "maximal_text": "особового складу в цілому",
-    "score": 0.2799470543119238
+    "score": 0.1689700594858238
   },
   {
     "doc_index": 0,
@@ -643,27 +517,9 @@
       176
     ],
     "is_maximal": false,
-    "family_id": "family_24",
+    "family_id": "family_18",
     "maximal_text": "особового складу в цілому",
-    "score": 0.19111846458764165
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NOUN-VERB",
-    "key_noun_phrase": "цілому залишається",
-    "key_noun_phrase_processed": "ціле залишатися",
-    "span_location": [
-      925,
-      943
-    ],
-    "token_span": [
-      175,
-      177
-    ],
-    "is_maximal": true,
-    "family_id": "family_25",
-    "maximal_text": "цілому залишається",
-    "score": 0.2328861703511828
+    "score": 0.17406051292991015
   },
   {
     "doc_index": 0,
@@ -679,9 +535,9 @@
       181
     ],
     "is_maximal": true,
-    "family_id": "family_26",
+    "family_id": "family_19",
     "maximal_text": "невідповідною сучасному піхотному бою",
-    "score": 0.4645690105316069
+    "score": 0.452461069639554
   },
   {
     "doc_index": 0,
@@ -697,9 +553,9 @@
       181
     ],
     "is_maximal": false,
-    "family_id": "family_26",
+    "family_id": "family_19",
     "maximal_text": "невідповідною сучасному піхотному бою",
-    "score": 0.3715830868755443
+    "score": 0.36563086043605386
   },
   {
     "doc_index": 0,
@@ -715,9 +571,27 @@
       181
     ],
     "is_maximal": false,
-    "family_id": "family_26",
+    "family_id": "family_19",
     "maximal_text": "невідповідною сучасному піхотному бою",
     "score": 1.0
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "ЗСУ",
+    "key_noun_phrase_processed": "зсу",
+    "span_location": [
+      1024,
+      1027
+    ],
+    "token_span": [
+      187,
+      188
+    ],
+    "is_maximal": true,
+    "family_id": "family_20",
+    "maximal_text": "ЗСУ",
+    "score": 0.32147600570861107
   },
   {
     "doc_index": 0,
@@ -733,27 +607,9 @@
       202
     ],
     "is_maximal": true,
-    "family_id": "family_27",
+    "family_id": "family_21",
     "maximal_text": "місяць вишколу",
-    "score": 0.37692956594959587
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-NOUN",
-    "key_noun_phrase": "збирати АК",
-    "key_noun_phrase_processed": "збирати ак",
-    "span_location": [
-      1130,
-      1140
-    ],
-    "token_span": [
-      209,
-      211
-    ],
-    "is_maximal": true,
-    "family_id": "family_28",
-    "maximal_text": "збирати АК",
-    "score": 0.33514472096514225
+    "score": 0.39956796487402585
   },
   {
     "doc_index": 0,
@@ -769,9 +625,9 @@
       215
     ],
     "is_maximal": true,
-    "family_id": "family_29",
+    "family_id": "family_22",
     "maximal_text": "якість підготовки",
-    "score": 0.5291783299409853
+    "score": 0.5305219041191821
   },
   {
     "doc_index": 0,
@@ -787,9 +643,9 @@
       217
     ],
     "is_maximal": true,
-    "family_id": "family_30",
+    "family_id": "family_23",
     "maximal_text": "підготовки української піхоти",
-    "score": 0.4196363606801709
+    "score": 0.399946155788322
   },
   {
     "doc_index": 0,
@@ -805,9 +661,9 @@
       217
     ],
     "is_maximal": false,
-    "family_id": "family_30",
+    "family_id": "family_23",
     "maximal_text": "підготовки української піхоти",
-    "score": 0.37691750239075694
+    "score": 0.3681743660523704
   },
   {
     "doc_index": 0,
@@ -823,9 +679,9 @@
       220
     ],
     "is_maximal": true,
-    "family_id": "family_31",
+    "family_id": "family_24",
     "maximal_text": "української піхоти на закордонних полігонах",
-    "score": 0.39940064841009226
+    "score": 0.308497036850859
   },
   {
     "doc_index": 0,
@@ -841,9 +697,9 @@
       220
     ],
     "is_maximal": false,
-    "family_id": "family_31",
+    "family_id": "family_24",
     "maximal_text": "української піхоти на закордонних полігонах",
-    "score": 0.23213013877394173
+    "score": 0.13186418352225157
   },
   {
     "doc_index": 0,
@@ -859,9 +715,9 @@
       220
     ],
     "is_maximal": false,
-    "family_id": "family_31",
+    "family_id": "family_24",
     "maximal_text": "української піхоти на закордонних полігонах",
-    "score": 0.374734942887168
+    "score": 0.36571933418395675
   },
   {
     "doc_index": 0,
@@ -877,27 +733,9 @@
       223
     ],
     "is_maximal": true,
-    "family_id": "family_32",
+    "family_id": "family_25",
     "maximal_text": "суперечливі відгуки",
-    "score": 0.47936353679838084
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-NOUN",
-    "key_noun_phrase": "є виключення",
-    "key_noun_phrase_processed": "бути виключення",
-    "span_location": [
-      1242,
-      1254
-    ],
-    "token_span": [
-      227,
-      229
-    ],
-    "is_maximal": true,
-    "family_id": "family_33",
-    "maximal_text": "є виключення",
-    "score": 0.1881841235058293
+    "score": 0.5018376019280121
   },
   {
     "doc_index": 0,
@@ -913,9 +751,27 @@
       233
     ],
     "is_maximal": true,
-    "family_id": "family_34",
+    "family_id": "family_26",
     "maximal_text": "окремі підрозділи",
-    "score": 0.4414182935998963
+    "score": 0.36133405532049306
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Азов",
+    "key_noun_phrase_processed": "азов",
+    "span_location": [
+      1281,
+      1285
+    ],
+    "token_span": [
+      235,
+      236
+    ],
+    "is_maximal": true,
+    "family_id": "family_27",
+    "maximal_text": "Азов",
+    "score": 0.3617008465569916
   },
   {
     "doc_index": 0,
@@ -931,45 +787,45 @@
       240
     ],
     "is_maximal": true,
-    "family_id": "family_35",
+    "family_id": "family_29",
     "maximal_text": "3-тя ОШБ",
-    "score": 0.45290531252749366
+    "score": 1.2311027919516488
   },
   {
     "doc_index": 0,
-    "pos_label": "VERB-NOUN",
-    "key_noun_phrase": "займаються вишколом",
-    "key_noun_phrase_processed": "займатися вишколом",
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "3-тя ОШБ",
+    "key_noun_phrase_processed": "3-тя ошб",
     "span_location": [
-      1313,
-      1332
+      1288,
+      1296
     ],
     "token_span": [
-      245,
-      247
+      238,
+      240
     ],
     "is_maximal": true,
-    "family_id": "family_36",
-    "maximal_text": "займаються вишколом",
-    "score": 0.31090207701392486
+    "family_id": "family_29",
+    "maximal_text": "3-тя ОШБ",
+    "score": 1.2311027919516488
   },
   {
     "doc_index": 0,
-    "pos_label": "DET-NOUN",
-    "key_noun_phrase": "своїх рекрутів",
-    "key_noun_phrase_processed": "свій рекрут",
+    "pos_label": "PROPN",
+    "key_noun_phrase": "ОШБ",
+    "key_noun_phrase_processed": "ошб",
     "span_location": [
-      1333,
-      1347
+      1293,
+      1296
     ],
     "token_span": [
-      247,
-      249
+      239,
+      240
     ],
-    "is_maximal": true,
-    "family_id": "family_37",
-    "maximal_text": "своїх рекрутів",
-    "score": 0.14233976718908423
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "3-тя ОШБ",
+    "score": 0.28961144041669556
   },
   {
     "doc_index": 0,
@@ -985,63 +841,9 @@
       257
     ],
     "is_maximal": true,
-    "family_id": "family_38",
+    "family_id": "family_30",
     "maximal_text": "тенденцією в ЗСУ",
-    "score": 0.252060475039905
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "DET-NOUN",
-    "key_noun_phrase": "усіх підрозділах",
-    "key_noun_phrase_processed": "увесь підрозділ",
-    "span_location": [
-      1418,
-      1434
-    ],
-    "token_span": [
-      268,
-      270
-    ],
-    "is_maximal": true,
-    "family_id": "family_39",
-    "maximal_text": "усіх підрозділах",
-    "score": 0.19702190511199058
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "NOUN-VERB",
-    "key_noun_phrase": "підрозділах є",
-    "key_noun_phrase_processed": "підрозділ бути",
-    "span_location": [
-      1423,
-      1436
-    ],
-    "token_span": [
-      269,
-      271
-    ],
-    "is_maximal": true,
-    "family_id": "family_40",
-    "maximal_text": "підрозділах є",
-    "score": 0.11200160624077378
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-ADJ-NOUN",
-    "key_noun_phrase": "є гарний мікроклімат",
-    "key_noun_phrase_processed": "бути гарний мікроклімат",
-    "span_location": [
-      1435,
-      1455
-    ],
-    "token_span": [
-      270,
-      273
-    ],
-    "is_maximal": true,
-    "family_id": "family_41",
-    "maximal_text": "є гарний мікроклімат",
-    "score": 0.22300333734864478
+    "score": 0.10929583654981538
   },
   {
     "doc_index": 0,
@@ -1056,28 +858,10 @@
       271,
       273
     ],
-    "is_maximal": false,
-    "family_id": "family_41",
-    "maximal_text": "є гарний мікроклімат",
-    "score": 0.33733859806968736
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-ADJ-NOUN",
-    "key_noun_phrase": "сприяє швидкій адаптації",
-    "key_noun_phrase_processed": "сприяти швидкий адаптація",
-    "span_location": [
-      1462,
-      1486
-    ],
-    "token_span": [
-      275,
-      278
-    ],
     "is_maximal": true,
-    "family_id": "family_42",
-    "maximal_text": "сприяє швидкій адаптації",
-    "score": 0.29745674877300443
+    "family_id": "family_31",
+    "maximal_text": "гарний мікроклімат",
+    "score": 0.4577107169055193
   },
   {
     "doc_index": 0,
@@ -1093,9 +877,9 @@
       278
     ],
     "is_maximal": false,
-    "family_id": "family_42",
-    "maximal_text": "сприяє швидкій адаптації",
-    "score": 0.33629984346287506
+    "family_id": "family_32",
+    "maximal_text": "швидкій адаптації новачків",
+    "score": 0.33190281424051393
   },
   {
     "doc_index": 0,
@@ -1111,9 +895,9 @@
       279
     ],
     "is_maximal": true,
-    "family_id": "family_43",
+    "family_id": "family_32",
     "maximal_text": "швидкій адаптації новачків",
-    "score": 0.39948301547176873
+    "score": 0.38278595260113785
   },
   {
     "doc_index": 0,
@@ -1129,9 +913,9 @@
       279
     ],
     "is_maximal": false,
-    "family_id": "family_43",
+    "family_id": "family_32",
     "maximal_text": "швидкій адаптації новачків",
-    "score": 0.30234266047554414
+    "score": 0.3132757885165718
   },
   {
     "doc_index": 0,
@@ -1147,9 +931,9 @@
       281
     ],
     "is_maximal": true,
-    "family_id": "family_44",
+    "family_id": "family_33",
     "maximal_text": "новачків та розбудові",
-    "score": 0.20796661169254246
+    "score": 0.20019150844776798
   },
   {
     "doc_index": 0,
@@ -1165,9 +949,9 @@
       283
     ],
     "is_maximal": true,
-    "family_id": "family_45",
+    "family_id": "family_34",
     "maximal_text": "розбудові бойового побратимства",
-    "score": 0.3982363551104587
+    "score": 0.38831208933774636
   },
   {
     "doc_index": 0,
@@ -1183,27 +967,9 @@
       283
     ],
     "is_maximal": false,
-    "family_id": "family_45",
+    "family_id": "family_34",
     "maximal_text": "розбудові бойового побратимства",
-    "score": 0.33255161275779405
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-ADJ-NOUN",
-    "key_noun_phrase": "стосується бойового злагодження",
-    "key_noun_phrase_processed": "стосуватися бойовий злагодження",
-    "span_location": [
-      1540,
-      1571
-    ],
-    "token_span": [
-      286,
-      289
-    ],
-    "is_maximal": true,
-    "family_id": "family_46",
-    "maximal_text": "стосується бойового злагодження",
-    "score": 0.2925728939803635
+    "score": 0.33337594580252966
   },
   {
     "doc_index": 0,
@@ -1219,9 +985,9 @@
       289
     ],
     "is_maximal": false,
-    "family_id": "family_46",
-    "maximal_text": "стосується бойового злагодження",
-    "score": 0.3318094334568946
+    "family_id": "family_35",
+    "maximal_text": "бойового злагодження частин",
+    "score": 0.32759214809581
   },
   {
     "doc_index": 0,
@@ -1237,9 +1003,9 @@
       290
     ],
     "is_maximal": true,
-    "family_id": "family_47",
+    "family_id": "family_35",
     "maximal_text": "бойового злагодження частин",
-    "score": 0.4055959927826062
+    "score": 0.21870504807849286
   },
   {
     "doc_index": 0,
@@ -1255,9 +1021,9 @@
       290
     ],
     "is_maximal": false,
-    "family_id": "family_47",
+    "family_id": "family_35",
     "maximal_text": "бойового злагодження частин",
-    "score": 0.30969190739685654
+    "score": 0.17222974956543427
   },
   {
     "doc_index": 0,
@@ -1273,9 +1039,9 @@
       292
     ],
     "is_maximal": true,
-    "family_id": "family_48",
+    "family_id": "family_36",
     "maximal_text": "злагодження частин у рамках",
-    "score": 0.2319795537907525
+    "score": 0.15285773771245617
   },
   {
     "doc_index": 0,
@@ -1291,9 +1057,9 @@
       292
     ],
     "is_maximal": false,
-    "family_id": "family_48",
+    "family_id": "family_36",
     "maximal_text": "злагодження частин у рамках",
-    "score": 0.19956476334329304
+    "score": 0.13775518505132917
   },
   {
     "doc_index": 0,
@@ -1309,9 +1075,9 @@
       294
     ],
     "is_maximal": true,
-    "family_id": "family_49",
+    "family_id": "family_37",
     "maximal_text": "рамках окремих з’єднань",
-    "score": 0.42011562275076486
+    "score": 0.4171435024125622
   },
   {
     "doc_index": 0,
@@ -1327,9 +1093,9 @@
       294
     ],
     "is_maximal": false,
-    "family_id": "family_49",
+    "family_id": "family_37",
     "maximal_text": "рамках окремих з’єднань",
-    "score": 0.3422382915764541
+    "score": 0.3417137326580551
   },
   {
     "doc_index": 0,
@@ -1345,9 +1111,9 @@
       297
     ],
     "is_maximal": false,
-    "family_id": "family_50",
+    "family_id": "family_38",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.36361124894707414
+    "score": 0.3667944304614646
   },
   {
     "doc_index": 0,
@@ -1363,9 +1129,9 @@
       299
     ],
     "is_maximal": true,
-    "family_id": "family_50",
+    "family_id": "family_38",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.2886165398019773
+    "score": 0.1980818597760815
   },
   {
     "doc_index": 0,
@@ -1381,27 +1147,9 @@
       299
     ],
     "is_maximal": false,
-    "family_id": "family_50",
+    "family_id": "family_38",
     "maximal_text": "Радянських рудиментів в ЗСУ",
-    "score": 0.1977562279477414
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "VERB-ADJ-NOUN",
-    "key_noun_phrase": "сприяє високій мотивації",
-    "key_noun_phrase_processed": "сприяти високий мотивація",
-    "span_location": [
-      1664,
-      1688
-    ],
-    "token_span": [
-      305,
-      308
-    ],
-    "is_maximal": true,
-    "family_id": "family_51",
-    "maximal_text": "сприяє високій мотивації",
-    "score": 0.3469712390787822
+    "score": 0.14016604213557077
   },
   {
     "doc_index": 0,
@@ -1416,10 +1164,10 @@
       306,
       308
     ],
-    "is_maximal": false,
-    "family_id": "family_51",
-    "maximal_text": "сприяє високій мотивації",
-    "score": 0.3707051393573149
+    "is_maximal": true,
+    "family_id": "family_39",
+    "maximal_text": "високій мотивації",
+    "score": 0.46684362243231436
   },
   {
     "doc_index": 0,
@@ -1435,9 +1183,9 @@
       311
     ],
     "is_maximal": true,
-    "family_id": "family_52",
+    "family_id": "family_40",
     "maximal_text": "якісній підготовці",
-    "score": 0.42260561509990224
+    "score": 0.436836010598089
   },
   {
     "doc_index": 0,
@@ -1453,9 +1201,9 @@
       313
     ],
     "is_maximal": true,
-    "family_id": "family_53",
+    "family_id": "family_41",
     "maximal_text": "підготовці та зростанню",
-    "score": 0.2841833376470588
+    "score": 0.2387871147475331
   },
   {
     "doc_index": 0,
@@ -1471,9 +1219,9 @@
       315
     ],
     "is_maximal": true,
-    "family_id": "family_54",
+    "family_id": "family_42",
     "maximal_text": "зростанню бойового духу",
-    "score": 0.4563365924185705
+    "score": 0.49895482943485486
   },
   {
     "doc_index": 0,
@@ -1489,9 +1237,9 @@
       315
     ],
     "is_maximal": false,
-    "family_id": "family_54",
+    "family_id": "family_42",
     "maximal_text": "зростанню бойового духу",
-    "score": 0.3551946034161417
+    "score": 0.36593592361981037
   },
   {
     "doc_index": 0,
@@ -1507,9 +1255,9 @@
       316
     ],
     "is_maximal": true,
-    "family_id": "family_55",
+    "family_id": "family_43",
     "maximal_text": "бойового духу солдатів",
-    "score": 0.5013953103266933
+    "score": 0.44266083025278563
   },
   {
     "doc_index": 0,
@@ -1525,45 +1273,9 @@
       316
     ],
     "is_maximal": false,
-    "family_id": "family_55",
+    "family_id": "family_43",
     "maximal_text": "бойового духу солдатів",
-    "score": 0.3585143073884411
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "DET-NOUN",
-    "key_noun_phrase": "декілька причин",
-    "key_noun_phrase_processed": "декілька причина",
-    "span_location": [
-      1752,
-      1767
-    ],
-    "token_span": [
-      320,
-      322
-    ],
-    "is_maximal": true,
-    "family_id": "family_56",
-    "maximal_text": "декілька причин",
-    "score": 0.21162415955476024
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "DET-NOUN",
-    "key_noun_phrase": "цій ситуації",
-    "key_noun_phrase_processed": "цей ситуація",
-    "span_location": [
-      1805,
-      1817
-    ],
-    "token_span": [
-      332,
-      334
-    ],
-    "is_maximal": true,
-    "family_id": "family_57",
-    "maximal_text": "цій ситуації",
-    "score": 0.24564200248367568
+    "score": 0.4191598309314599
   },
   {
     "doc_index": 0,
@@ -1579,9 +1291,9 @@
       339
     ],
     "is_maximal": false,
-    "family_id": "family_58",
+    "family_id": "family_44",
     "maximal_text": "противника якість піхоти",
-    "score": 0.36369526384255824
+    "score": 0.3286127390800219
   },
   {
     "doc_index": 0,
@@ -1597,9 +1309,9 @@
       340
     ],
     "is_maximal": true,
-    "family_id": "family_58",
+    "family_id": "family_44",
     "maximal_text": "противника якість піхоти",
-    "score": 0.38979260739860266
+    "score": 0.4221517831466047
   },
   {
     "doc_index": 0,
@@ -1615,27 +1327,9 @@
       340
     ],
     "is_maximal": false,
-    "family_id": "family_58",
+    "family_id": "family_44",
     "maximal_text": "противника якість піхоти",
-    "score": 0.9116723361858932
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "DET-NOUN",
-    "key_noun_phrase": "всіх пунктах",
-    "key_noun_phrase_processed": "всі пункт",
-    "span_location": [
-      1875,
-      1887
-    ],
-    "token_span": [
-      347,
-      349
-    ],
-    "is_maximal": true,
-    "family_id": "family_59",
-    "maximal_text": "всіх пунктах",
-    "score": 0.20422980870854487
+    "score": 0.9295799298117664
   },
   {
     "doc_index": 0,
@@ -1651,27 +1345,9 @@
       351
     ],
     "is_maximal": true,
-    "family_id": "family_60",
+    "family_id": "family_45",
     "maximal_text": "пунктах і категоріях",
-    "score": 0.28341294840050657
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "DET-ADJ-NOUN",
-    "key_noun_phrase": "всіх рівних складових",
-    "key_noun_phrase_processed": "всі рівний складова",
-    "span_location": [
-      1911,
-      1932
-    ],
-    "token_span": [
-      354,
-      357
-    ],
-    "is_maximal": true,
-    "family_id": "family_61",
-    "maximal_text": "всіх рівних складових",
-    "score": 0.2672749811573141
+    "score": 0.21089890809162212
   },
   {
     "doc_index": 0,
@@ -1687,9 +1363,9 @@
       357
     ],
     "is_maximal": false,
-    "family_id": "family_61",
-    "maximal_text": "всіх рівних складових",
-    "score": 0.47420758764165116
+    "family_id": "family_46",
+    "maximal_text": "рівних складових в піхотному бою",
+    "score": 0.469864035899115
   },
   {
     "doc_index": 0,
@@ -1705,9 +1381,9 @@
       360
     ],
     "is_maximal": true,
-    "family_id": "family_62",
+    "family_id": "family_46",
     "maximal_text": "рівних складових в піхотному бою",
-    "score": 0.35227452686988464
+    "score": 0.3080078077757004
   },
   {
     "doc_index": 0,
@@ -1723,9 +1399,9 @@
       360
     ],
     "is_maximal": false,
-    "family_id": "family_62",
+    "family_id": "family_46",
     "maximal_text": "рівних складових в піхотному бою",
-    "score": 0.24483597738586488
+    "score": 0.1394584234200685
   },
   {
     "doc_index": 0,
@@ -1741,7 +1417,7 @@
       360
     ],
     "is_maximal": false,
-    "family_id": "family_63",
+    "family_id": "family_47",
     "maximal_text": "піхотному бою український вояк",
     "score": 1.0
   },
@@ -1759,9 +1435,9 @@
       362
     ],
     "is_maximal": true,
-    "family_id": "family_63",
+    "family_id": "family_47",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.28753689675217914
+    "score": 0.30100137580703096
   },
   {
     "doc_index": 0,
@@ -1777,9 +1453,9 @@
       362
     ],
     "is_maximal": false,
-    "family_id": "family_63",
+    "family_id": "family_47",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.3410661916465824
+    "score": 0.3373204351459184
   },
   {
     "doc_index": 0,
@@ -1795,27 +1471,9 @@
       362
     ],
     "is_maximal": false,
-    "family_id": "family_63",
+    "family_id": "family_47",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.3564076708610038
-  },
-  {
-    "doc_index": 0,
-    "pos_label": "DET-NOUN",
-    "key_noun_phrase": "цій війні",
-    "key_noun_phrase_processed": "цей війна",
-    "span_location": [
-      2019,
-      2028
-    ],
-    "token_span": [
-      370,
-      372
-    ],
-    "is_maximal": true,
-    "family_id": "family_64",
-    "maximal_text": "цій війні",
-    "score": 0.0953086758166843
+    "score": 0.35106538740790294
   },
   {
     "doc_index": 0,
@@ -1831,9 +1489,9 @@
       377
     ],
     "is_maximal": false,
-    "family_id": "family_65",
+    "family_id": "family_48",
     "maximal_text": "порівняння якостей піхотинців",
-    "score": 0.2928137894814802
+    "score": 0.2926744509716754
   },
   {
     "doc_index": 0,
@@ -1849,9 +1507,9 @@
       378
     ],
     "is_maximal": true,
-    "family_id": "family_65",
+    "family_id": "family_48",
     "maximal_text": "порівняння якостей піхотинців",
-    "score": 0.3535857161226827
+    "score": 0.3519132960757534
   },
   {
     "doc_index": 0,
@@ -1867,27 +1525,27 @@
       378
     ],
     "is_maximal": false,
-    "family_id": "family_65",
+    "family_id": "family_48",
     "maximal_text": "порівняння якостей піхотинців",
-    "score": 0.2721492653233514
+    "score": 0.27849393369071956
   },
   {
     "doc_index": 0,
-    "pos_label": "NUM-NOUN",
-    "key_noun_phrase": "обох сторін",
-    "key_noun_phrase_processed": "обоє сторона",
+    "pos_label": "ADJ-CCONJ-ADJ-NOUN",
+    "key_noun_phrase": "економічні та геополітичні фактори",
+    "key_noun_phrase_processed": "економічний та геополітичний фактор",
     "span_location": [
-      2079,
-      2090
+      2116,
+      2150
     ],
     "token_span": [
-      378,
-      380
+      386,
+      390
     ],
     "is_maximal": true,
-    "family_id": "family_66",
-    "maximal_text": "обох сторін",
-    "score": 0.144449086088388
+    "family_id": "family_49",
+    "maximal_text": "економічні та геополітичні фактори",
+    "score": 0.12222619610430174
   },
   {
     "doc_index": 0,
@@ -1902,9 +1560,9 @@
       388,
       390
     ],
-    "is_maximal": true,
-    "family_id": "family_67",
-    "maximal_text": "геополітичні фактори",
-    "score": 0.36
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "економічні та геополітичні фактори",
+    "score": 0.15
   }
 ]
