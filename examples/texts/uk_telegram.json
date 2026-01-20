@@ -213,7 +213,7 @@
     "is_maximal": false,
     "family_id": "family_5",
     "maximal_text": "Кількість кадрових солдатів",
-    "score": 0.3947143575323592
+    "score": 0.3947143575323591
   },
   {
     "doc_index": 0,
@@ -465,7 +465,7 @@
     "is_maximal": true,
     "family_id": "family_17",
     "maximal_text": "Підготовка особового складу",
-    "score": 0.4126101303385985
+    "score": 0.41261013033859845
   },
   {
     "doc_index": 0,
@@ -483,7 +483,7 @@
     "is_maximal": false,
     "family_id": "family_17",
     "maximal_text": "Підготовка особового складу",
-    "score": 0.3386259553776993
+    "score": 0.33862595537769924
   },
   {
     "doc_index": 0,
@@ -627,7 +627,7 @@
     "is_maximal": true,
     "family_id": "family_22",
     "maximal_text": "якість підготовки",
-    "score": 0.5305219041191821
+    "score": 0.530521904119182
   },
   {
     "doc_index": 0,
@@ -933,7 +933,7 @@
     "is_maximal": true,
     "family_id": "family_33",
     "maximal_text": "новачків та розбудові",
-    "score": 0.20019150844776798
+    "score": 0.20019150844776804
   },
   {
     "doc_index": 0,
@@ -969,7 +969,7 @@
     "is_maximal": false,
     "family_id": "family_34",
     "maximal_text": "розбудові бойового побратимства",
-    "score": 0.33337594580252966
+    "score": 0.3333759458025296
   },
   {
     "doc_index": 0,
@@ -987,7 +987,7 @@
     "is_maximal": false,
     "family_id": "family_35",
     "maximal_text": "бойового злагодження частин",
-    "score": 0.32759214809581
+    "score": 0.32759214809580994
   },
   {
     "doc_index": 0,
@@ -1167,7 +1167,7 @@
     "is_maximal": true,
     "family_id": "family_39",
     "maximal_text": "високій мотивації",
-    "score": 0.46684362243231436
+    "score": 0.4668436224323143
   },
   {
     "doc_index": 0,
@@ -1185,7 +1185,7 @@
     "is_maximal": true,
     "family_id": "family_40",
     "maximal_text": "якісній підготовці",
-    "score": 0.436836010598089
+    "score": 0.4368360105980891
   },
   {
     "doc_index": 0,
@@ -1203,7 +1203,7 @@
     "is_maximal": true,
     "family_id": "family_41",
     "maximal_text": "підготовці та зростанню",
-    "score": 0.2387871147475331
+    "score": 0.23878711474753317
   },
   {
     "doc_index": 0,
@@ -1221,7 +1221,7 @@
     "is_maximal": true,
     "family_id": "family_42",
     "maximal_text": "зростанню бойового духу",
-    "score": 0.49895482943485486
+    "score": 0.4989548294348549
   },
   {
     "doc_index": 0,
@@ -1365,7 +1365,7 @@
     "is_maximal": false,
     "family_id": "family_46",
     "maximal_text": "рівних складових в піхотному бою",
-    "score": 0.469864035899115
+    "score": 0.4698640358991151
   },
   {
     "doc_index": 0,
@@ -1401,7 +1401,7 @@
     "is_maximal": false,
     "family_id": "family_46",
     "maximal_text": "рівних складових в піхотному бою",
-    "score": 0.1394584234200685
+    "score": 0.13945842342006848
   },
   {
     "doc_index": 0,
@@ -1473,7 +1473,7 @@
     "is_maximal": false,
     "family_id": "family_47",
     "maximal_text": "піхотному бою український вояк",
-    "score": 0.35106538740790294
+    "score": 0.351065387407903
   },
   {
     "doc_index": 0,

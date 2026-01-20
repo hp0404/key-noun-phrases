@@ -1,0 +1,2738 @@
+[
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "похищением Мадуро",
+    "key_noun_phrase_processed": "похищение мадуро",
+    "span_location": [
+      62,
+      79
+    ],
+    "token_span": [
+      12,
+      14
+    ],
+    "is_maximal": true,
+    "family_id": "family_1",
+    "maximal_text": "похищением Мадуро",
+    "score": 0.3298072051078739
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Мадуро",
+    "key_noun_phrase_processed": "мадуро",
+    "span_location": [
+      73,
+      79
+    ],
+    "token_span": [
+      13,
+      14
+    ],
+    "is_maximal": false,
+    "family_id": "family_1",
+    "maximal_text": "похищением Мадуро",
+    "score": 0.7682254821304201
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "хамство и мерзость",
+    "key_noun_phrase_processed": "хамство и мерзость",
+    "span_location": [
+      94,
+      112
+    ],
+    "token_span": [
+      18,
+      21
+    ],
+    "is_maximal": true,
+    "family_id": "family_2",
+    "maximal_text": "хамство и мерзость",
+    "score": 0.08975052802520654
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "вселенская катастрофа",
+    "key_noun_phrase_processed": "вселенский катастрофа",
+    "span_location": [
+      138,
+      159
+    ],
+    "token_span": [
+      27,
+      29
+    ],
+    "is_maximal": false,
+    "family_id": "family_3",
+    "maximal_text": "вселенская катастрофа в сфере",
+    "score": 0.15946635740685694
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "вселенская катастрофа в сфере",
+    "key_noun_phrase_processed": "вселенский катастрофа в сфера",
+    "span_location": [
+      138,
+      167
+    ],
+    "token_span": [
+      27,
+      31
+    ],
+    "is_maximal": true,
+    "family_id": "family_3",
+    "maximal_text": "вселенская катастрофа в сфере",
+    "score": 0.13639606328636614
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "катастрофа в сфере",
+    "key_noun_phrase_processed": "катастрофа в сфера",
+    "span_location": [
+      149,
+      167
+    ],
+    "token_span": [
+      28,
+      31
+    ],
+    "is_maximal": false,
+    "family_id": "family_3",
+    "maximal_text": "вселенская катастрофа в сфере",
+    "score": 0.06585415318700281
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "сфере международных отношений",
+    "key_noun_phrase_processed": "сфера международный отношение",
+    "span_location": [
+      162,
+      191
+    ],
+    "token_span": [
+      30,
+      33
+    ],
+    "is_maximal": true,
+    "family_id": "family_4",
+    "maximal_text": "сфере международных отношений",
+    "score": 0.19368279463175592
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "международных отношений",
+    "key_noun_phrase_processed": "международный отношение",
+    "span_location": [
+      168,
+      191
+    ],
+    "token_span": [
+      31,
+      33
+    ],
+    "is_maximal": false,
+    "family_id": "family_4",
+    "maximal_text": "сфере международных отношений",
+    "score": 0.595562440641036
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "США",
+    "key_noun_phrase_processed": "сша",
+    "span_location": [
+      234,
+      237
+    ],
+    "token_span": [
+      43,
+      44
+    ],
+    "is_maximal": true,
+    "family_id": "family_5",
+    "maximal_text": "США",
+    "score": 1.3223999999999998
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-ADJ-NOUN",
+    "key_noun_phrase": "похищенного венесуэльского президента",
+    "key_noun_phrase_processed": "похитить венесуэльский президент",
+    "span_location": [
+      258,
+      295
+    ],
+    "token_span": [
+      46,
+      49
+    ],
+    "is_maximal": true,
+    "family_id": "family_6",
+    "maximal_text": "похищенного венесуэльского президента",
+    "score": 0.16993710661543418
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "венесуэльского президента",
+    "key_noun_phrase_processed": "венесуэльский президент",
+    "span_location": [
+      270,
+      295
+    ],
+    "token_span": [
+      47,
+      49
+    ],
+    "is_maximal": false,
+    "family_id": "family_6",
+    "maximal_text": "похищенного венесуэльского президента",
+    "score": 0.17274140298553
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "венесуэльского президента под благовидным предлогом",
+    "key_noun_phrase_processed": "венесуэльский президент под благовидный предлог",
+    "span_location": [
+      270,
+      321
+    ],
+    "token_span": [
+      47,
+      52
+    ],
+    "is_maximal": true,
+    "family_id": "family_7",
+    "maximal_text": "венесуэльского президента под благовидным предлогом",
+    "score": 0.10764087545351518
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "президента под благовидным предлогом",
+    "key_noun_phrase_processed": "президент под благовидный предлог",
+    "span_location": [
+      285,
+      321
+    ],
+    "token_span": [
+      48,
+      52
+    ],
+    "is_maximal": false,
+    "family_id": "family_7",
+    "maximal_text": "венесуэльского президента под благовидным предлогом",
+    "score": 0.06956163975243904
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "благовидным предлогом",
+    "key_noun_phrase_processed": "благовидный предлог",
+    "span_location": [
+      300,
+      321
+    ],
+    "token_span": [
+      50,
+      52
+    ],
+    "is_maximal": false,
+    "family_id": "family_7",
+    "maximal_text": "венесуэльского президента под благовидным предлогом",
+    "score": 0.15111609737725681
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "новым латиноамериканским Манделой",
+    "key_noun_phrase_processed": "новый латиноамериканский манделой",
+    "span_location": [
+      370,
+      403
+    ],
+    "token_span": [
+      61,
+      64
+    ],
+    "is_maximal": true,
+    "family_id": "family_8",
+    "maximal_text": "новым латиноамериканским Манделой",
+    "score": 0.21249227208984076
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "латиноамериканским Манделой",
+    "key_noun_phrase_processed": "латиноамериканский манделой",
+    "span_location": [
+      376,
+      403
+    ],
+    "token_span": [
+      62,
+      64
+    ],
+    "is_maximal": false,
+    "family_id": "family_8",
+    "maximal_text": "новым латиноамериканским Манделой",
+    "score": 0.47192886029168174
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "латиноамериканским Манделой",
+    "key_noun_phrase_processed": "латиноамериканский манделой",
+    "span_location": [
+      376,
+      403
+    ],
+    "token_span": [
+      62,
+      64
+    ],
+    "is_maximal": false,
+    "family_id": "family_8",
+    "maximal_text": "новым латиноамериканским Манделой",
+    "score": 0.47192886029168174
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Манделой",
+    "key_noun_phrase_processed": "манделой",
+    "span_location": [
+      395,
+      403
+    ],
+    "token_span": [
+      63,
+      64
+    ],
+    "is_maximal": false,
+    "family_id": "family_8",
+    "maximal_text": "новым латиноамериканским Манделой",
+    "score": 0.1229863283352588
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "южноамериканской истории",
+    "key_noun_phrase_processed": "южноамериканский история",
+    "span_location": [
+      452,
+      476
+    ],
+    "token_span": [
+      75,
+      77
+    ],
+    "is_maximal": true,
+    "family_id": "family_9",
+    "maximal_text": "южноамериканской истории",
+    "score": 0.18022900722227672
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Боливаром",
+    "key_noun_phrase_processed": "боливар",
+    "span_location": [
+      487,
+      496
+    ],
+    "token_span": [
+      79,
+      80
+    ],
+    "is_maximal": true,
+    "family_id": "family_10",
+    "maximal_text": "Боливаром",
+    "score": 0.1514407663342243
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Мирандой",
+    "key_noun_phrase_processed": "миранда",
+    "span_location": [
+      498,
+      506
+    ],
+    "token_span": [
+      81,
+      82
+    ],
+    "is_maximal": false,
+    "family_id": "family_11",
+    "maximal_text": "Мирандой и Чавесом",
+    "score": 0.12850379725265276
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "Мирандой и Чавесом",
+    "key_noun_phrase_processed": "миранда и чавес",
+    "span_location": [
+      498,
+      516
+    ],
+    "token_span": [
+      81,
+      84
+    ],
+    "is_maximal": true,
+    "family_id": "family_11",
+    "maximal_text": "Мирандой и Чавесом",
+    "score": 0.09355795915258515
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Чавесом",
+    "key_noun_phrase_processed": "чавес",
+    "span_location": [
+      509,
+      516
+    ],
+    "token_span": [
+      83,
+      84
+    ],
+    "is_maximal": false,
+    "family_id": "family_11",
+    "maximal_text": "Мирандой и Чавесом",
+    "score": 0.14729442989547514
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Мадуро",
+    "key_noun_phrase_processed": "мадуро",
+    "span_location": [
+      532,
+      538
+    ],
+    "token_span": [
+      89,
+      90
+    ],
+    "is_maximal": false,
+    "family_id": "family_12",
+    "maximal_text": "Мадуро из упрямства",
+    "score": 0.7682254821304201
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "Мадуро из упрямства",
+    "key_noun_phrase_processed": "мадуро из упрямство",
+    "span_location": [
+      532,
+      551
+    ],
+    "token_span": [
+      89,
+      92
+    ],
+    "is_maximal": true,
+    "family_id": "family_12",
+    "maximal_text": "Мадуро из упрямства",
+    "score": 0.0626161152030576
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Трамп",
+    "key_noun_phrase_processed": "трамп",
+    "span_location": [
+      585,
+      590
+    ],
+    "token_span": [
+      99,
+      100
+    ],
+    "is_maximal": true,
+    "family_id": "family_13",
+    "maximal_text": "Трамп",
+    "score": 1.390377901619921
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "напором общественности",
+    "key_noun_phrase_processed": "напор общественность",
+    "span_location": [
+      610,
+      632
+    ],
+    "token_span": [
+      104,
+      106
+    ],
+    "is_maximal": true,
+    "family_id": "family_14",
+    "maximal_text": "напором общественности",
+    "score": 0.16718208784556668
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Вэнс",
+    "key_noun_phrase_processed": "вэнс",
+    "span_location": [
+      641,
+      645
+    ],
+    "token_span": [
+      107,
+      108
+    ],
+    "is_maximal": true,
+    "family_id": "family_15",
+    "maximal_text": "Вэнс",
+    "score": 0.1408196589153027
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "иной преемник",
+    "key_noun_phrase_processed": "иной преемник",
+    "span_location": [
+      650,
+      663
+    ],
+    "token_span": [
+      109,
+      111
+    ],
+    "is_maximal": true,
+    "family_id": "family_16",
+    "maximal_text": "иной преемник",
+    "score": 0.18016606743787159
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "ключевой фактор",
+    "key_noun_phrase_processed": "ключевой фактор",
+    "span_location": [
+      683,
+      698
+    ],
+    "token_span": [
+      118,
+      120
+    ],
+    "is_maximal": true,
+    "family_id": "family_17",
+    "maximal_text": "ключевой фактор",
+    "score": 0.09016606743787162
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "нынешние венесуэльские власти",
+    "key_noun_phrase_processed": "нынешний венесуэльский власть",
+    "span_location": [
+      743,
+      772
+    ],
+    "token_span": [
+      132,
+      135
+    ],
+    "is_maximal": true,
+    "family_id": "family_18",
+    "maximal_text": "нынешние венесуэльские власти",
+    "score": 0.1982451070042085
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "венесуэльские власти",
+    "key_noun_phrase_processed": "венесуэльский власть",
+    "span_location": [
+      752,
+      772
+    ],
+    "token_span": [
+      133,
+      135
+    ],
+    "is_maximal": false,
+    "family_id": "family_18",
+    "maximal_text": "нынешние венесуэльские власти",
+    "score": 0.15035220693970966
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Трамп",
+    "key_noun_phrase_processed": "трамп",
+    "span_location": [
+      820,
+      825
+    ],
+    "token_span": [
+      145,
+      146
+    ],
+    "is_maximal": true,
+    "family_id": "family_19",
+    "maximal_text": "Трамп",
+    "score": 1.390377901619921
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "наземную операцию",
+    "key_noun_phrase_processed": "наземный операция",
+    "span_location": [
+      847,
+      864
+    ],
+    "token_span": [
+      148,
+      150
+    ],
+    "is_maximal": true,
+    "family_id": "family_20",
+    "maximal_text": "наземную операцию",
+    "score": 0.18247389858149152
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Конгресса",
+    "key_noun_phrase_processed": "конгресс",
+    "span_location": [
+      885,
+      894
+    ],
+    "token_span": [
+      155,
+      156
+    ],
+    "is_maximal": true,
+    "family_id": "family_21",
+    "maximal_text": "Конгресса",
+    "score": 0.14467694417189747
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "наглое похищение",
+    "key_noun_phrase_processed": "наглый похищение",
+    "span_location": [
+      946,
+      962
+    ],
+    "token_span": [
+      167,
+      169
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "наглое похищение Мадуро",
+    "score": 0.15514674961035313
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "наглое похищение Мадуро",
+    "key_noun_phrase_processed": "наглый похищение мадуро",
+    "span_location": [
+      946,
+      969
+    ],
+    "token_span": [
+      167,
+      170
+    ],
+    "is_maximal": true,
+    "family_id": "family_22",
+    "maximal_text": "наглое похищение Мадуро",
+    "score": 0.1820610244801437
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "похищение Мадуро",
+    "key_noun_phrase_processed": "похищение мадуро",
+    "span_location": [
+      953,
+      969
+    ],
+    "token_span": [
+      168,
+      170
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "наглое похищение Мадуро",
+    "score": 0.2748393375898949
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Мадуро",
+    "key_noun_phrase_processed": "мадуро",
+    "span_location": [
+      963,
+      969
+    ],
+    "token_span": [
+      169,
+      170
+    ],
+    "is_maximal": false,
+    "family_id": "family_22",
+    "maximal_text": "наглое похищение Мадуро",
+    "score": 0.7682254821304201
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Сенат",
+    "key_noun_phrase_processed": "сенат",
+    "span_location": [
+      973,
+      978
+    ],
+    "token_span": [
+      172,
+      173
+    ],
+    "is_maximal": true,
+    "family_id": "family_23",
+    "maximal_text": "Сенат",
+    "score": 0.14745214592001266
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "удавку на Трампа",
+    "key_noun_phrase_processed": "удавка на трамп",
+    "span_location": [
+      999,
+      1015
+    ],
+    "token_span": [
+      176,
+      179
+    ],
+    "is_maximal": true,
+    "family_id": "family_24",
+    "maximal_text": "удавку на Трампа",
+    "score": 0.06302012645980373
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Трампа",
+    "key_noun_phrase_processed": "трамп",
+    "span_location": [
+      1009,
+      1015
+    ],
+    "token_span": [
+      178,
+      179
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "удавку на Трампа",
+    "score": 1.158648251349934
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "милитаристский угар",
+    "key_noun_phrase_processed": "милитаристский угар",
+    "span_location": [
+      1028,
+      1047
+    ],
+    "token_span": [
+      182,
+      184
+    ],
+    "is_maximal": true,
+    "family_id": "family_25",
+    "maximal_text": "милитаристский угар",
+    "score": 0.18680801463696076
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "нынешней администрации",
+    "key_noun_phrase_processed": "нынешний администрация",
+    "span_location": [
+      1068,
+      1090
+    ],
+    "token_span": [
+      190,
+      192
+    ],
+    "is_maximal": true,
+    "family_id": "family_26",
+    "maximal_text": "нынешней администрации",
+    "score": 0.19206905238080407
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN",
+    "key_noun_phrase": "устроенного пиндосами",
+    "key_noun_phrase_processed": "устроить пиндос",
+    "span_location": [
+      1139,
+      1160
+    ],
+    "token_span": [
+      204,
+      206
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "устроенного пиндосами шабаша",
+    "score": 0.13861349608242488
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN-NOUN",
+    "key_noun_phrase": "устроенного пиндосами шабаша",
+    "key_noun_phrase_processed": "устроить пиндос шабаш",
+    "span_location": [
+      1139,
+      1167
+    ],
+    "token_span": [
+      204,
+      207
+    ],
+    "is_maximal": true,
+    "family_id": "family_27",
+    "maximal_text": "устроенного пиндосами шабаша",
+    "score": 0.1557552260935691
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "пиндосами шабаша",
+    "key_noun_phrase_processed": "пиндос шабаш",
+    "span_location": [
+      1151,
+      1167
+    ],
+    "token_span": [
+      205,
+      207
+    ],
+    "is_maximal": false,
+    "family_id": "family_27",
+    "maximal_text": "устроенного пиндосами шабаша",
+    "score": 0.13756812277625302
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "американские элиты",
+    "key_noun_phrase_processed": "американский элита",
+    "span_location": [
+      1182,
+      1200
+    ],
+    "token_span": [
+      210,
+      212
+    ],
+    "is_maximal": true,
+    "family_id": "family_28",
+    "maximal_text": "американские элиты",
+    "score": 0.18377420855393395
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "длинные языки",
+    "key_noun_phrase_processed": "длинный язык",
+    "span_location": [
+      1278,
+      1291
+    ],
+    "token_span": [
+      224,
+      226
+    ],
+    "is_maximal": true,
+    "family_id": "family_29",
+    "maximal_text": "длинные языки",
+    "score": 0.18560452024763865
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "рахитичные задницы",
+    "key_noun_phrase_processed": "рахитичный задница",
+    "span_location": [
+      1299,
+      1317
+    ],
+    "token_span": [
+      228,
+      230
+    ],
+    "is_maximal": true,
+    "family_id": "family_30",
+    "maximal_text": "рахитичные задницы",
+    "score": 0.1843371242385856
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "правомерность действий",
+    "key_noun_phrase_processed": "правомерность действие",
+    "span_location": [
+      1339,
+      1361
+    ],
+    "token_span": [
+      235,
+      237
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "правомерность действий России",
+    "score": 0.15990078004806346
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "правомерность действий России",
+    "key_noun_phrase_processed": "правомерность действие россия",
+    "span_location": [
+      1339,
+      1368
+    ],
+    "token_span": [
+      235,
+      238
+    ],
+    "is_maximal": true,
+    "family_id": "family_31",
+    "maximal_text": "правомерность действий России",
+    "score": 0.17764711357962268
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "действий России",
+    "key_noun_phrase_processed": "действие россия",
+    "span_location": [
+      1353,
+      1368
+    ],
+    "token_span": [
+      236,
+      238
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "правомерность действий России",
+    "score": 0.14062679191895935
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "России",
+    "key_noun_phrase_processed": "россия",
+    "span_location": [
+      1362,
+      1368
+    ],
+    "token_span": [
+      237,
+      238
+    ],
+    "is_maximal": false,
+    "family_id": "family_31",
+    "maximal_text": "правомерность действий России",
+    "score": 1.2819211059434275
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-ADP-NOUN",
+    "key_noun_phrase": "действий России в ходе",
+    "key_noun_phrase_processed": "действие россия в ход",
+    "span_location": [
+      1353,
+      1375
+    ],
+    "token_span": [
+      236,
+      240
+    ],
+    "is_maximal": true,
+    "family_id": "family_32",
+    "maximal_text": "действий России в ходе",
+    "score": 0.05725418867310346
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "России в ходе",
+    "key_noun_phrase_processed": "россия в ход",
+    "span_location": [
+      1362,
+      1375
+    ],
+    "token_span": [
+      237,
+      240
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "действий России в ходе",
+    "score": 0.04523986622944745
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN-NOUN",
+    "key_noun_phrase": "России в ходе СВО",
+    "key_noun_phrase_processed": "россия в ход сво",
+    "span_location": [
+      1362,
+      1379
+    ],
+    "token_span": [
+      237,
+      241
+    ],
+    "is_maximal": true,
+    "family_id": "family_33",
+    "maximal_text": "России в ходе СВО",
+    "score": 0.06086287822562232
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "ходе СВО",
+    "key_noun_phrase_processed": "ход сво",
+    "span_location": [
+      1371,
+      1379
+    ],
+    "token_span": [
+      239,
+      241
+    ],
+    "is_maximal": false,
+    "family_id": "family_33",
+    "maximal_text": "России в ходе СВО",
+    "score": 0.1350940651880186
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "СВО",
+    "key_noun_phrase_processed": "сво",
+    "span_location": [
+      1376,
+      1379
+    ],
+    "token_span": [
+      240,
+      241
+    ],
+    "is_maximal": false,
+    "family_id": "family_33",
+    "maximal_text": "России в ходе СВО",
+    "score": 0.1205071791879384
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "Санкции против России",
+    "key_noun_phrase_processed": "санкция против россия",
+    "span_location": [
+      1391,
+      1412
+    ],
+    "token_span": [
+      245,
+      248
+    ],
+    "is_maximal": true,
+    "family_id": "family_34",
+    "maximal_text": "Санкции против России",
+    "score": 0.08363452816922269
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "России",
+    "key_noun_phrase_processed": "россия",
+    "span_location": [
+      1406,
+      1412
+    ],
+    "token_span": [
+      247,
+      248
+    ],
+    "is_maximal": false,
+    "family_id": "family_34",
+    "maximal_text": "Санкции против России",
+    "score": 1.2819211059434275
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Трамп",
+    "key_noun_phrase_processed": "трамп",
+    "span_location": [
+      1432,
+      1437
+    ],
+    "token_span": [
+      252,
+      253
+    ],
+    "is_maximal": true,
+    "family_id": "family_35",
+    "maximal_text": "Трамп",
+    "score": 1.390377901619921
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Санкционная политика",
+    "key_noun_phrase_processed": "санкционный политика",
+    "span_location": [
+      1514,
+      1534
+    ],
+    "token_span": [
+      271,
+      273
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "Санкционная политика США",
+    "score": 0.1754848604282381
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "Санкционная политика США",
+    "key_noun_phrase_processed": "санкционный политика сша",
+    "span_location": [
+      1514,
+      1538
+    ],
+    "token_span": [
+      271,
+      274
+    ],
+    "is_maximal": true,
+    "family_id": "family_36",
+    "maximal_text": "Санкционная политика США",
+    "score": 0.20606663373470172
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "политика США",
+    "key_noun_phrase_processed": "политика сша",
+    "span_location": [
+      1526,
+      1538
+    ],
+    "token_span": [
+      272,
+      274
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "Санкционная политика США",
+    "score": 0.15997587733731078
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "США",
+    "key_noun_phrase_processed": "сша",
+    "span_location": [
+      1535,
+      1538
+    ],
+    "token_span": [
+      273,
+      274
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "Санкционная политика США",
+    "score": 1.1019999999999999
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Россию",
+    "key_noun_phrase_processed": "россия",
+    "span_location": [
+      1569,
+      1575
+    ],
+    "token_span": [
+      279,
+      280
+    ],
+    "is_maximal": true,
+    "family_id": "family_37",
+    "maximal_text": "Россию",
+    "score": 1.538305327132113
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "компромиссам по гарантиям",
+    "key_noun_phrase_processed": "компромисс по гарантия",
+    "span_location": [
+      1599,
+      1624
+    ],
+    "token_span": [
+      284,
+      287
+    ],
+    "is_maximal": false,
+    "family_id": "family_38",
+    "maximal_text": "компромиссам по гарантиям безопасности",
+    "score": 0.08536118794819643
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN-NOUN",
+    "key_noun_phrase": "компромиссам по гарантиям безопасности",
+    "key_noun_phrase_processed": "компромисс по гарантия безопасность",
+    "span_location": [
+      1599,
+      1637
+    ],
+    "token_span": [
+      284,
+      288
+    ],
+    "is_maximal": true,
+    "family_id": "family_38",
+    "maximal_text": "компромиссам по гарантиям безопасности",
+    "score": 0.13472696657188948
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "гарантиям безопасности",
+    "key_noun_phrase_processed": "гарантия безопасность",
+    "span_location": [
+      1615,
+      1637
+    ],
+    "token_span": [
+      286,
+      288
+    ],
+    "is_maximal": false,
+    "family_id": "family_38",
+    "maximal_text": "компромиссам по гарантиям безопасности",
+    "score": 0.160788432934257
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "безопасности и территориям",
+    "key_noun_phrase_processed": "безопасность и территория",
+    "span_location": [
+      1625,
+      1651
+    ],
+    "token_span": [
+      287,
+      290
+    ],
+    "is_maximal": true,
+    "family_id": "family_39",
+    "maximal_text": "безопасности и территориям",
+    "score": 0.10262750452698699
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "главарь Белого дома",
+    "key_noun_phrase_processed": "главарь белый дом",
+    "span_location": [
+      1700,
+      1719
+    ],
+    "token_span": [
+      299,
+      302
+    ],
+    "is_maximal": true,
+    "family_id": "family_40",
+    "maximal_text": "главарь Белого дома",
+    "score": 0.20602160948748657
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Белого дома",
+    "key_noun_phrase_processed": "белый дом",
+    "span_location": [
+      1708,
+      1719
+    ],
+    "token_span": [
+      300,
+      302
+    ],
+    "is_maximal": false,
+    "family_id": "family_40",
+    "maximal_text": "главарь Белого дома",
+    "score": 0.16008574513698004
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "рамках закона",
+    "key_noun_phrase_processed": "рамка закон",
+    "span_location": [
+      1752,
+      1765
+    ],
+    "token_span": [
+      309,
+      311
+    ],
+    "is_maximal": true,
+    "family_id": "family_41",
+    "maximal_text": "рамках закона",
+    "score": 0.16890357671275727
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "старого дегенеративного русофоба",
+    "key_noun_phrase_processed": "старый дегенеративный русофоб",
+    "span_location": [
+      1766,
+      1798
+    ],
+    "token_span": [
+      311,
+      314
+    ],
+    "is_maximal": false,
+    "family_id": "family_42",
+    "maximal_text": "старого дегенеративного русофоба Грэма",
+    "score": 0.1684996370664989
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "дегенеративного русофоба",
+    "key_noun_phrase_processed": "дегенеративный русофоб",
+    "span_location": [
+      1774,
+      1798
+    ],
+    "token_span": [
+      312,
+      314
+    ],
+    "is_maximal": false,
+    "family_id": "family_42",
+    "maximal_text": "старого дегенеративного русофоба Грэма",
+    "score": 0.15096911897656012
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN-NOUN",
+    "key_noun_phrase": "старого дегенеративного русофоба Грэма",
+    "key_noun_phrase_processed": "старый дегенеративный русофоб грэм",
+    "span_location": [
+      1766,
+      1804
+    ],
+    "token_span": [
+      311,
+      315
+    ],
+    "is_maximal": true,
+    "family_id": "family_42",
+    "maximal_text": "старого дегенеративного русофоба Грэма",
+    "score": 0.12739216409668488
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "дегенеративного русофоба Грэма",
+    "key_noun_phrase_processed": "дегенеративный русофоб грэм",
+    "span_location": [
+      1774,
+      1804
+    ],
+    "token_span": [
+      312,
+      315
+    ],
+    "is_maximal": false,
+    "family_id": "family_42",
+    "maximal_text": "старого дегенеративного русофоба Грэма",
+    "score": 0.15151053238381038
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "русофоба Грэма",
+    "key_noun_phrase_processed": "русофоб грэм",
+    "span_location": [
+      1790,
+      1804
+    ],
+    "token_span": [
+      313,
+      315
+    ],
+    "is_maximal": false,
+    "family_id": "family_42",
+    "maximal_text": "старого дегенеративного русофоба Грэма",
+    "score": 0.144225783186598
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Грэма",
+    "key_noun_phrase_processed": "грэм",
+    "span_location": [
+      1799,
+      1804
+    ],
+    "token_span": [
+      314,
+      315
+    ],
+    "is_maximal": false,
+    "family_id": "family_42",
+    "maximal_text": "старого дегенеративного русофоба Грэма",
+    "score": 0.12801082551115628
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "История с танкером",
+    "key_noun_phrase_processed": "история с танкер",
+    "span_location": [
+      1867,
+      1885
+    ],
+    "token_span": [
+      331,
+      334
+    ],
+    "is_maximal": true,
+    "family_id": "family_43",
+    "maximal_text": "История с танкером",
+    "score": 0.06457169053707688
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-ADJ-NOUN",
+    "key_noun_phrase": "называемого теневого флота",
+    "key_noun_phrase_processed": "называть теневой флот",
+    "span_location": [
+      1890,
+      1916
+    ],
+    "token_span": [
+      335,
+      338
+    ],
+    "is_maximal": true,
+    "family_id": "family_44",
+    "maximal_text": "называемого теневого флота",
+    "score": 0.19801010203368538
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "теневого флота",
+    "key_noun_phrase_processed": "теневой флот",
+    "span_location": [
+      1902,
+      1916
+    ],
+    "token_span": [
+      336,
+      338
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "называемого теневого флота",
+    "score": 0.16912932222068955
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "временный флаг",
+    "key_noun_phrase_processed": "временный флаг",
+    "span_location": [
+      1955,
+      1969
+    ],
+    "token_span": [
+      350,
+      352
+    ],
+    "is_maximal": true,
+    "family_id": "family_45",
+    "maximal_text": "временный флаг",
+    "score": 0.19373403992317698
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "России",
+    "key_noun_phrase_processed": "россия",
+    "span_location": [
+      1971,
+      1977
+    ],
+    "token_span": [
+      353,
+      354
+    ],
+    "is_maximal": true,
+    "family_id": "family_46",
+    "maximal_text": "России",
+    "score": 1.538305327132113
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "угрозой захвата",
+    "key_noun_phrase_processed": "угроза захват",
+    "span_location": [
+      1983,
+      1998
+    ],
+    "token_span": [
+      356,
+      358
+    ],
+    "is_maximal": true,
+    "family_id": "family_47",
+    "maximal_text": "угрозой захвата",
+    "score": 0.17242525818360796
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "защиты от американских незаконных санкций",
+    "key_noun_phrase_processed": "защита от американский незаконный санкция",
+    "span_location": [
+      2005,
+      2046
+    ],
+    "token_span": [
+      359,
+      364
+    ],
+    "is_maximal": true,
+    "family_id": "family_48",
+    "maximal_text": "защиты от американских незаконных санкций",
+    "score": 0.09139125825184707
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "американских незаконных санкций",
+    "key_noun_phrase_processed": "американский незаконный санкция",
+    "span_location": [
+      2015,
+      2046
+    ],
+    "token_span": [
+      361,
+      364
+    ],
+    "is_maximal": false,
+    "family_id": "family_48",
+    "maximal_text": "защиты от американских незаконных санкций",
+    "score": 0.2097200084290935
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "незаконных санкций",
+    "key_noun_phrase_processed": "незаконный санкция",
+    "span_location": [
+      2028,
+      2046
+    ],
+    "token_span": [
+      362,
+      364
+    ],
+    "is_maximal": false,
+    "family_id": "family_48",
+    "maximal_text": "защиты от американских незаконных санкций",
+    "score": 0.15808277040566893
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "явное нарушение",
+    "key_noun_phrase_processed": "явный нарушение",
+    "span_location": [
+      2121,
+      2136
+    ],
+    "token_span": [
+      383,
+      385
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "явное нарушение Конвенции",
+    "score": 0.18176903701471325
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "явное нарушение Конвенции",
+    "key_noun_phrase_processed": "явный нарушение конвенция",
+    "span_location": [
+      2121,
+      2146
+    ],
+    "token_span": [
+      383,
+      386
+    ],
+    "is_maximal": true,
+    "family_id": "family_49",
+    "maximal_text": "явное нарушение Конвенции",
+    "score": 0.20485459447029544
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "нарушение Конвенции",
+    "key_noun_phrase_processed": "нарушение конвенция",
+    "span_location": [
+      2127,
+      2146
+    ],
+    "token_span": [
+      384,
+      386
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "явное нарушение Конвенции",
+    "score": 0.14125830483115379
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Конвенции",
+    "key_noun_phrase_processed": "конвенция",
+    "span_location": [
+      2137,
+      2146
+    ],
+    "token_span": [
+      385,
+      386
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "явное нарушение Конвенции",
+    "score": 0.5500295086607616
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "нарушение Конвенции ООН",
+    "key_noun_phrase_processed": "нарушение конвенция оон",
+    "span_location": [
+      2127,
+      2150
+    ],
+    "token_span": [
+      384,
+      387
+    ],
+    "is_maximal": true,
+    "family_id": "family_50",
+    "maximal_text": "нарушение Конвенции ООН",
+    "score": 0.16378272069831876
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "Конвенции ООН",
+    "key_noun_phrase_processed": "конвенция оон",
+    "span_location": [
+      2137,
+      2150
+    ],
+    "token_span": [
+      385,
+      387
+    ],
+    "is_maximal": false,
+    "family_id": "family_50",
+    "maximal_text": "нарушение Конвенции ООН",
+    "score": 0.507716431996554
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN-PROPN",
+    "key_noun_phrase": "Конвенции ООН",
+    "key_noun_phrase_processed": "конвенция оон",
+    "span_location": [
+      2137,
+      2150
+    ],
+    "token_span": [
+      385,
+      387
+    ],
+    "is_maximal": false,
+    "family_id": "family_50",
+    "maximal_text": "нарушение Конвенции ООН",
+    "score": 0.507716431996554
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "ООН",
+    "key_noun_phrase_processed": "оон",
+    "span_location": [
+      2147,
+      2150
+    ],
+    "token_span": [
+      386,
+      387
+    ],
+    "is_maximal": false,
+    "family_id": "family_50",
+    "maximal_text": "нарушение Конвенции ООН",
+    "score": 0.12021276857208558
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "ООН по международному морскому праву",
+    "key_noun_phrase_processed": "оон по международный морской право",
+    "span_location": [
+      2147,
+      2183
+    ],
+    "token_span": [
+      386,
+      391
+    ],
+    "is_maximal": true,
+    "family_id": "family_51",
+    "maximal_text": "ООН по международному морскому праву",
+    "score": 0.07662523010741867
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "международному морскому праву",
+    "key_noun_phrase_processed": "международный морской право",
+    "span_location": [
+      2154,
+      2183
+    ],
+    "token_span": [
+      388,
+      391
+    ],
+    "is_maximal": false,
+    "family_id": "family_51",
+    "maximal_text": "ООН по международному морскому праву",
+    "score": 0.3721961884481219
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "морскому праву",
+    "key_noun_phrase_processed": "морской право",
+    "span_location": [
+      2169,
+      2183
+    ],
+    "token_span": [
+      389,
+      391
+    ],
+    "is_maximal": false,
+    "family_id": "family_52",
+    "maximal_text": "морскому праву 1982 г.",
+    "score": 0.371543684635655
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADJ-NOUN",
+    "key_noun_phrase": "морскому праву 1982 г.",
+    "key_noun_phrase_processed": "морской право 1982 г.",
+    "span_location": [
+      2169,
+      2191
+    ],
+    "token_span": [
+      389,
+      393
+    ],
+    "is_maximal": true,
+    "family_id": "family_52",
+    "maximal_text": "морскому праву 1982 г.",
+    "score": 0.1557432889110465
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "праву 1982 г.",
+    "key_noun_phrase_processed": "право 1982 г.",
+    "span_location": [
+      2178,
+      2191
+    ],
+    "token_span": [
+      390,
+      393
+    ],
+    "is_maximal": false,
+    "family_id": "family_52",
+    "maximal_text": "морскому праву 1982 г.",
+    "score": 0.16977662152944373
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "1982 г.",
+    "key_noun_phrase_processed": "1982 г.",
+    "span_location": [
+      2184,
+      2191
+    ],
+    "token_span": [
+      391,
+      393
+    ],
+    "is_maximal": false,
+    "family_id": "family_52",
+    "maximal_text": "морскому праву 1982 г.",
+    "score": 0.15842393223430498
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "США",
+    "key_noun_phrase_processed": "сша",
+    "span_location": [
+      2216,
+      2219
+    ],
+    "token_span": [
+      398,
+      399
+    ],
+    "is_maximal": true,
+    "family_id": "family_53",
+    "maximal_text": "США",
+    "score": 1.3223999999999998
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "контексте выдача",
+    "key_noun_phrase_processed": "контекст выдача",
+    "span_location": [
+      2249,
+      2265
+    ],
+    "token_span": [
+      405,
+      407
+    ],
+    "is_maximal": true,
+    "family_id": "family_54",
+    "maximal_text": "контексте выдача",
+    "score": 0.17514564633047067
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "выдача временного разрешения",
+    "key_noun_phrase_processed": "выдача временной разрешение",
+    "span_location": [
+      2259,
+      2287
+    ],
+    "token_span": [
+      406,
+      409
+    ],
+    "is_maximal": true,
+    "family_id": "family_55",
+    "maximal_text": "выдача временного разрешения",
+    "score": 0.21294400491835627
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "временного разрешения",
+    "key_noun_phrase_processed": "временной разрешение",
+    "span_location": [
+      2266,
+      2287
+    ],
+    "token_span": [
+      407,
+      409
+    ],
+    "is_maximal": false,
+    "family_id": "family_55",
+    "maximal_text": "выдача временного разрешения",
+    "score": 0.2228598046287181
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "временного разрешения на флаг",
+    "key_noun_phrase_processed": "временной разрешение на флаг",
+    "span_location": [
+      2266,
+      2295
+    ],
+    "token_span": [
+      407,
+      411
+    ],
+    "is_maximal": true,
+    "family_id": "family_56",
+    "maximal_text": "временного разрешения на флаг",
+    "score": 0.08010367241316733
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "разрешения на флаг",
+    "key_noun_phrase_processed": "разрешение на флаг",
+    "span_location": [
+      2277,
+      2295
+    ],
+    "token_span": [
+      408,
+      411
+    ],
+    "is_maximal": false,
+    "family_id": "family_56",
+    "maximal_text": "временного разрешения на флаг",
+    "score": 0.07004100753019135
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "страны судну",
+    "key_noun_phrase_processed": "страна судну",
+    "span_location": [
+      2302,
+      2314
+    ],
+    "token_span": [
+      412,
+      414
+    ],
+    "is_maximal": true,
+    "family_id": "family_57",
+    "maximal_text": "страны судну",
+    "score": 0.20692501434354302
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "основной геополитический противник",
+    "key_noun_phrase_processed": "основной геополитический противник",
+    "span_location": [
+      2362,
+      2396
+    ],
+    "token_span": [
+      424,
+      427
+    ],
+    "is_maximal": true,
+    "family_id": "family_58",
+    "maximal_text": "основной геополитический противник",
+    "score": 0.21078485996049875
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "геополитический противник",
+    "key_noun_phrase_processed": "геополитический противник",
+    "span_location": [
+      2371,
+      2396
+    ],
+    "token_span": [
+      425,
+      427
+    ],
+    "is_maximal": false,
+    "family_id": "family_58",
+    "maximal_text": "основной геополитический противник",
+    "score": 0.16502175658535959
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "нестабильном состоянии",
+    "key_noun_phrase_processed": "нестабильный состояние",
+    "span_location": [
+      2412,
+      2434
+    ],
+    "token_span": [
+      430,
+      432
+    ],
+    "is_maximal": true,
+    "family_id": "family_59",
+    "maximal_text": "нестабильном состоянии",
+    "score": 0.198307196972701
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "шаг с предсказуемыми последствиями",
+    "key_noun_phrase_processed": "шаг с предсказуемый последствие",
+    "span_location": [
+      2438,
+      2472
+    ],
+    "token_span": [
+      434,
+      438
+    ],
+    "is_maximal": true,
+    "family_id": "family_60",
+    "maximal_text": "шаг с предсказуемыми последствиями",
+    "score": 0.07153730789626182
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "предсказуемыми последствиями",
+    "key_noun_phrase_processed": "предсказуемый последствие",
+    "span_location": [
+      2444,
+      2472
+    ],
+    "token_span": [
+      436,
+      438
+    ],
+    "is_maximal": false,
+    "family_id": "family_60",
+    "maximal_text": "шаг с предсказуемыми последствиями",
+    "score": 0.1547888688725477
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "непреложного факта",
+    "key_noun_phrase_processed": "непреложный факт",
+    "span_location": [
+      2506,
+      2524
+    ],
+    "token_span": [
+      447,
+      449
+    ],
+    "is_maximal": true,
+    "family_id": "family_61",
+    "maximal_text": "непреложного факта",
+    "score": 0.18465212867991201
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-PART-NOUN",
+    "key_noun_phrase": "действия оборзевших американцев",
+    "key_noun_phrase_processed": "действие оборзевших американец",
+    "span_location": [
+      2530,
+      2561
+    ],
+    "token_span": [
+      451,
+      454
+    ],
+    "is_maximal": true,
+    "family_id": "family_62",
+    "maximal_text": "действия оборзевших американцев",
+    "score": 0.14871074114317084
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PART-NOUN",
+    "key_noun_phrase": "оборзевших американцев",
+    "key_noun_phrase_processed": "оборзевших американец",
+    "span_location": [
+      2539,
+      2561
+    ],
+    "token_span": [
+      452,
+      454
+    ],
+    "is_maximal": false,
+    "family_id": "family_62",
+    "maximal_text": "действия оборзевших американцев",
+    "score": 0.1348173572163996
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "преступный захват",
+    "key_noun_phrase_processed": "преступный захват",
+    "span_location": [
+      2568,
+      2585
+    ],
+    "token_span": [
+      456,
+      458
+    ],
+    "is_maximal": false,
+    "family_id": "family_63",
+    "maximal_text": "преступный захват гражданского судна",
+    "score": 0.1579340088388864
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADJ-NOUN",
+    "key_noun_phrase": "преступный захват гражданского судна",
+    "key_noun_phrase_processed": "преступный захват гражданский судно",
+    "span_location": [
+      2568,
+      2604
+    ],
+    "token_span": [
+      456,
+      460
+    ],
+    "is_maximal": true,
+    "family_id": "family_63",
+    "maximal_text": "преступный захват гражданского судна",
+    "score": 0.1378044999587987
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "захват гражданского судна",
+    "key_noun_phrase_processed": "захват гражданский судно",
+    "span_location": [
+      2579,
+      2604
+    ],
+    "token_span": [
+      457,
+      460
+    ],
+    "is_maximal": false,
+    "family_id": "family_63",
+    "maximal_text": "преступный захват гражданского судна",
+    "score": 0.177200596032784
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "гражданского судна",
+    "key_noun_phrase_processed": "гражданский судно",
+    "span_location": [
+      2586,
+      2604
+    ],
+    "token_span": [
+      458,
+      460
+    ],
+    "is_maximal": false,
+    "family_id": "family_63",
+    "maximal_text": "преступный захват гражданского судна",
+    "score": 0.16658760393802235
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "рамках Конвенции",
+    "key_noun_phrase_processed": "рамка конвенция",
+    "span_location": [
+      2646,
+      2662
+    ],
+    "token_span": [
+      470,
+      472
+    ],
+    "is_maximal": true,
+    "family_id": "family_64",
+    "maximal_text": "рамках Конвенции",
+    "score": 0.18339908509044833
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Конвенции",
+    "key_noun_phrase_processed": "конвенция",
+    "span_location": [
+      2653,
+      2662
+    ],
+    "token_span": [
+      471,
+      472
+    ],
+    "is_maximal": false,
+    "family_id": "family_64",
+    "maximal_text": "рамках Конвенции",
+    "score": 0.5500295086607616
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "Конвенции по международному морскому праву",
+    "key_noun_phrase_processed": "конвенция по международный морской право",
+    "span_location": [
+      2653,
+      2695
+    ],
+    "token_span": [
+      471,
+      476
+    ],
+    "is_maximal": true,
+    "family_id": "family_65",
+    "maximal_text": "Конвенции по международному морскому праву",
+    "score": 0.09183233177764687
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "международному морскому праву",
+    "key_noun_phrase_processed": "международный морской право",
+    "span_location": [
+      2666,
+      2695
+    ],
+    "token_span": [
+      473,
+      476
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "Конвенции по международному морскому праву",
+    "score": 0.3721961884481219
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "морскому праву",
+    "key_noun_phrase_processed": "морской право",
+    "span_location": [
+      2681,
+      2695
+    ],
+    "token_span": [
+      474,
+      476
+    ],
+    "is_maximal": false,
+    "family_id": "family_65",
+    "maximal_text": "Конвенции по международному морскому праву",
+    "score": 0.371543684635655
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "крупный правовед",
+    "key_noun_phrase_processed": "крупный правовед",
+    "span_location": [
+      2725,
+      2741
+    ],
+    "token_span": [
+      483,
+      485
+    ],
+    "is_maximal": true,
+    "family_id": "family_66",
+    "maximal_text": "крупный правовед",
+    "score": 0.1953913150167559
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "нынешние международные отношения",
+    "key_noun_phrase_processed": "нынешний международный отношение",
+    "span_location": [
+      2822,
+      2854
+    ],
+    "token_span": [
+      502,
+      505
+    ],
+    "is_maximal": true,
+    "family_id": "family_67",
+    "maximal_text": "нынешние международные отношения",
+    "score": 0.21835388739646247
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "международные отношения",
+    "key_noun_phrase_processed": "международный отношение",
+    "span_location": [
+      2831,
+      2854
+    ],
+    "token_span": [
+      503,
+      505
+    ],
+    "is_maximal": false,
+    "family_id": "family_67",
+    "maximal_text": "нынешние международные отношения",
+    "score": 0.595562440641036
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "начала года",
+    "key_noun_phrase_processed": "начало год",
+    "span_location": [
+      2870,
+      2881
+    ],
+    "token_span": [
+      507,
+      509
+    ],
+    "is_maximal": true,
+    "family_id": "family_68",
+    "maximal_text": "начала года",
+    "score": 0.0814539542068933
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "года в форменный Бедлам",
+    "key_noun_phrase_processed": "год в форменный бедлам",
+    "span_location": [
+      2877,
+      2900
+    ],
+    "token_span": [
+      508,
+      512
+    ],
+    "is_maximal": true,
+    "family_id": "family_69",
+    "maximal_text": "года в форменный Бедлам",
+    "score": 0.1141232452366312
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "форменный Бедлам",
+    "key_noun_phrase_processed": "форменный бедлам",
+    "span_location": [
+      2884,
+      2900
+    ],
+    "token_span": [
+      510,
+      512
+    ],
+    "is_maximal": false,
+    "family_id": "family_69",
+    "maximal_text": "года в форменный Бедлам",
+    "score": 0.6456552968922155
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "форменный Бедлам",
+    "key_noun_phrase_processed": "форменный бедлам",
+    "span_location": [
+      2884,
+      2900
+    ],
+    "token_span": [
+      510,
+      512
+    ],
+    "is_maximal": false,
+    "family_id": "family_69",
+    "maximal_text": "года в форменный Бедлам",
+    "score": 0.6456552968922155
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Бедлам",
+    "key_noun_phrase_processed": "бедлам",
+    "span_location": [
+      2894,
+      2900
+    ],
+    "token_span": [
+      511,
+      512
+    ],
+    "is_maximal": false,
+    "family_id": "family_69",
+    "maximal_text": "года в форменный Бедлам",
+    "score": 0.14704063825287106
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "увещевания добрых психиатров",
+    "key_noun_phrase_processed": "увещевание добрый психиатр",
+    "span_location": [
+      3031,
+      3059
+    ],
+    "token_span": [
+      535,
+      538
+    ],
+    "is_maximal": true,
+    "family_id": "family_70",
+    "maximal_text": "увещевания добрых психиатров",
+    "score": 0.1804883219917156
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "добрых психиатров",
+    "key_noun_phrase_processed": "добрый психиатр",
+    "span_location": [
+      3042,
+      3059
+    ],
+    "token_span": [
+      536,
+      538
+    ],
+    "is_maximal": false,
+    "family_id": "family_70",
+    "maximal_text": "увещевания добрых психиатров",
+    "score": 0.31469886142630665
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "санитары с огромными кулаками",
+    "key_noun_phrase_processed": "санитар с огромный кулак",
+    "span_location": [
+      3068,
+      3097
+    ],
+    "token_span": [
+      540,
+      544
+    ],
+    "is_maximal": true,
+    "family_id": "family_71",
+    "maximal_text": "санитары с огромными кулаками",
+    "score": 0.09269021380607768
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "огромными кулаками",
+    "key_noun_phrase_processed": "огромный кулак",
+    "span_location": [
+      3079,
+      3097
+    ],
+    "token_span": [
+      542,
+      544
+    ],
+    "is_maximal": false,
+    "family_id": "family_71",
+    "maximal_text": "санитары с огромными кулаками",
+    "score": 0.17824011776879672
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "флегматичными лицами",
+    "key_noun_phrase_processed": "флегматичный лицо",
+    "span_location": [
+      3100,
+      3120
+    ],
+    "token_span": [
+      545,
+      547
+    ],
+    "is_maximal": true,
+    "family_id": "family_72",
+    "maximal_text": "флегматичными лицами",
+    "score": 0.29821906312104207
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "опасным психам",
+    "key_noun_phrase_processed": "опасный псих",
+    "span_location": [
+      3127,
+      3141
+    ],
+    "token_span": [
+      549,
+      551
+    ],
+    "is_maximal": true,
+    "family_id": "family_73",
+    "maximal_text": "опасным психам",
+    "score": 0.20763055828942675
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "смирительная рубашка",
+    "key_noun_phrase_processed": "смирительный рубашка",
+    "span_location": [
+      3156,
+      3176
+    ],
+    "token_span": [
+      553,
+      555
+    ],
+    "is_maximal": true,
+    "family_id": "family_74",
+    "maximal_text": "смирительная рубашка",
+    "score": 0.2148930914467379
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "спасительный укол",
+    "key_noun_phrase_processed": "спасительный укол",
+    "span_location": [
+      3182,
+      3199
+    ],
+    "token_span": [
+      557,
+      559
+    ],
+    "is_maximal": false,
+    "family_id": "family_75",
+    "maximal_text": "спасительный укол галоперидола",
+    "score": 0.20995063963169805
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "спасительный укол галоперидола",
+    "key_noun_phrase_processed": "спасительный укол галоперидол",
+    "span_location": [
+      3182,
+      3212
+    ],
+    "token_span": [
+      557,
+      560
+    ],
+    "is_maximal": true,
+    "family_id": "family_75",
+    "maximal_text": "спасительный укол галоперидола",
+    "score": 0.20491741330286137
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "укол галоперидола",
+    "key_noun_phrase_processed": "укол галоперидол",
+    "span_location": [
+      3195,
+      3212
+    ],
+    "token_span": [
+      558,
+      560
+    ],
+    "is_maximal": false,
+    "family_id": "family_75",
+    "maximal_text": "спасительный укол галоперидола",
+    "score": 0.15279706176364385
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "нынешней ночью",
+    "key_noun_phrase_processed": "нынешний ночь",
+    "span_location": [
+      3218,
+      3232
+    ],
+    "token_span": [
+      562,
+      564
+    ],
+    "is_maximal": false,
+    "family_id": "family_76",
+    "maximal_text": "нынешней ночью на западе",
+    "score": 0.18355898123062483
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "нынешней ночью на западе",
+    "key_noun_phrase_processed": "нынешний ночь на запад",
+    "span_location": [
+      3218,
+      3242
+    ],
+    "token_span": [
+      562,
+      566
+    ],
+    "is_maximal": true,
+    "family_id": "family_76",
+    "maximal_text": "нынешней ночью на западе",
+    "score": 0.0833640333503863
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "ночью на западе",
+    "key_noun_phrase_processed": "ночь на запад",
+    "span_location": [
+      3227,
+      3242
+    ],
+    "token_span": [
+      563,
+      566
+    ],
+    "is_maximal": false,
+    "family_id": "family_76",
+    "maximal_text": "нынешней ночью на западе",
+    "score": 0.04515050430082977
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "западе бандеровской Окраины",
+    "key_noun_phrase_processed": "запад бандеровской окраина",
+    "span_location": [
+      3236,
+      3263
+    ],
+    "token_span": [
+      565,
+      568
+    ],
+    "is_maximal": true,
+    "family_id": "family_77",
+    "maximal_text": "западе бандеровской Окраины",
+    "score": 0.1976090031970834
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "бандеровской Окраины",
+    "key_noun_phrase_processed": "бандеровской окраина",
+    "span_location": [
+      3243,
+      3263
+    ],
+    "token_span": [
+      566,
+      568
+    ],
+    "is_maximal": false,
+    "family_id": "family_77",
+    "maximal_text": "западе бандеровской Окраины",
+    "score": 0.46799999999999997
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "бандеровской Окраины",
+    "key_noun_phrase_processed": "бандеровской окраина",
+    "span_location": [
+      3243,
+      3263
+    ],
+    "token_span": [
+      566,
+      568
+    ],
+    "is_maximal": false,
+    "family_id": "family_77",
+    "maximal_text": "западе бандеровской Окраины",
+    "score": 0.46799999999999997
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Окраины",
+    "key_noun_phrase_processed": "окраина",
+    "span_location": [
+      3256,
+      3263
+    ],
+    "token_span": [
+      567,
+      568
+    ],
+    "is_maximal": false,
+    "family_id": "family_77",
+    "maximal_text": "западе бандеровской Окраины",
+    "score": 0.11699999999999999
+  }
+]

@@ -163,7 +163,7 @@ def main():
         return
 
     # Find all .txt files
-    txt_files = (texts_dir / "uk_telegram.txt",)
+    txt_files = (texts_dir / "uk_telegram.txt", texts_dir / "ru_telegram.txt")
 
     print(f"Found {len(txt_files)} text file(s) to process\n")
 
