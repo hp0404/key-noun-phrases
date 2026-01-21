@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md") as fh:
     long_description = fh.read()
 
 extras_requirements = {
@@ -30,6 +30,7 @@ setuptools.setup(
     install_requires=[
         "spacy>=3.4.0",
         "pandas>=1.0.0",
+        "networkx>=2.6.0",
     ],
     extras_require=extras_requirements,
     python_requires=">=3.7",

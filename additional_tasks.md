@@ -1,0 +1,61 @@
+- UK patterns (terms/assets/uk_patterns.json):
+    - VERB patterns (VERB-NOUN, VERB-ADJ-NOUN, etc.) may be too broad
+        - captures action phrases like "збирати АК", "займаються вишколом" instead of noun phrases
+        - consider restricting to participle forms only using MORPH constraints
+    - Remove DET-NOUN and DET-ADJ-NOUN patterns
+        - matches generic determiner phrases: "своїх рекрутів", "цій ситуації", "цій війні", "всіх пунктах"
+        - these are deictic expressions with no domain-specific value
+        - action: delete lines 179-189 from uk_patterns.json
+    - Remove NOUN-VERB pattern
+        - fragments sentences rather than capturing noun phrases
+        - examples: "ушкоджень дожили", "початку прийшли", "роки пройшли", "підрозділах є"
+        - these are accidental adjacencies across clause boundaries
+        - action: delete lines 143-152 from uk_patterns.json
+    - Remove NUM-NOUN and NUM-ADJ-NOUN patterns
+        - captures generic quantifiers: "двох категорій", "1,5 роки", "обох сторін"
+        - low semantic value for domain-specific extraction
+        - action: delete lines 167-177 from uk_patterns.json
+    - Add missing patterns for proper nouns and military terminology
+        - PROPN (standalone) - captures significant single proper nouns like "Азов", "ЗСУ"
+        - PROPN-PROPN - compound proper nouns
+        - PROPN-NUM or ordinal+PROPN - military unit designations like "3-тя ОШБ"
+        - ADJ-PROPN - adjective + proper noun combinations
+        - NOUN-ADP-PROPN - institutional references like "тенденцією в ЗСУ"
+
+- Missing patterns analysis (based on uk_telegram.txt input vs output):
+    - Standalone PROPN pattern
+        - "Азов" appears in text but not captured (only "3-тя ОШБ" captured as ADJ-NOUN)
+        - "ЗСУ" only captured within longer phrases ("тенденцією в ЗСУ", "рудиментів в ЗСУ")
+        - single proper nouns are often highly domain-specific
+        - pattern: `[{"POS": "PROPN"}]`
+        - risk: may capture too many low-value proper nouns (names, places)
+        - mitigation: apply high frequency threshold or filter by NER type
+    - ADJ-PROPN and PROPN-ADJ patterns
+        - would capture "український ЗСУ" style combinations if they exist
+        - pattern: `[{"POS": "ADJ"}, {"POS": "PROPN"}]`
+    - PROPN-NOUN and NOUN-PROPN patterns
+        - captures institutional compound terms
+        - pattern: `[{"POS": "PROPN"}, {"POS": "NOUN"}]`
+    - Nominalized participle patterns (VERB used as NOUN)
+        - "мобілізовані" (the mobilized) - used nominally in "Нові мобілізовані"
+        - Ukrainian participles can be nominalized and act as nouns
+        - may require MORPH constraint: `{"POS": "VERB", "MORPH": {"IS_SUPERSET": ["VerbForm=Part"]}}`
+        - or rely on spaCy tagging them as ADJ when nominalized
+    - Patterns NOT worth adding:
+        - ADP-NOUN (prepositional phrases like "на фронт", "на війну")
+            - too noisy, would capture all prepositional phrases
+            - low semantic value as standalone terms
+        - Single ADJ patterns
+            - "російського", "українського" - too context-dependent alone
+        - Hyphenated compound adjectives ("матеріально-технічні")
+            - spaCy typically handles these as single ADJ tokens
+            - no special pattern needed
+    - Phrases in text that remain uncaptured:
+        - "на фронт" (to the front) - ADP-NOUN, too generic
+        - "зі служби" (from service) - ADP-NOUN, too generic
+        - "телемарафоні" (TV marathon) - single NOUN, not pattern-worthy
+        - "матеріально-технічні, економічні та геополітичні фактори" - only last two words captured
+            - coordinate ADJ lists before NOUN not handled (would need special pattern)
+    - Consider adding ADJ-CCONJ-ADJ-NOUN pattern
+        - captures "перемоги і успіхи" style but for adjectives: "технічні та економічні фактори"
+        - pattern: `[{"POS": "ADJ"}, {"POS": "CCONJ"}, {"POS": "ADJ"}, {"POS": "NOUN"}]`

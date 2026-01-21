@@ -26,5 +26,40 @@
         {"POS": {"IN": ["NOUN","PROPN"]}}
       ]
     ]
+  },
+  {
+    "label": "GERMAN_NP_ADP_NP",
+    "pattern": [
+      [
+        {"POS": "DET", "OP": "?"},
+        {"POS": "ADJ", "OP": "*"},
+        {"POS": {"IN": ["NOUN","PROPN"]}},
+        {"POS": "ADP"},
+        {"POS": "DET", "OP": "?"},
+        {"POS": "ADJ", "OP": "*"},
+        {"POS": {"IN": ["NOUN","PROPN"]}, "OP": "+"}
+      ]
+    ]
+  },
+  {
+    "label": "GERMAN_NOUN_ADP_NOUN",
+    "pattern": [
+      [
+        {"POS": {"IN": ["NOUN","PROPN"]}},
+        {"POS": "ADP"},
+        {"POS": {"IN": ["NOUN","PROPN"]}}
+      ]
+    ]
+  },
+  {
+    "label": "GERMAN_ADJ_NOUN_ADP_NOUN",
+    "pattern": [
+      [
+        {"POS": "ADJ"},
+        {"POS": {"IN": ["NOUN","PROPN"]}},
+        {"POS": "ADP"},
+        {"POS": {"IN": ["NOUN","PROPN"]}}
+      ]
+    ]
   }
 ]

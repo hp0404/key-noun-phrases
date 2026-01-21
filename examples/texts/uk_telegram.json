@@ -1,0 +1,1568 @@
+[
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "головних проблем",
+    "key_noun_phrase_processed": "головний проблема",
+    "span_location": [
+      7,
+      23
+    ],
+    "token_span": [
+      2,
+      4
+    ],
+    "is_maximal": false,
+    "family_id": "family_1",
+    "maximal_text": "головних проблем затяжних воєн",
+    "score": 0.15
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADJ-NOUN",
+    "key_noun_phrase": "головних проблем затяжних воєн",
+    "key_noun_phrase_processed": "головний проблема затяжний війна",
+    "span_location": [
+      7,
+      37
+    ],
+    "token_span": [
+      2,
+      6
+    ],
+    "is_maximal": true,
+    "family_id": "family_1",
+    "maximal_text": "головних проблем затяжних воєн",
+    "score": 0.2522915598637608
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "проблем затяжних воєн",
+    "key_noun_phrase_processed": "проблема затяжний війна",
+    "span_location": [
+      16,
+      37
+    ],
+    "token_span": [
+      3,
+      6
+    ],
+    "is_maximal": false,
+    "family_id": "family_1",
+    "maximal_text": "головних проблем затяжних воєн",
+    "score": 0.3108588305011994
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "затяжних воєн",
+    "key_noun_phrase_processed": "затяжний війна",
+    "span_location": [
+      24,
+      37
+    ],
+    "token_span": [
+      4,
+      6
+    ],
+    "is_maximal": false,
+    "family_id": "family_1",
+    "maximal_text": "головних проблем затяжних воєн",
+    "score": 0.3250388547331906
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "неминуче погіршення",
+    "key_noun_phrase_processed": "неминучий погіршення",
+    "span_location": [
+      51,
+      70
+    ],
+    "token_span": [
+      11,
+      13
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "неминуче погіршення якості",
+    "score": 0.3156873224004467
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "неминуче погіршення якості",
+    "key_noun_phrase_processed": "неминучий погіршення якість",
+    "span_location": [
+      51,
+      77
+    ],
+    "token_span": [
+      11,
+      14
+    ],
+    "is_maximal": true,
+    "family_id": "family_2",
+    "maximal_text": "неминуче погіршення якості",
+    "score": 0.4371600878306564
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "погіршення якості",
+    "key_noun_phrase_processed": "погіршення якість",
+    "span_location": [
+      60,
+      77
+    ],
+    "token_span": [
+      12,
+      14
+    ],
+    "is_maximal": false,
+    "family_id": "family_2",
+    "maximal_text": "неминуче погіршення якості",
+    "score": 0.30860551171502215
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "погіршення якості піхоти",
+    "key_noun_phrase_processed": "погіршення якість піхота",
+    "span_location": [
+      60,
+      84
+    ],
+    "token_span": [
+      12,
+      15
+    ],
+    "is_maximal": true,
+    "family_id": "family_3",
+    "maximal_text": "погіршення якості піхоти",
+    "score": 0.34759643757496816
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "якості піхоти",
+    "key_noun_phrase_processed": "якість піхота",
+    "span_location": [
+      71,
+      84
+    ],
+    "token_span": [
+      13,
+      15
+    ],
+    "is_maximal": false,
+    "family_id": "family_3",
+    "maximal_text": "погіршення якості піхоти",
+    "score": 0.9295799298117662
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "наступних причин",
+    "key_noun_phrase_processed": "наступний причина",
+    "span_location": [
+      104,
+      120
+    ],
+    "token_span": [
+      19,
+      21
+    ],
+    "is_maximal": true,
+    "family_id": "family_4",
+    "maximal_text": "наступних причин",
+    "score": 0.3864881384792454
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "Кількість кадрових солдатів",
+    "key_noun_phrase_processed": "кількість кадровий солдат",
+    "span_location": [
+      126,
+      153
+    ],
+    "token_span": [
+      25,
+      28
+    ],
+    "is_maximal": true,
+    "family_id": "family_5",
+    "maximal_text": "Кількість кадрових солдатів",
+    "score": 0.4119548573718828
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "кадрових солдатів",
+    "key_noun_phrase_processed": "кадровий солдат",
+    "span_location": [
+      136,
+      153
+    ],
+    "token_span": [
+      26,
+      28
+    ],
+    "is_maximal": false,
+    "family_id": "family_5",
+    "maximal_text": "Кількість кадрових солдатів",
+    "score": 0.3947143575323591
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "початку війни",
+    "key_noun_phrase_processed": "початок війна",
+    "span_location": [
+      170,
+      183
+    ],
+    "token_span": [
+      32,
+      34
+    ],
+    "is_maximal": true,
+    "family_id": "family_6",
+    "maximal_text": "початку війни",
+    "score": 0.3537677560758687
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "бойових втрат",
+    "key_noun_phrase_processed": "бойовий втрата",
+    "span_location": [
+      208,
+      221
+    ],
+    "token_span": [
+      40,
+      42
+    ],
+    "is_maximal": true,
+    "family_id": "family_7",
+    "maximal_text": "бойових втрат",
+    "score": 0.40536052800603956
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "мотивованих резервістів",
+    "key_noun_phrase_processed": "мотивований резервіст",
+    "span_location": [
+      251,
+      274
+    ],
+    "token_span": [
+      47,
+      49
+    ],
+    "is_maximal": true,
+    "family_id": "family_8",
+    "maximal_text": "мотивованих резервістів",
+    "score": 0.41595889777919987
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "війська з початком",
+    "key_noun_phrase_processed": "військо з початок",
+    "span_location": [
+      291,
+      309
+    ],
+    "token_span": [
+      53,
+      56
+    ],
+    "is_maximal": true,
+    "family_id": "family_9",
+    "maximal_text": "війська з початком",
+    "score": 0.13196298326134012
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "початком повномасштабного вторгнення",
+    "key_noun_phrase_processed": "початок повномасштабний вторгнення",
+    "span_location": [
+      301,
+      337
+    ],
+    "token_span": [
+      55,
+      58
+    ],
+    "is_maximal": true,
+    "family_id": "family_10",
+    "maximal_text": "початком повномасштабного вторгнення",
+    "score": 0.3879526427264543
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "повномасштабного вторгнення",
+    "key_noun_phrase_processed": "повномасштабний вторгнення",
+    "span_location": [
+      310,
+      337
+    ],
+    "token_span": [
+      56,
+      58
+    ],
+    "is_maximal": false,
+    "family_id": "family_10",
+    "maximal_text": "початком повномасштабного вторгнення",
+    "score": 0.32252589206871796
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "важких ушкоджень",
+    "key_noun_phrase_processed": "важкий ушкодження",
+    "span_location": [
+      376,
+      392
+    ],
+    "token_span": [
+      70,
+      72
+    ],
+    "is_maximal": true,
+    "family_id": "family_11",
+    "maximal_text": "важких ушкоджень",
+    "score": 0.3793205105369824
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "нинішнього часу",
+    "key_noun_phrase_processed": "нинішній час",
+    "span_location": [
+      403,
+      418
+    ],
+    "token_span": [
+      74,
+      76
+    ],
+    "is_maximal": true,
+    "family_id": "family_12",
+    "maximal_text": "нинішнього часу",
+    "score": 0.3791516713819575
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "війська з палаючими поглядами",
+    "key_noun_phrase_processed": "військо з палаючий погляд",
+    "span_location": [
+      510,
+      539
+    ],
+    "token_span": [
+      93,
+      97
+    ],
+    "is_maximal": true,
+    "family_id": "family_13",
+    "maximal_text": "війська з палаючими поглядами",
+    "score": 0.14932555635153208
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "палаючими поглядами",
+    "key_noun_phrase_processed": "палаючий погляд",
+    "span_location": [
+      520,
+      539
+    ],
+    "token_span": [
+      95,
+      97
+    ],
+    "is_maximal": false,
+    "family_id": "family_13",
+    "maximal_text": "війська з палаючими поглядами",
+    "score": 0.3174745212541587
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "легальну причину",
+    "key_noun_phrase_processed": "легальний причина",
+    "span_location": [
+      629,
+      645
+    ],
+    "token_span": [
+      118,
+      120
+    ],
+    "is_maximal": true,
+    "family_id": "family_14",
+    "maximal_text": "легальну причину",
+    "score": 0.3859234277942237
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "абсолютній більшості",
+    "key_noun_phrase_processed": "абсолютний більшість",
+    "span_location": [
+      753,
+      773
+    ],
+    "token_span": [
+      144,
+      146
+    ],
+    "is_maximal": true,
+    "family_id": "family_15",
+    "maximal_text": "абсолютній більшості",
+    "score": 0.388246466197812
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "перемоги і успіхи",
+    "key_noun_phrase_processed": "перемога і успіх",
+    "span_location": [
+      872,
+      889
+    ],
+    "token_span": [
+      164,
+      167
+    ],
+    "is_maximal": true,
+    "family_id": "family_16",
+    "maximal_text": "перемоги і успіхи",
+    "score": 0.1969149063890684
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "Підготовка особового складу",
+    "key_noun_phrase_processed": "підготовка особовий склад",
+    "span_location": [
+      895,
+      922
+    ],
+    "token_span": [
+      171,
+      174
+    ],
+    "is_maximal": true,
+    "family_id": "family_17",
+    "maximal_text": "Підготовка особового складу",
+    "score": 0.4126101303385985
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "особового складу",
+    "key_noun_phrase_processed": "особовий склад",
+    "span_location": [
+      906,
+      922
+    ],
+    "token_span": [
+      172,
+      174
+    ],
+    "is_maximal": false,
+    "family_id": "family_17",
+    "maximal_text": "Підготовка особового складу",
+    "score": 0.3386259553776993
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "особового складу в цілому",
+    "key_noun_phrase_processed": "особовий склад в ціле",
+    "span_location": [
+      906,
+      931
+    ],
+    "token_span": [
+      172,
+      176
+    ],
+    "is_maximal": true,
+    "family_id": "family_18",
+    "maximal_text": "особового складу в цілому",
+    "score": 0.16897005948582383
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "складу в цілому",
+    "key_noun_phrase_processed": "склад в ціле",
+    "span_location": [
+      916,
+      931
+    ],
+    "token_span": [
+      173,
+      176
+    ],
+    "is_maximal": false,
+    "family_id": "family_18",
+    "maximal_text": "особового складу в цілому",
+    "score": 0.17406051292991015
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-ADJ-NOUN",
+    "key_noun_phrase": "невідповідною сучасному піхотному бою",
+    "key_noun_phrase_processed": "невідповідний сучасний піхотний бой",
+    "span_location": [
+      944,
+      981
+    ],
+    "token_span": [
+      177,
+      181
+    ],
+    "is_maximal": true,
+    "family_id": "family_19",
+    "maximal_text": "невідповідною сучасному піхотному бою",
+    "score": 0.452461069639554
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-ADJ-NOUN",
+    "key_noun_phrase": "сучасному піхотному бою",
+    "key_noun_phrase_processed": "сучасний піхотний бой",
+    "span_location": [
+      958,
+      981
+    ],
+    "token_span": [
+      178,
+      181
+    ],
+    "is_maximal": false,
+    "family_id": "family_19",
+    "maximal_text": "невідповідною сучасному піхотному бою",
+    "score": 0.36563086043605386
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "піхотному бою",
+    "key_noun_phrase_processed": "піхотний бой",
+    "span_location": [
+      968,
+      981
+    ],
+    "token_span": [
+      179,
+      181
+    ],
+    "is_maximal": false,
+    "family_id": "family_19",
+    "maximal_text": "невідповідною сучасному піхотному бою",
+    "score": 1.0
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "ЗСУ",
+    "key_noun_phrase_processed": "зсу",
+    "span_location": [
+      1024,
+      1027
+    ],
+    "token_span": [
+      187,
+      188
+    ],
+    "is_maximal": true,
+    "family_id": "family_20",
+    "maximal_text": "ЗСУ",
+    "score": 0.32147600570861107
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "місяць вишколу",
+    "key_noun_phrase_processed": "місяць вишкіл",
+    "span_location": [
+      1082,
+      1096
+    ],
+    "token_span": [
+      200,
+      202
+    ],
+    "is_maximal": true,
+    "family_id": "family_21",
+    "maximal_text": "місяць вишколу",
+    "score": 0.39956796487402585
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "якість підготовки",
+    "key_noun_phrase_processed": "якість підготовка",
+    "span_location": [
+      1146,
+      1163
+    ],
+    "token_span": [
+      213,
+      215
+    ],
+    "is_maximal": true,
+    "family_id": "family_22",
+    "maximal_text": "якість підготовки",
+    "score": 0.5305219041191822
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "підготовки української піхоти",
+    "key_noun_phrase_processed": "підготовка український піхота",
+    "span_location": [
+      1153,
+      1182
+    ],
+    "token_span": [
+      214,
+      217
+    ],
+    "is_maximal": true,
+    "family_id": "family_23",
+    "maximal_text": "підготовки української піхоти",
+    "score": 0.39994615578832204
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "української піхоти",
+    "key_noun_phrase_processed": "український піхота",
+    "span_location": [
+      1164,
+      1182
+    ],
+    "token_span": [
+      215,
+      217
+    ],
+    "is_maximal": false,
+    "family_id": "family_23",
+    "maximal_text": "підготовки української піхоти",
+    "score": 0.3681743660523704
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "української піхоти на закордонних полігонах",
+    "key_noun_phrase_processed": "український піхота на закордонний полігон",
+    "span_location": [
+      1164,
+      1207
+    ],
+    "token_span": [
+      215,
+      220
+    ],
+    "is_maximal": true,
+    "family_id": "family_24",
+    "maximal_text": "української піхоти на закордонних полігонах",
+    "score": 0.3084970368508591
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "піхоти на закордонних полігонах",
+    "key_noun_phrase_processed": "піхота на закордонний полігон",
+    "span_location": [
+      1176,
+      1207
+    ],
+    "token_span": [
+      216,
+      220
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "української піхоти на закордонних полігонах",
+    "score": 0.13186418352225157
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "закордонних полігонах",
+    "key_noun_phrase_processed": "закордонний полігон",
+    "span_location": [
+      1186,
+      1207
+    ],
+    "token_span": [
+      218,
+      220
+    ],
+    "is_maximal": false,
+    "family_id": "family_24",
+    "maximal_text": "української піхоти на закордонних полігонах",
+    "score": 0.3657193341839568
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "суперечливі відгуки",
+    "key_noun_phrase_processed": "суперечливий відгук",
+    "span_location": [
+      1212,
+      1231
+    ],
+    "token_span": [
+      221,
+      223
+    ],
+    "is_maximal": true,
+    "family_id": "family_25",
+    "maximal_text": "суперечливі відгуки",
+    "score": 0.5018376019280122
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "окремі підрозділи",
+    "key_noun_phrase_processed": "окремий підрозділ",
+    "span_location": [
+      1261,
+      1278
+    ],
+    "token_span": [
+      231,
+      233
+    ],
+    "is_maximal": true,
+    "family_id": "family_26",
+    "maximal_text": "окремі підрозділи",
+    "score": 0.36133405532049306
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "Азов",
+    "key_noun_phrase_processed": "азов",
+    "span_location": [
+      1281,
+      1285
+    ],
+    "token_span": [
+      235,
+      236
+    ],
+    "is_maximal": true,
+    "family_id": "family_27",
+    "maximal_text": "Азов",
+    "score": 0.3617008465569916
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "3-тя ОШБ",
+    "key_noun_phrase_processed": "3-тя ошб",
+    "span_location": [
+      1288,
+      1296
+    ],
+    "token_span": [
+      238,
+      240
+    ],
+    "is_maximal": true,
+    "family_id": "family_29",
+    "maximal_text": "3-тя ОШБ",
+    "score": 1.2311027919516488
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-PROPN",
+    "key_noun_phrase": "3-тя ОШБ",
+    "key_noun_phrase_processed": "3-тя ошб",
+    "span_location": [
+      1288,
+      1296
+    ],
+    "token_span": [
+      238,
+      240
+    ],
+    "is_maximal": true,
+    "family_id": "family_29",
+    "maximal_text": "3-тя ОШБ",
+    "score": 1.2311027919516488
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "PROPN",
+    "key_noun_phrase": "ОШБ",
+    "key_noun_phrase_processed": "ошб",
+    "span_location": [
+      1293,
+      1296
+    ],
+    "token_span": [
+      239,
+      240
+    ],
+    "is_maximal": false,
+    "family_id": "family_28",
+    "maximal_text": "3-тя ОШБ",
+    "score": 0.28961144041669556
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "тенденцією в ЗСУ",
+    "key_noun_phrase_processed": "тенденція в зсу",
+    "span_location": [
+      1363,
+      1379
+    ],
+    "token_span": [
+      254,
+      257
+    ],
+    "is_maximal": true,
+    "family_id": "family_30",
+    "maximal_text": "тенденцією в ЗСУ",
+    "score": 0.10929583654981538
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "гарний мікроклімат",
+    "key_noun_phrase_processed": "гарний мікроклімат",
+    "span_location": [
+      1437,
+      1455
+    ],
+    "token_span": [
+      271,
+      273
+    ],
+    "is_maximal": true,
+    "family_id": "family_31",
+    "maximal_text": "гарний мікроклімат",
+    "score": 0.45771071690551934
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "швидкій адаптації",
+    "key_noun_phrase_processed": "швидкий адаптація",
+    "span_location": [
+      1469,
+      1486
+    ],
+    "token_span": [
+      276,
+      278
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "швидкій адаптації новачків",
+    "score": 0.33190281424051393
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "швидкій адаптації новачків",
+    "key_noun_phrase_processed": "швидкий адаптація новачок",
+    "span_location": [
+      1469,
+      1495
+    ],
+    "token_span": [
+      276,
+      279
+    ],
+    "is_maximal": true,
+    "family_id": "family_32",
+    "maximal_text": "швидкій адаптації новачків",
+    "score": 0.38278595260113785
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "адаптації новачків",
+    "key_noun_phrase_processed": "адаптація новачок",
+    "span_location": [
+      1477,
+      1495
+    ],
+    "token_span": [
+      277,
+      279
+    ],
+    "is_maximal": false,
+    "family_id": "family_32",
+    "maximal_text": "швидкій адаптації новачків",
+    "score": 0.31327578851657173
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "новачків та розбудові",
+    "key_noun_phrase_processed": "новачок та розбудові",
+    "span_location": [
+      1487,
+      1508
+    ],
+    "token_span": [
+      278,
+      281
+    ],
+    "is_maximal": true,
+    "family_id": "family_33",
+    "maximal_text": "новачків та розбудові",
+    "score": 0.20019150844776798
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "розбудові бойового побратимства",
+    "key_noun_phrase_processed": "розбудові бойовий побратимство",
+    "span_location": [
+      1499,
+      1530
+    ],
+    "token_span": [
+      280,
+      283
+    ],
+    "is_maximal": true,
+    "family_id": "family_34",
+    "maximal_text": "розбудові бойового побратимства",
+    "score": 0.38831208933774636
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "бойового побратимства",
+    "key_noun_phrase_processed": "бойовий побратимство",
+    "span_location": [
+      1509,
+      1530
+    ],
+    "token_span": [
+      281,
+      283
+    ],
+    "is_maximal": false,
+    "family_id": "family_34",
+    "maximal_text": "розбудові бойового побратимства",
+    "score": 0.3333759458025296
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "бойового злагодження",
+    "key_noun_phrase_processed": "бойовий злагодження",
+    "span_location": [
+      1551,
+      1571
+    ],
+    "token_span": [
+      287,
+      289
+    ],
+    "is_maximal": false,
+    "family_id": "family_35",
+    "maximal_text": "бойового злагодження частин",
+    "score": 0.32759214809581
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "бойового злагодження частин",
+    "key_noun_phrase_processed": "бойовий злагодження частина",
+    "span_location": [
+      1551,
+      1578
+    ],
+    "token_span": [
+      287,
+      290
+    ],
+    "is_maximal": true,
+    "family_id": "family_35",
+    "maximal_text": "бойового злагодження частин",
+    "score": 0.21870504807849286
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "злагодження частин",
+    "key_noun_phrase_processed": "злагодження частина",
+    "span_location": [
+      1560,
+      1578
+    ],
+    "token_span": [
+      288,
+      290
+    ],
+    "is_maximal": false,
+    "family_id": "family_35",
+    "maximal_text": "бойового злагодження частин",
+    "score": 0.17222974956543427
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-ADP-NOUN",
+    "key_noun_phrase": "злагодження частин у рамках",
+    "key_noun_phrase_processed": "злагодження частина у рамка",
+    "span_location": [
+      1560,
+      1587
+    ],
+    "token_span": [
+      288,
+      292
+    ],
+    "is_maximal": true,
+    "family_id": "family_36",
+    "maximal_text": "злагодження частин у рамках",
+    "score": 0.15285773771245617
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "частин у рамках",
+    "key_noun_phrase_processed": "частина у рамка",
+    "span_location": [
+      1572,
+      1587
+    ],
+    "token_span": [
+      289,
+      292
+    ],
+    "is_maximal": false,
+    "family_id": "family_36",
+    "maximal_text": "злагодження частин у рамках",
+    "score": 0.13775518505132917
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "рамках окремих з’єднань",
+    "key_noun_phrase_processed": "рамка окремий з’єднань",
+    "span_location": [
+      1581,
+      1604
+    ],
+    "token_span": [
+      291,
+      294
+    ],
+    "is_maximal": true,
+    "family_id": "family_37",
+    "maximal_text": "рамках окремих з’єднань",
+    "score": 0.4171435024125621
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "окремих з’єднань",
+    "key_noun_phrase_processed": "окремий з’єднань",
+    "span_location": [
+      1588,
+      1604
+    ],
+    "token_span": [
+      292,
+      294
+    ],
+    "is_maximal": false,
+    "family_id": "family_37",
+    "maximal_text": "рамках окремих з’єднань",
+    "score": 0.34171373265805516
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "Радянських рудиментів",
+    "key_noun_phrase_processed": "радянський рудимент",
+    "span_location": [
+      1606,
+      1627
+    ],
+    "token_span": [
+      295,
+      297
+    ],
+    "is_maximal": false,
+    "family_id": "family_38",
+    "maximal_text": "Радянських рудиментів в ЗСУ",
+    "score": 0.3667944304614646
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-NOUN",
+    "key_noun_phrase": "Радянських рудиментів в ЗСУ",
+    "key_noun_phrase_processed": "радянський рудимент в зсу",
+    "span_location": [
+      1606,
+      1633
+    ],
+    "token_span": [
+      295,
+      299
+    ],
+    "is_maximal": true,
+    "family_id": "family_38",
+    "maximal_text": "Радянських рудиментів в ЗСУ",
+    "score": 0.1980818597760815
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-NOUN",
+    "key_noun_phrase": "рудиментів в ЗСУ",
+    "key_noun_phrase_processed": "рудимент в зсу",
+    "span_location": [
+      1617,
+      1633
+    ],
+    "token_span": [
+      296,
+      299
+    ],
+    "is_maximal": false,
+    "family_id": "family_38",
+    "maximal_text": "Радянських рудиментів в ЗСУ",
+    "score": 0.14016604213557077
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "високій мотивації",
+    "key_noun_phrase_processed": "високий мотивація",
+    "span_location": [
+      1671,
+      1688
+    ],
+    "token_span": [
+      306,
+      308
+    ],
+    "is_maximal": true,
+    "family_id": "family_39",
+    "maximal_text": "високій мотивації",
+    "score": 0.46684362243231436
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "якісній підготовці",
+    "key_noun_phrase_processed": "якісний підготовка",
+    "span_location": [
+      1690,
+      1708
+    ],
+    "token_span": [
+      309,
+      311
+    ],
+    "is_maximal": true,
+    "family_id": "family_40",
+    "maximal_text": "якісній підготовці",
+    "score": 0.4368360105980891
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "підготовці та зростанню",
+    "key_noun_phrase_processed": "підготовка та зростання",
+    "span_location": [
+      1698,
+      1721
+    ],
+    "token_span": [
+      310,
+      313
+    ],
+    "is_maximal": true,
+    "family_id": "family_41",
+    "maximal_text": "підготовці та зростанню",
+    "score": 0.2387871147475331
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "зростанню бойового духу",
+    "key_noun_phrase_processed": "зростання бойовий дух",
+    "span_location": [
+      1712,
+      1735
+    ],
+    "token_span": [
+      312,
+      315
+    ],
+    "is_maximal": true,
+    "family_id": "family_42",
+    "maximal_text": "зростанню бойового духу",
+    "score": 0.49895482943485486
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "бойового духу",
+    "key_noun_phrase_processed": "бойовий дух",
+    "span_location": [
+      1722,
+      1735
+    ],
+    "token_span": [
+      313,
+      315
+    ],
+    "is_maximal": false,
+    "family_id": "family_42",
+    "maximal_text": "зростанню бойового духу",
+    "score": 0.36593592361981037
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-NOUN",
+    "key_noun_phrase": "бойового духу солдатів",
+    "key_noun_phrase_processed": "бойовий дух солдат",
+    "span_location": [
+      1722,
+      1744
+    ],
+    "token_span": [
+      313,
+      316
+    ],
+    "is_maximal": true,
+    "family_id": "family_43",
+    "maximal_text": "бойового духу солдатів",
+    "score": 0.44266083025278563
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "духу солдатів",
+    "key_noun_phrase_processed": "дух солдат",
+    "span_location": [
+      1731,
+      1744
+    ],
+    "token_span": [
+      314,
+      316
+    ],
+    "is_maximal": false,
+    "family_id": "family_43",
+    "maximal_text": "бойового духу солдатів",
+    "score": 0.4191598309314599
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "противника якість",
+    "key_noun_phrase_processed": "противник якість",
+    "span_location": [
+      1827,
+      1844
+    ],
+    "token_span": [
+      337,
+      339
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "противника якість піхоти",
+    "score": 0.3286127390800219
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "противника якість піхоти",
+    "key_noun_phrase_processed": "противник якість піхота",
+    "span_location": [
+      1827,
+      1851
+    ],
+    "token_span": [
+      337,
+      340
+    ],
+    "is_maximal": true,
+    "family_id": "family_44",
+    "maximal_text": "противника якість піхоти",
+    "score": 0.4221517831466048
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "якість піхоти",
+    "key_noun_phrase_processed": "якість піхота",
+    "span_location": [
+      1838,
+      1851
+    ],
+    "token_span": [
+      338,
+      340
+    ],
+    "is_maximal": false,
+    "family_id": "family_44",
+    "maximal_text": "противника якість піхоти",
+    "score": 0.9295799298117662
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-CCONJ-NOUN",
+    "key_noun_phrase": "пунктах і категоріях",
+    "key_noun_phrase_processed": "пункт і категорія",
+    "span_location": [
+      1880,
+      1900
+    ],
+    "token_span": [
+      348,
+      351
+    ],
+    "is_maximal": true,
+    "family_id": "family_45",
+    "maximal_text": "пунктах і категоріях",
+    "score": 0.21089890809162218
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "рівних складових",
+    "key_noun_phrase_processed": "рівний складова",
+    "span_location": [
+      1916,
+      1932
+    ],
+    "token_span": [
+      355,
+      357
+    ],
+    "is_maximal": false,
+    "family_id": "family_46",
+    "maximal_text": "рівних складових в піхотному бою",
+    "score": 0.4698640358991151
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "рівних складових в піхотному бою",
+    "key_noun_phrase_processed": "рівний складова в піхотний бой",
+    "span_location": [
+      1916,
+      1948
+    ],
+    "token_span": [
+      355,
+      360
+    ],
+    "is_maximal": true,
+    "family_id": "family_46",
+    "maximal_text": "рівних складових в піхотному бою",
+    "score": 0.3080078077757005
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADP-ADJ-NOUN",
+    "key_noun_phrase": "складових в піхотному бою",
+    "key_noun_phrase_processed": "складова в піхотний бой",
+    "span_location": [
+      1923,
+      1948
+    ],
+    "token_span": [
+      356,
+      360
+    ],
+    "is_maximal": false,
+    "family_id": "family_46",
+    "maximal_text": "рівних складових в піхотному бою",
+    "score": 0.13945842342006848
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "піхотному бою",
+    "key_noun_phrase_processed": "піхотний бой",
+    "span_location": [
+      1935,
+      1948
+    ],
+    "token_span": [
+      358,
+      360
+    ],
+    "is_maximal": false,
+    "family_id": "family_47",
+    "maximal_text": "піхотному бою український вояк",
+    "score": 1.0
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN-ADJ-NOUN",
+    "key_noun_phrase": "піхотному бою український вояк",
+    "key_noun_phrase_processed": "піхотний бой український вояк",
+    "span_location": [
+      1935,
+      1965
+    ],
+    "token_span": [
+      358,
+      362
+    ],
+    "is_maximal": true,
+    "family_id": "family_47",
+    "maximal_text": "піхотному бою український вояк",
+    "score": 0.30100137580703096
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-ADJ-NOUN",
+    "key_noun_phrase": "бою український вояк",
+    "key_noun_phrase_processed": "бой український вояк",
+    "span_location": [
+      1945,
+      1965
+    ],
+    "token_span": [
+      359,
+      362
+    ],
+    "is_maximal": false,
+    "family_id": "family_47",
+    "maximal_text": "піхотному бою український вояк",
+    "score": 0.3373204351459184
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "український вояк",
+    "key_noun_phrase_processed": "український вояк",
+    "span_location": [
+      1949,
+      1965
+    ],
+    "token_span": [
+      360,
+      362
+    ],
+    "is_maximal": false,
+    "family_id": "family_47",
+    "maximal_text": "піхотному бою український вояк",
+    "score": 0.351065387407903
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "порівняння якостей",
+    "key_noun_phrase_processed": "порівняння якість",
+    "span_location": [
+      2049,
+      2067
+    ],
+    "token_span": [
+      375,
+      377
+    ],
+    "is_maximal": false,
+    "family_id": "family_48",
+    "maximal_text": "порівняння якостей піхотинців",
+    "score": 0.2926744509716754
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN-NOUN",
+    "key_noun_phrase": "порівняння якостей піхотинців",
+    "key_noun_phrase_processed": "порівняння якість піхотинець",
+    "span_location": [
+      2049,
+      2078
+    ],
+    "token_span": [
+      375,
+      378
+    ],
+    "is_maximal": true,
+    "family_id": "family_48",
+    "maximal_text": "порівняння якостей піхотинців",
+    "score": 0.3519132960757534
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "NOUN-NOUN",
+    "key_noun_phrase": "якостей піхотинців",
+    "key_noun_phrase_processed": "якість піхотинець",
+    "span_location": [
+      2060,
+      2078
+    ],
+    "token_span": [
+      376,
+      378
+    ],
+    "is_maximal": false,
+    "family_id": "family_48",
+    "maximal_text": "порівняння якостей піхотинців",
+    "score": 0.2784939336907196
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-CCONJ-ADJ-NOUN",
+    "key_noun_phrase": "економічні та геополітичні фактори",
+    "key_noun_phrase_processed": "економічний та геополітичний фактор",
+    "span_location": [
+      2116,
+      2150
+    ],
+    "token_span": [
+      386,
+      390
+    ],
+    "is_maximal": true,
+    "family_id": "family_49",
+    "maximal_text": "економічні та геополітичні фактори",
+    "score": 0.12222619610430174
+  },
+  {
+    "doc_index": 0,
+    "pos_label": "ADJ-NOUN",
+    "key_noun_phrase": "геополітичні фактори",
+    "key_noun_phrase_processed": "геополітичний фактор",
+    "span_location": [
+      2130,
+      2150
+    ],
+    "token_span": [
+      388,
+      390
+    ],
+    "is_maximal": false,
+    "family_id": "family_49",
+    "maximal_text": "економічні та геополітичні фактори",
+    "score": 0.15
+  }
+]
