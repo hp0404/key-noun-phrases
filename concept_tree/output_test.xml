@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- prefuse TreeML Writer | Thu Jan 22 11:34:02 2026 -->
+<!-- prefuse TreeML Writer | Thu Jan 22 11:48:24 2026 -->
 <tree>
   <declarations>
     <attributeDecl name="name" type="String" />
@@ -11,124 +11,178 @@
     <attribute name="name" value="Concepts" />
     <attribute name="freq" value="1" />
     <attribute name="source" value="p" />
-    <leaf>
-      <attribute name="name" value="european union" />
-      <attribute name="freq" value="4" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-    </leaf>
     <branch>
-      <attribute name="name" value="war" />
-      <attribute name="freq" value="3" />
+      <attribute name="name" value="europe" />
+      <attribute name="freq" value="6" />
       <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="russian" />
+        <attribute name="name" value="power" />
         <attribute name="freq" value="2" />
         <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
       <leaf>
-        <attribute name="name" value="times" />
+        <attribute name="name" value="peace" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-    </branch>
-    <branch>
-      <attribute name="name" value="capabilities" />
-      <attribute name="freq" value="2" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      <leaf>
-        <attribute name="name" value="limited" />
-        <attribute name="freq" value="2" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-    </branch>
-    <branch>
-      <attribute name="name" value="challenge" />
-      <attribute name="freq" value="2" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      <leaf>
-        <attribute name="name" value="serious" />
-        <attribute name="freq" value="2" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-    </branch>
-    <branch>
-      <attribute name="name" value="deficiencies" />
-      <attribute name="freq" value="2" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      <leaf>
-        <attribute name="name" value="numerous" />
-        <attribute name="freq" value="2" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
       <leaf>
-        <attribute name="name" value="eu" />
+        <attribute name="name" value="soft" />
         <attribute name="freq" value="1" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-    </branch>
-    <branch>
-      <attribute name="name" value="distance" />
-      <attribute name="freq" value="2" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      <leaf>
-        <attribute name="name" value="critical" />
-        <attribute name="freq" value="2" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="liability" />
-      <attribute name="freq" value="2" />
+      <attribute name="name" value="european" />
+      <attribute name="freq" value="3" />
       <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="major" />
-        <attribute name="freq" value="2" />
+        <attribute name="name" value="challenge" />
+        <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
+    <branch>
+      <attribute name="name" value="narrative" />
+      <attribute name="freq" value="3" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="celebratory" />
+        <attribute name="freq" value="3" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+      <leaf>
+        <attribute name="name" value="distance" />
+        <attribute name="freq" value="2" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+      <leaf>
+        <attribute name="name" value="critical" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="schmitt" />
+      <attribute name="freq" value="3" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="carl" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+      <leaf>
+        <attribute name="name" value="use" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="ukraine" />
+      <attribute name="freq" value="3" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="war" />
+        <attribute name="freq" value="2" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+      <leaf>
+        <attribute name="name" value="russian" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="carl" />
+      <attribute name="freq" value="2" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="use" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <leaf>
+      <attribute name="name" value="eu" />
+      <attribute name="freq" value="2" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Not just for understanding Russia but also for understanding the EU - and its limitations.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+    </leaf>
+    <leaf>
+      <attribute name="name" value="european union" />
+      <attribute name="freq" value="2" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+    </leaf>
     <branch>
       <attribute name="name" value="player" />
       <attribute name="freq" value="2" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="formidable" />
-        <attribute name="freq" value="2" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-      <leaf>
         <attribute name="name" value="global" />
         <attribute name="freq" value="2" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
+      <leaf>
+        <attribute name="name" value="formidable" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="project" />
+      <attribute name="name" value="russia" />
       <attribute name="freq" value="2" />
       <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Not just for understanding Russia but also for understanding the EU - and its limitations.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="peace" />
-        <attribute name="freq" value="2" />
+        <attribute name="name" value="understand" />
+        <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Not just for understanding Russia but also for understanding the EU - and its limitations.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <leaf>
+      <attribute name="name" value="union" />
+      <attribute name="freq" value="2" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+    </leaf>
+    <branch>
+      <attribute name="name" value="war" />
+      <attribute name="freq" value="2" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="russian" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+      <leaf>
+        <attribute name="name" value="time" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
     <branch>
@@ -137,7 +191,19 @@
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="growing" />
+        <attribute name="name" value="grow" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="capability" />
+      <attribute name="freq" value="1" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="limited" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -150,6 +216,30 @@
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
     </leaf>
     <branch>
+      <attribute name="name" value="challenge" />
+      <attribute name="freq" value="1" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="serious" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="deficiency" />
+      <attribute name="freq" value="1" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="numerous" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
       <attribute name="name" value="departure" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
@@ -161,25 +251,13 @@
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
-    <leaf>
-      <attribute name="name" value="destiny" />
-      <attribute name="freq" value="1" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-    </leaf>
     <branch>
-      <attribute name="name" value="europe" />
+      <attribute name="name" value="distance" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="power" />
-        <attribute name="freq" value="1" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-      <leaf>
-        <attribute name="name" value="soft" />
+        <attribute name="name" value="critical" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -191,14 +269,14 @@
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="politics" />
+        <attribute name="name" value="politic" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="geopolitics" />
+      <attribute name="name" value="geopolitic" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -221,22 +299,16 @@
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
-    <leaf>
-      <attribute name="name" value="limitations" />
-      <attribute name="freq" value="1" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Not just for understanding Russia but also for understanding the EU - and its limitations.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-    </leaf>
     <branch>
-      <attribute name="name" value="narratives" />
+      <attribute name="name" value="liability" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="celebratory" />
+        <attribute name="name" value="major" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
     <branch>
@@ -252,7 +324,43 @@
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="times" />
+      <attribute name="name" value="point" />
+      <attribute name="freq" value="1" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="schmitt" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="power" />
+      <attribute name="freq" value="1" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="soft" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="project" />
+      <attribute name="freq" value="1" />
+      <attribute name="source" value="p" />
+      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      <leaf>
+        <attribute name="name" value="peace" />
+        <attribute name="freq" value="1" />
+        <attribute name="source" value="p" />
+        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Simply by conceiving itself as a peace project, for example, the European Union did not become a guarantor of peace in Europe.&lt;/li&gt;&lt;/ul&gt;&#10;" />
+      </leaf>
+    </branch>
+    <branch>
+      <attribute name="name" value="time" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -261,18 +369,6 @@
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      </leaf>
-    </branch>
-    <branch>
-      <attribute name="name" value="understanding" />
-      <attribute name="freq" value="1" />
-      <attribute name="source" value="p" />
-      <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
-      <leaf>
-        <attribute name="name" value="self" />
-        <attribute name="freq" value="1" />
-        <attribute name="source" value="p" />
-        <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
   </branch>
