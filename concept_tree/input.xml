@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- prefuse TreeML Writer | Thu Jan 22 11:34:02 2026 -->
+<!-- prefuse TreeML Writer | Thu Jan 22 11:33:41 2026 -->
 <tree>
   <declarations>
     <attributeDecl name="name" type="String" />
@@ -29,14 +29,14 @@
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] The Russian war against Ukraine presents the most serious challenge to the European Union and its self-understanding.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
       <leaf>
-        <attribute name="name" value="times" />
+        <attribute name="name" value="time" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="capabilities" />
+      <attribute name="name" value="capability" />
       <attribute name="freq" value="2" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -60,7 +60,7 @@
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="deficiencies" />
+      <attribute name="name" value="deficiency" />
       <attribute name="freq" value="2" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Using Carl Schmitt as a point of departure, I seek to expose the EU’s numerous deficiencies.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -137,7 +137,7 @@
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="growing" />
+        <attribute name="name" value="grow" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Europe is caught between the ever-growing ambition of becoming a formidable global player that could shape its destiny and the limited capabilities it has to project power.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -191,14 +191,14 @@
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       <leaf>
-        <attribute name="name" value="politics" />
+        <attribute name="name" value="politic" />
         <attribute name="freq" value="1" />
         <attribute name="source" value="p" />
         <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="geopolitics" />
+      <attribute name="name" value="geopolitic" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Schmitt’s understating of geopolitics, the politics of the exception and the concept of the political are thus as relevant as ever.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -222,13 +222,13 @@
       </leaf>
     </branch>
     <leaf>
-      <attribute name="name" value="limitations" />
+      <attribute name="name" value="limitation" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Not just for understanding Russia but also for understanding the EU - and its limitations.&lt;/li&gt;&lt;/ul&gt;&#10;" />
     </leaf>
     <branch>
-      <attribute name="name" value="narratives" />
+      <attribute name="name" value="narrative" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] To understand this predicament, I will argue, we need to gain a critical distance from celebratory narratives of ‘soft power Europe’.&lt;/li&gt;&lt;/ul&gt;&#10;" />
@@ -252,7 +252,7 @@
       </leaf>
     </branch>
     <branch>
-      <attribute name="name" value="times" />
+      <attribute name="name" value="time" />
       <attribute name="freq" value="1" />
       <attribute name="source" value="p" />
       <attribute name="context" value="&lt;ul&gt;&lt;li&gt;[&lt;a href=&quot;file://null\input&quot;&gt;input&lt;/a&gt;] Similarly, relying on technocratic governance might have worked well in good times, but in times of war it is a major liability.&lt;/li&gt;&lt;/ul&gt;&#10;" />
